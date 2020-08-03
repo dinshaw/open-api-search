@@ -1,0 +1,1140 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://openlibrary.org/search.json?author=Amateur%20Swimming%20Association.&subject=swimming
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - nginx/1.4.6 (Ubuntu)
+      Date:
+      - Mon, 03 Aug 2020 23:34:52 GMT
+      Content-Type:
+      - application/json
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - keep-alive
+      Access-Control-Allow-Origin:
+      - "*"
+      Access-Control-Allow-Method:
+      - GET, OPTIONS
+      Access-Control-Max-Age:
+      - '86400'
+      X-Ol-Stats:
+      - '"SR 1 0.094 TT 0 0.097"'
+    body:
+      encoding: UTF-8
+      string: |-
+        {
+         "start": 0,
+         "num_found": 15,
+         "numFound": 15,
+         "docs": [
+          {
+           "title_suggest": "Swimming instruction",
+           "edition_key": [
+            "OL14350550M",
+            "OL14350553M",
+            "OL18753541M",
+            "OL6243357M",
+            "OL18735054M",
+            "OL20238570M"
+           ],
+           "has_fulltext": false,
+           "text": [
+            "OL14350550M",
+            "OL14350553M",
+            "OL18753541M",
+            "OL6243357M",
+            "OL18735054M",
+            "OL20238570M",
+            "Amateur Swimming Association.",
+            "1626337",
+            "OL1992839A",
+            "Swimming",
+            "land drills and water practice for class teaching ofthe breast, back, crawl and back crawl strokes, with hints on diving.",
+            "designed for the guidance of teachers of swimming, with special reference to class management and the methods of teaching the main strokes and elementary diving.",
+            "designed for the guidance of teachers of swimming",
+            "Swimming instruction",
+            "/works/OL7075391W",
+            "with special reference to class management and the methods of teaching the main strokes and elementary diving. Rewritten 1957.",
+            "Simpkin Marshall Ltd.",
+            "Educational Productions",
+            "Educational Productions; [stamped: distributed by Sportshelf, New York",
+            "Swimming instruction.",
+            "58003027"
+           ],
+           "author_name": [
+            "Amateur Swimming Association."
+           ],
+           "seed": [
+            "/books/OL14350550M",
+            "/books/OL14350553M",
+            "/books/OL18753541M",
+            "/books/OL6243357M",
+            "/books/OL18735054M",
+            "/books/OL20238570M",
+            "/works/OL7075391W",
+            "/subjects/swimming",
+            "/authors/OL1992839A"
+           ],
+           "oclc": [
+            "1626337"
+           ],
+           "author_key": [
+            "OL1992839A"
+           ],
+           "subject": [
+            "Swimming"
+           ],
+           "title": "Swimming instruction",
+           "ddc": [
+            "797.21",
+            "797.2"
+           ],
+           "publish_date": [
+            "1949",
+            "1961",
+            "1963",
+            "1937",
+            "1953",
+            "1958"
+           ],
+           "type": "work",
+           "ebook_count_i": 0,
+           "publish_place": [
+            "London",
+            "Wakefield"
+           ],
+           "edition_count": 6,
+           "lcc": [
+            "GV-0837.00000000.A47 1957"
+           ],
+           "key": "/works/OL7075391W",
+           "publisher": [
+            "Simpkin Marshall Ltd.",
+            "Educational Productions",
+            "Educational Productions; [stamped: distributed by Sportshelf, New York"
+           ],
+           "language": [
+            "eng"
+           ],
+           "lccn": [
+            "58003027"
+           ],
+           "last_modified_i": 1291609308,
+           "publish_year": [
+            1949,
+            1961,
+            1963,
+            1937,
+            1953,
+            1958
+           ],
+           "first_publish_year": 1937
+          },
+          {
+           "title_suggest": "Guide to Better Swimming",
+           "edition_key": [
+            "OL10489017M",
+            "OL22312964M"
+           ],
+           "isbn": [
+            "9780330297257",
+            "0330297252"
+           ],
+           "has_fulltext": false,
+           "text": [
+            "OL10489017M",
+            "OL22312964M",
+            "9780330297257",
+            "0330297252",
+            "Amateur Swimming Association.",
+            "21033765",
+            "Cross, Rick.",
+            "Amateur Swimming Association.",
+            "OL1992839A",
+            "Swimming",
+            "Guide to Better Swimming",
+            "/works/OL7075352W",
+            "edited by Rick Cross ; photographs byMichael King.",
+            "Pan Books",
+            "Pan",
+            "The ASA guide to better swimming"
+           ],
+           "author_name": [
+            "Amateur Swimming Association."
+           ],
+           "seed": [
+            "/books/OL10489017M",
+            "/books/OL22312964M",
+            "/works/OL7075352W",
+            "/subjects/swimming",
+            "/authors/OL1992839A"
+           ],
+           "oclc": [
+            "21033765"
+           ],
+           "contributor": [
+            "Cross, Rick.",
+            "Amateur Swimming Association."
+           ],
+           "author_key": [
+            "OL1992839A"
+           ],
+           "subject": [
+            "Swimming"
+           ],
+           "title": "Guide to Better Swimming",
+           "ddc": [
+            "797.21"
+           ],
+           "publish_date": [
+            "1987",
+            "August 7, 1987"
+           ],
+           "type": "work",
+           "ebook_count_i": 0,
+           "publish_place": [
+            "London"
+           ],
+           "edition_count": 2,
+           "lcc": [
+            "GV-0837.00000000"
+           ],
+           "key": "/works/OL7075352W",
+           "publisher": [
+            "Pan Books",
+            "Pan"
+           ],
+           "language": [
+            "eng"
+           ],
+           "last_modified_i": 1564521308,
+           "publish_year": [
+            1987
+           ],
+           "first_publish_year": 1987
+          },
+          {
+           "title_suggest": "ASA synchronised swimming handbook",
+           "edition_key": [
+            "OL11341911M",
+            "OL22110000M"
+           ],
+           "isbn": [
+            "9780900052385",
+            "0900052384"
+           ],
+           "has_fulltext": false,
+           "text": [
+            "OL11341911M",
+            "OL22110000M",
+            "9780900052385",
+            "0900052384",
+            "Amateur Swimming Association.",
+            "655440162",
+            "OL1992839A",
+            "Swimming",
+            "ASA synchronised swimming handbook",
+            "/works/OL7075345W",
+            "Swimming Times Publications Ltd",
+            "Handbook of Synchronised Swimming",
+            "ASA synchronised swimming handbook."
+           ],
+           "author_name": [
+            "Amateur Swimming Association."
+           ],
+           "seed": [
+            "/books/OL11341911M",
+            "/books/OL22110000M",
+            "/works/OL7075345W",
+            "/subjects/swimming",
+            "/authors/OL1992839A"
+           ],
+           "oclc": [
+            "655440162"
+           ],
+           "author_key": [
+            "OL1992839A"
+           ],
+           "subject": [
+            "Swimming"
+           ],
+           "title": "ASA synchronised swimming handbook",
+           "publish_date": [
+            "2004",
+            "October 1, 1995"
+           ],
+           "type": "work",
+           "ebook_count_i": 0,
+           "publish_place": [
+            "Amateur Swimming Association"
+           ],
+           "edition_count": 2,
+           "key": "/works/OL7075345W",
+           "publisher": [
+            "Swimming Times Publications Ltd"
+           ],
+           "language": [
+            "eng"
+           ],
+           "last_modified_i": 1564533883,
+           "publish_year": [
+            1995,
+            2004
+           ],
+           "first_publish_year": 1995
+          },
+          {
+           "title_suggest": "Competitive swimming",
+           "edition_key": [
+            "OL5875432M",
+            "OL17388419M"
+           ],
+           "has_fulltext": false,
+           "text": [
+            "OL5875432M",
+            "OL17388419M",
+            "Amateur Swimming Association.",
+            "1140338",
+            "OL1992839A",
+            "Swimming",
+            "Competitive swimming",
+            "/works/OL7075382W",
+            "Educational Productions for the Amateur Swimming Association",
+            "Educational Productions",
+            "Competitive swimming.",
+            "A. S. A. competitive swimming.",
+            "63004312"
+           ],
+           "author_name": [
+            "Amateur Swimming Association."
+           ],
+           "seed": [
+            "/books/OL5875432M",
+            "/books/OL17388419M",
+            "/works/OL7075382W",
+            "/subjects/swimming",
+            "/authors/OL1992839A"
+           ],
+           "oclc": [
+            "1140338"
+           ],
+           "author_key": [
+            "OL1992839A"
+           ],
+           "subject": [
+            "Swimming"
+           ],
+           "title": "Competitive swimming",
+           "publish_date": [
+            "1962"
+           ],
+           "type": "work",
+           "ebook_count_i": 0,
+           "publish_place": [
+            "London",
+            "[London]"
+           ],
+           "edition_count": 2,
+           "lcc": [
+            "GV-0837.00000000.A46"
+           ],
+           "key": "/works/OL7075382W",
+           "publisher": [
+            "Educational Productions for the Amateur Swimming Association",
+            "Educational Productions"
+           ],
+           "language": [
+            "eng"
+           ],
+           "lccn": [
+            "63004312"
+           ],
+           "last_modified_i": 1291582424,
+           "publish_year": [
+            1962
+           ],
+           "first_publish_year": 1962
+          },
+          {
+           "title_suggest": "The teaching of swimming (incorporating Swimming instruction)",
+           "edition_key": [
+            "OL5157145M"
+           ],
+           "has_fulltext": false,
+           "text": [
+            "OL5157145M",
+            "Amateur Swimming Association.",
+            "OL1992839A",
+            "Swimming",
+            "The teaching of swimming (incorporating Swimming instruction)",
+            "/works/OL7075378W",
+            "Educational Productions",
+            "The teaching of swimming (incorporating Swimming instruction).",
+            "74420951"
+           ],
+           "author_name": [
+            "Amateur Swimming Association."
+           ],
+           "seed": [
+            "/books/OL5157145M",
+            "/works/OL7075378W",
+            "/subjects/swimming",
+            "/authors/OL1992839A"
+           ],
+           "author_key": [
+            "OL1992839A"
+           ],
+           "subject": [
+            "Swimming"
+           ],
+           "title": "The teaching of swimming (incorporating Swimming instruction)",
+           "ddc": [
+            "797.2007"
+           ],
+           "publish_date": [
+            "1968"
+           ],
+           "type": "work",
+           "ebook_count_i": 0,
+           "publish_place": [
+            "London"
+           ],
+           "edition_count": 1,
+           "lcc": [
+            "GV-0837.00000000.A47 1968"
+           ],
+           "key": "/works/OL7075378W",
+           "publisher": [
+            "Educational Productions"
+           ],
+           "language": [
+            "eng"
+           ],
+           "lccn": [
+            "74420951"
+           ],
+           "last_modified_i": 1291543847,
+           "id_librarything": [
+            "1396491"
+           ],
+           "publish_year": [
+            1968
+           ],
+           "first_publish_year": 1968
+          },
+          {
+           "title_suggest": "Diving",
+           "edition_key": [
+            "OL21670815M",
+            "OL11250143M"
+           ],
+           "isbn": [
+            "9780713655551",
+            "0713655550"
+           ],
+           "has_fulltext": false,
+           "text": [
+            "OL21670815M",
+            "OL11250143M",
+            "9780713655551",
+            "0713655550",
+            "Amateur Swimming Association.",
+            "14168939",
+            "Amateur Swimming Association.",
+            "OL1992839A",
+            "Diving",
+            "Swimming",
+            "Diving",
+            "/works/OL7075349W",
+            "produced in collaboration with the Amateur Swimming Association.",
+            "A & C Black Publishers Ltd",
+            "A. & C. Black"
+           ],
+           "author_name": [
+            "Amateur Swimming Association."
+           ],
+           "seed": [
+            "/books/OL21670815M",
+            "/books/OL11250143M",
+            "/works/OL7075349W",
+            "/subjects/diving",
+            "/subjects/swimming",
+            "/authors/OL1992839A"
+           ],
+           "oclc": [
+            "14168939"
+           ],
+           "contributor": [
+            "Amateur Swimming Association."
+           ],
+           "author_key": [
+            "OL1992839A"
+           ],
+           "subject": [
+            "Diving",
+            "Swimming"
+           ],
+           "title": "Diving",
+           "ddc": [
+            "797.2"
+           ],
+           "publish_date": [
+            "1986",
+            "April 30, 1987"
+           ],
+           "type": "work",
+           "ebook_count_i": 0,
+           "publish_place": [
+            "London"
+           ],
+           "edition_count": 2,
+           "lcc": [
+            "GV-0837.00000000"
+           ],
+           "key": "/works/OL7075349W",
+           "publisher": [
+            "A & C Black Publishers Ltd",
+            "A. & C. Black"
+           ],
+           "language": [
+            "eng"
+           ],
+           "last_modified_i": 1564563213,
+           "publish_year": [
+            1986,
+            1987
+           ],
+           "first_publish_year": 1986
+          },
+          {
+           "title_suggest": "Awards handbook",
+           "publish_place": [
+            "Redditch"
+           ],
+           "has_fulltext": false,
+           "language": [
+            "eng"
+           ],
+           "edition_count": 1,
+           "edition_key": [
+            "OL21854149M"
+           ],
+           "last_modified_i": 1291437565,
+           "title": "Awards handbook",
+           "subject": [
+            "Coaching",
+            "Swimming"
+           ],
+           "author_name": [
+            "Amateur Swimming Association."
+           ],
+           "publish_year": [
+            1999
+           ],
+           "first_publish_year": 1999,
+           "key": "/works/OL7075346W",
+           "text": [
+            "OL21854149M",
+            "Amateur Swimming Association.",
+            "OL1992839A",
+            "Coaching",
+            "Swimming",
+            "including test conditions : the definitive reference book of the Kellogs Frosties ASA awards scheme.",
+            "Awards handbook",
+            "/works/OL7075346W",
+            "Amateur Swimming Association",
+            "Kellogs Frosties ASA awards scheme."
+           ],
+           "publisher": [
+            "Amateur Swimming Association"
+           ],
+           "publish_date": [
+            "1999"
+           ],
+           "author_key": [
+            "OL1992839A"
+           ],
+           "type": "work",
+           "seed": [
+            "/books/OL21854149M",
+            "/works/OL7075346W",
+            "/subjects/coaching",
+            "/subjects/swimming",
+            "/authors/OL1992839A"
+           ],
+           "ebook_count_i": 0
+          },
+          {
+           "title_suggest": "Swimmers' training log book",
+           "edition_key": [
+            "OL5736887M"
+           ],
+           "isbn": [
+            "9780950092201",
+            "0950092207"
+           ],
+           "has_fulltext": false,
+           "text": [
+            "OL5736887M",
+            "9780950092201",
+            "0950092207",
+            "Victorian Amateur Swimming Association.",
+            "198614",
+            "OL2154356A",
+            "Training",
+            "Swimming",
+            "Swimmers' training log book",
+            "/works/OL7323536W",
+            "Swimmers' training log book.",
+            "70592062"
+           ],
+           "author_name": [
+            "Victorian Amateur Swimming Association."
+           ],
+           "seed": [
+            "/books/OL5736887M",
+            "/works/OL7323536W",
+            "/subjects/swimming",
+            "/subjects/training",
+            "/authors/OL2154356A"
+           ],
+           "oclc": [
+            "198614"
+           ],
+           "author_key": [
+            "OL2154356A"
+           ],
+           "subject": [
+            "Training",
+            "Swimming"
+           ],
+           "title": "Swimmers' training log book",
+           "ddc": [
+            "797.21"
+           ],
+           "publish_date": [
+            "1970"
+           ],
+           "type": "work",
+           "ebook_count_i": 0,
+           "publish_place": [
+            "[Melbourne"
+           ],
+           "edition_count": 1,
+           "lcc": [
+            "GV-0837.00000000.V46"
+           ],
+           "key": "/works/OL7323536W",
+           "id_goodreads": [
+            "4771482"
+           ],
+           "language": [
+            "eng"
+           ],
+           "lccn": [
+            "70592062"
+           ],
+           "last_modified_i": 1304118956,
+           "publish_year": [
+            1970
+           ],
+           "first_publish_year": 1970
+          },
+          {
+           "title_suggest": "Swimming pools",
+           "edition_key": [
+            "OL19380822M",
+            "OL20118350M",
+            "OL14152309M"
+           ],
+           "has_fulltext": false,
+           "text": [
+            "OL19380822M",
+            "OL20118350M",
+            "OL14152309M",
+            "Amateur Swimming Association.",
+            "Borton, D. L.",
+            "OL1992839A",
+            "Swimming pools",
+            "Design",
+            "requirements for competition",
+            "notes for the guidance of designers.",
+            "Swimming pools",
+            "/works/OL7075388W",
+            "by D. L. Borton.",
+            "ASA",
+            "Amateur Swimming Association"
+           ],
+           "author_name": [
+            "Amateur Swimming Association."
+           ],
+           "seed": [
+            "/books/OL19380822M",
+            "/books/OL20118350M",
+            "/books/OL14152309M",
+            "/works/OL7075388W",
+            "/subjects/design",
+            "/subjects/swimming_pools",
+            "/authors/OL1992839A"
+           ],
+           "contributor": [
+            "Borton, D. L."
+           ],
+           "author_key": [
+            "OL1992839A"
+           ],
+           "subject": [
+            "Swimming pools",
+            "Design"
+           ],
+           "title": "Swimming pools",
+           "ddc": [
+            "725.74"
+           ],
+           "publish_date": [
+            "1977",
+            "1967"
+           ],
+           "type": "work",
+           "ebook_count_i": 0,
+           "publish_place": [
+            "London",
+            "Loughborough"
+           ],
+           "edition_count": 3,
+           "key": "/works/OL7075388W",
+           "publisher": [
+            "ASA",
+            "Amateur Swimming Association"
+           ],
+           "language": [
+            "eng"
+           ],
+           "last_modified_i": 1291420912,
+           "publish_year": [
+            1977,
+            1967
+           ],
+           "first_publish_year": 1967
+          },
+          {
+           "title_suggest": "Swimming rules of the Canadian Amateur Swimming Association (1970)",
+           "publish_place": [
+            "Ottawa, Ont"
+           ],
+           "has_fulltext": false,
+           "language": [
+            "eng"
+           ],
+           "edition_count": 1,
+           "edition_key": [
+            "OL20261089M"
+           ],
+           "last_modified_i": 1264473262,
+           "publisher": [
+            "Canadian Amateur Swimming Association"
+           ],
+           "title": "Swimming rules of the Canadian Amateur Swimming Association (1970)",
+           "subject": [
+            "Rules",
+            "Swimming"
+           ],
+           "author_name": [
+            "Canadian Amateur Swimming Association (1970)"
+           ],
+           "publish_year": [
+            1973
+           ],
+           "first_publish_year": 1973,
+           "key": "/works/OL13036609W",
+           "text": [
+            "OL20261089M",
+            "Canadian Amateur Swimming Association (1970)",
+            "Firby, Howard.",
+            "OL5945262A",
+            "Rules",
+            "Swimming",
+            "Swimming rules of the Canadian Amateur Swimming Association (1970)",
+            "/works/OL13036609W",
+            "compiled and edited by Howard Firby.",
+            "Canadian Amateur Swimming Association"
+           ],
+           "contributor": [
+            "Firby, Howard."
+           ],
+           "publish_date": [
+            "1973"
+           ],
+           "author_key": [
+            "OL5945262A"
+           ],
+           "type": "work",
+           "seed": [
+            "/books/OL20261089M",
+            "/works/OL13036609W",
+            "/subjects/rules",
+            "/subjects/swimming",
+            "/authors/OL5945262A"
+           ],
+           "ebook_count_i": 0
+          },
+          {
+           "title_suggest": "For the record",
+           "edition_key": [
+            "OL4491213M"
+           ],
+           "has_fulltext": false,
+           "text": [
+            "OL4491213M",
+            "New Zealand Amateur Swimming Association.",
+            "OL1785486A",
+            "Records",
+            "New Zealand Amateur Swimming Association",
+            "Swimming",
+            "New Zealand Amateur Swimming Association (Incorporated), 1890-1976 : New Zealand title holders, representatives, record holders and a concise history.",
+            "For the record",
+            "/works/OL6635571W",
+            "New Zealand Amateur Swimming Association",
+            "79320961",
+            "New Zealand"
+           ],
+           "author_name": [
+            "New Zealand Amateur Swimming Association."
+           ],
+           "seed": [
+            "/books/OL4491213M",
+            "/works/OL6635571W",
+            "/subjects/new_zealand_amateur_swimming_association",
+            "/subjects/records",
+            "/subjects/swimming",
+            "/subjects/place:new_zealand",
+            "/authors/OL1785486A"
+           ],
+           "author_key": [
+            "OL1785486A"
+           ],
+           "subject": [
+            "Records",
+            "New Zealand Amateur Swimming Association",
+            "Swimming"
+           ],
+           "title": "For the record",
+           "ddc": [
+            "797.2109931"
+           ],
+           "place": [
+            "New Zealand"
+           ],
+           "type": "work",
+           "ebook_count_i": 0,
+           "publish_place": [
+            "[Christchurch]"
+           ],
+           "edition_count": 1,
+           "lcc": [
+            "GV-0838.50000000.N48 1976"
+           ],
+           "key": "/works/OL6635571W",
+           "publisher": [
+            "New Zealand Amateur Swimming Association"
+           ],
+           "language": [
+            "eng"
+           ],
+           "lccn": [
+            "79320961"
+           ],
+           "last_modified_i": 1291530590,
+           "publish_year": [
+            1976
+           ],
+           "first_publish_year": 1976,
+           "publish_date": [
+            "1976"
+           ]
+          },
+          {
+           "title_suggest": "Swimmers hand book",
+           "edition_key": [
+            "OL5474779M"
+           ],
+           "isbn": [
+            "0959904603",
+            "9780959904604"
+           ],
+           "has_fulltext": false,
+           "text": [
+            "OL5474779M",
+            "0959904603",
+            "9780959904604",
+            "South Australian Amateur Swimming Association.",
+            "791078",
+            "OL2082662A",
+            "Diving",
+            "Water polo",
+            "Swimming",
+            "a comprehensive guide to swim instruction, advanced swimming, diving & water polo, rules for conduct of swim meets.",
+            "Swimmers hand book",
+            "/works/OL7224106W",
+            "South Australian Amateur Swimming Association",
+            "73178079"
+           ],
+           "author_name": [
+            "South Australian Amateur Swimming Association."
+           ],
+           "seed": [
+            "/books/OL5474779M",
+            "/works/OL7224106W",
+            "/subjects/diving",
+            "/subjects/swimming",
+            "/subjects/water_polo",
+            "/authors/OL2082662A"
+           ],
+           "oclc": [
+            "791078"
+           ],
+           "author_key": [
+            "OL2082662A"
+           ],
+           "subject": [
+            "Diving",
+            "Water polo",
+            "Swimming"
+           ],
+           "title": "Swimmers hand book",
+           "ddc": [
+            "797.21"
+           ],
+           "publish_date": [
+            "1972"
+           ],
+           "type": "work",
+           "ebook_count_i": 0,
+           "publish_place": [
+            "North Adelaide, S.A"
+           ],
+           "edition_count": 1,
+           "lcc": [
+            "GV-0837.00000000.S796 1972"
+           ],
+           "key": "/works/OL7224106W",
+           "publisher": [
+            "South Australian Amateur Swimming Association"
+           ],
+           "language": [
+            "eng"
+           ],
+           "lccn": [
+            "73178079"
+           ],
+           "last_modified_i": 1303845895,
+           "publish_year": [
+            1972
+           ],
+           "first_publish_year": 1972
+          },
+          {
+           "title_suggest": "Recreation Synchro Swim Canada",
+           "publish_place": [
+            "Ottawa"
+           ],
+           "publish_date": [
+            "1977"
+           ],
+           "has_fulltext": false,
+           "language": [
+            "eng"
+           ],
+           "edition_count": 1,
+           "edition_key": [
+            "OL16372021M"
+           ],
+           "last_modified_i": 1264063971,
+           "title": "Recreation Synchro Swim Canada",
+           "subject": [
+            "Synchronized swimming",
+            "Swimming"
+           ],
+           "author_name": [
+            "Canadian Amateur Synchronized Swimming Association. Recreation Synchro Swim Canada Committee."
+           ],
+           "publish_year": [
+            1977
+           ],
+           "first_publish_year": 1977,
+           "key": "/works/OL11758764W",
+           "text": [
+            "OL16372021M",
+            "Canadian Amateur Synchronized Swimming Association. Recreation Synchro Swim Canada Committee.",
+            "OL5001838A",
+            "Synchronized swimming",
+            "Swimming",
+            "Recreation Synchro Swim Canada",
+            "/works/OL11758764W",
+            "[Canadian Amateur Synchronized Swimming Association, Recreation Synchro Swim Canada Committee].",
+            "Canadian Amateur Synchronized Swimming Association",
+            "Canada"
+           ],
+           "publisher": [
+            "Canadian Amateur Synchronized Swimming Association"
+           ],
+           "place": [
+            "Canada"
+           ],
+           "author_key": [
+            "OL5001838A"
+           ],
+           "type": "work",
+           "seed": [
+            "/books/OL16372021M",
+            "/works/OL11758764W",
+            "/subjects/synchronized_swimming",
+            "/subjects/swimming",
+            "/subjects/place:canada",
+            "/authors/OL5001838A"
+           ],
+           "ebook_count_i": 0
+          },
+          {
+           "title_suggest": "Canadian manual of synchronized swimming",
+           "publish_place": [
+            "[N.p.]"
+           ],
+           "has_fulltext": false,
+           "language": [
+            "eng"
+           ],
+           "edition_count": 1,
+           "edition_key": [
+            "OL18437554M"
+           ],
+           "last_modified_i": 1264244167,
+           "title": "Canadian manual of synchronized swimming",
+           "subject": [
+            "Synchronized swimming",
+            "Handbooks, manuals"
+           ],
+           "author_name": [
+            "Amateur Synchronized Swimming Association of Canada"
+           ],
+           "publish_year": [
+            1968
+           ],
+           "first_publish_year": 1968,
+           "lcc": [
+            "GV-0837.00000000.A46"
+           ],
+           "key": "/works/OL12414189W",
+           "text": [
+            "OL18437554M",
+            "Amateur Synchronized Swimming Association of Canada",
+            "OL5471551A",
+            "Synchronized swimming",
+            "Handbooks, manuals",
+            "Canadian manual of synchronized swimming",
+            "/works/OL12414189W",
+            "Synchronized swimming",
+            "Canadian manual of synchronized swimming."
+           ],
+           "publish_date": [
+            "1968"
+           ],
+           "author_key": [
+            "OL5471551A"
+           ],
+           "type": "work",
+           "seed": [
+            "/books/OL18437554M",
+            "/works/OL12414189W",
+            "/subjects/synchronized_swimming",
+            "/subjects/handbooks_manuals",
+            "/authors/OL5471551A"
+           ],
+           "ebook_count_i": 0
+          },
+          {
+           "title_suggest": "Official Handbook",
+           "publish_place": [
+            "Ottawa, Ont"
+           ],
+           "has_fulltext": false,
+           "language": [
+            "eng"
+           ],
+           "edition_count": 1,
+           "edition_key": [
+            "OL20139601M"
+           ],
+           "last_modified_i": 1291421214,
+           "publisher": [
+            "CASSA"
+           ],
+           "title": "Official Handbook",
+           "subject": [
+            "Synchronized swimming",
+            "Handbooks, manuals, etc",
+            "Handbooks, manuals"
+           ],
+           "author_name": [
+            "Canadian Amateur Synchronized Swimming Association."
+           ],
+           "publish_year": [
+            1970
+           ],
+           "first_publish_year": 1970,
+           "key": "/works/OL13002052W",
+           "text": [
+            "OL20139601M",
+            "Canadian Amateur Synchronized Swimming Association.",
+            "Amateur Synchronized Swimming Association of Canada.",
+            "OL5915479A",
+            "Synchronized swimming",
+            "Handbooks, manuals, etc",
+            "Handbooks, manuals",
+            "Canadian Synchronized swimming",
+            "Official Handbook",
+            "/works/OL13002052W",
+            "compiled by the Technical Committee of the Canadian Amateur Synchronized Swimming Association",
+            "CASSA"
+           ],
+           "contributor": [
+            "Amateur Synchronized Swimming Association of Canada."
+           ],
+           "publish_date": [
+            "1970"
+           ],
+           "author_key": [
+            "OL5915479A"
+           ],
+           "type": "work",
+           "seed": [
+            "/books/OL20139601M",
+            "/works/OL13002052W",
+            "/subjects/handbooks_manuals",
+            "/subjects/handbooks_manuals_etc",
+            "/subjects/synchronized_swimming",
+            "/authors/OL5915479A"
+           ],
+           "ebook_count_i": 0
+          }
+         ]
+        }
+  recorded_at: Mon, 03 Aug 2020 23:34:52 GMT
+recorded_with: VCR 6.0.0

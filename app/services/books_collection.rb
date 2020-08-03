@@ -3,8 +3,8 @@ class BooksCollection
 
   base_uri 'http://openlibrary.org'
 
-  def initialize(subject:, sort_order: nil)
-    @options = { query: { subject: subject } }
+  def initialize(subject:, author: nil, sort_order: nil)
+    @options = { query: { subject: subject, author: author } }
     @sort_order = sort_order
   end
 
@@ -16,9 +16,10 @@ class BooksCollection
   end
 
   private
+  attr_reader :options, :sort_order
 
   def sorted_books
-    @sort_order == :desc ? books.sort.reverse : books.sort
+    sort_order == 'desc' ? books.sort.reverse : books.sort
   end
 
   def books
@@ -26,7 +27,7 @@ class BooksCollection
   end
 
   def response
-    @response ||= self.class.get('/search.json', @options)
+    @response ||= self.class.get('/search.json', options)
   end
 
   def status
