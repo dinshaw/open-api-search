@@ -1,20 +1,34 @@
 # Open API Search
-API client exposing a subset of the [OpenLibrary API](https://openlibrary.org/developers/api) to search for book titles by subject.
+
+API client exposing the [Open Library Search API](https://openlibrary.org/dev/docs/api/search) to search for book titles by subject and filter them by author.
 
 ## Usage
 
-Start the server locally
+Start the server locally:
+
 ```
 $ bundle
 $ rails s
 ```
 
-GET '/books'
+#### GET '/books'
+
+Search by subject:
+
 ```
 curl -0 http://localhost:3000/books?subject=swimming
 ```
-Expected response:
+
+Filter by author:
+
 ```
-{"books":["Swimming instruction","The complete book of dry-land exercises for swimming",
-...
+curl -0 "http://localhost:3000/books?subject=swimming&author=Amateur+Swimming+Association"
+```
+
+Sort alphabetically:
+While the Open Library Search API does not offer sorted results, you can sort your result set alphabetically in either direction by passing `sort_order=[asc|desc]`:
+
+```
+curl -0 "http://localhost:3000/books?subject=swimming&author=Amateur+Swimming+Association&sort_order=asc"
+
 ```

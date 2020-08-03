@@ -36,7 +36,7 @@ RSpec.describe BooksCollection do
 
       context 'with [sort_order]=desc' do
         let(:params) do
-          { subject: :swimming, sort_order: :desc }
+          { subject: :swimming, sort_order: 'desc' }
         end
 
         it 'returns #body as an Array of book titles sorted in reverse order'  do
@@ -51,6 +51,17 @@ RSpec.describe BooksCollection do
 
         it 'returns #body as an Array of book titles sorted in reverse order'  do
           expect(response.body).to eq [title_1, title_2].sort
+        end
+      end
+
+      context 'and an :author param' do
+        let(:author) { Faker::Book.author }
+        let(:params) do
+          { subject: :swimming, author: author }
+        end
+
+        it 'adds :author to the @options hash' do
+          expect(books_collection.send(:options)[:query][:author]).to eq author
         end
       end
     end
