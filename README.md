@@ -1,24 +1,20 @@
-# README
+# Open API Search
+API client exposing a subset of the [OpenLibrary API](https://openlibrary.org/developers/api) to search for book titles by subject.
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+## Usage
 
-Things you may want to cover:
+Start the server locally
+```
+$ bundle
+$ rails s
+```
 
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+GET '/books'
+```
+curl -0 http://localhost:3000/books?subject=swimming
+```
+Expected response:
+```
+{"books":["Swimming instruction","The complete book of dry-land exercises for swimming",
+...
+```
