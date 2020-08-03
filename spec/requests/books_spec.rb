@@ -7,7 +7,7 @@ RSpec.describe 'Books', :vcr do
 
     it 'returns a :books key' do
       get books_path subject: 'swimming'
-      expect(JSON.parse(response.body)['books']).not_to be nil
+      expect(JSON.parse(response.body)['books']).not_to be_nil
     end
   end
 end

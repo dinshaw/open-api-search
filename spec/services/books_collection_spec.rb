@@ -31,7 +31,27 @@ RSpec.describe BooksCollection do
       end
 
       it 'returns #body as an Array of book titles' do
-        expect(response.body).to eq [title_1, title_2]
+        expect(response.body).to match_array [title_1, title_2]
+      end
+
+      context 'with [sort_order]=desc' do
+        let(:params) do
+          { subject: :swimming, sort_order: :desc }
+        end
+
+        it 'returns #body as an Array of book titles sorted in reverse order'  do
+          expect(response.body).to eq [title_1, title_2].sort.reverse
+        end
+      end
+
+      context 'with [sort_order]=asc' do
+        let(:params) do
+          { subject: :swimming, sort_order: :asc }
+        end
+
+        it 'returns #body as an Array of book titles sorted in reverse order'  do
+          expect(response.body).to eq [title_1, title_2].sort
+        end
       end
     end
   end

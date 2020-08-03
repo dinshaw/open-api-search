@@ -3,18 +3,23 @@ class BooksCollection
 
   base_uri 'http://openlibrary.org'
 
-  def initialize(subject:)
+  def initialize(subject:, sort_order: nil)
     @options = { query: { subject: subject } }
+    @sort_order = sort_order
   end
 
   def call
     OpenStruct.new({
       status: status,
-      body: books
+      body: sorted_books
     })
   end
 
   private
+
+  def sorted_books
+    @sort_order == :desc ? books.sort.reverse : books.sort
+  end
 
   def books
     @books ||= response.parsed_response['docs'].map{ |book| book['title'] }
