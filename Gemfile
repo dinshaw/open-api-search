@@ -3,9 +3,11 @@ git_source(:github) { |repo| "https://github.com/#{repo}.git" }
 
 ruby '2.6.6'
 
+gem 'bcrypt'
 gem 'bootsnap'
 gem 'httparty', '0.16.1'
 gem 'jbuilder'
+gem 'jwt'
 gem 'pg'
 gem 'puma'
 gem 'rails'
