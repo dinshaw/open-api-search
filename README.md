@@ -4,11 +4,18 @@ API client exposing the [Open Library Search API](https://openlibrary.org/dev/do
 
 ## Usage
 
-Start the server locally:
+#### Authenticating
+
+Authenticate with an existing User
 
 ```
-$ bundle
-$ rails s
+curl -s -X POST -H 'Accept: application/json' -H 'Content --data '{"email":"homer@thesimpsons.com","password":"password"}' http://localhost:3000/auth/login
+```
+
+Use the returned token in all requests headers as:
+
+```
+Authorization <TOKEN>
 ```
 
 #### GET '/books'
@@ -16,20 +23,25 @@ $ rails s
 Search Books by subject:
 
 ```
-curl http://localhost:3000/books?subject=swimming
+
+curl -H "Authorization <ACCESS_TOKEN>" http://localhost:3000/books?subject=swimming
+
 ```
 
 Filter by author:
 
 ```
-curl "http://localhost:3000/books?subject=swimming&author=Amateur+Swimming+Association"
+
+curl -H "Authorization <ACCESS_TOKEN>" "http://localhost:3000/books?subject=swimming&author=Amateur+Swimming+Association"
+
 ```
 
 Sort alphabetically:
 While the Open Library Search API does not offer sorted results, you can sort your result set alphabetically in either direction by passing `sort_order=[asc|desc]`:
 
 ```
-curl "http://localhost:3000/books?subject=swimming&author=Amateur+Swimming+Association&sort_order=asc"
+
+curl -H "Authorization <ACCESS_TOKEN>" "http://localhost:3000/books?subject=swimming&author=Amateur+Swimming+Association&sort_order=asc"
 
 ```
 
@@ -38,7 +50,9 @@ curl "http://localhost:3000/books?subject=swimming&author=Amateur+Swimming+Assoc
 Create a saved search:
 
 ```
-curl -d 'search[subject]=swiming' http://localhost:3000/searches
+
+curl -H "Authorization <ACCESS_TOKEN>" -d 'search[subject]=swiming' http://localhost:3000/searches
+
 ```
 
 #### GET '/searches'
@@ -46,7 +60,9 @@ curl -d 'search[subject]=swiming' http://localhost:3000/searches
 Get a list of all saved searches:
 
 ```
-curl http://localhost:3000/searches
+
+curl -H "Authorization <ACCESS_TOKEN>" http://localhost:3000/searches
+
 ```
 
 #### GET '/searches/:id'
@@ -54,7 +70,9 @@ curl http://localhost:3000/searches
 Get one saved search by id:
 
 ```
-curl http://localhost:3000/searches/:id
+
+curl -H "Authorization <ACCESS_TOKEN>" http://localhost:3000/searches/:id
+
 ```
 
 #### DELET '/searches/:id'
@@ -62,5 +80,11 @@ curl http://localhost:3000/searches/:id
 Destroy a saved search:
 
 ```
-curl -X 'DELETE' http://localhost:3000/searches/:id
+
+curl -H "Authorization <ACCESS_TOKEN>" -X 'DELETE' http://localhost:3000/searches/:id
+
+```
+
+```
+
 ```
