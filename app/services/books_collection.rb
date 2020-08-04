@@ -1,7 +1,7 @@
 class BooksCollection
   include HTTParty
 
-  base_uri 'http://openlibrary.org'
+  base_uri Rails.application.config.open_library_uri
 
   def initialize(subject:, author: nil, sort_order: nil)
     @options = { query: { subject: subject, author: author } }

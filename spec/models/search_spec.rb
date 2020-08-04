@@ -36,4 +36,16 @@ RSpec.describe Search do
       expect(search.valid?).to be true
     end
   end
+
+  describe '#url' do
+    let(:search) { searches(:search_2) }
+
+    it 'returns the complete url for the search' do
+      expect(search.url).to eq [
+        Rails.application.config.open_library_uri,
+        '/books?',
+        { subject: search.subject, author: search.author }.to_query
+      ].join
+    end
+  end
 end
