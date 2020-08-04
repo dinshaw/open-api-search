@@ -2,7 +2,7 @@
 http_interactions:
 - request:
     method: get
-    uri: http://openlibrary.org/search.json?author=&subject=swimming
+    uri: http://openlibrary.org/search.json?author=&page=1&subject=swimming
     body:
       encoding: US-ASCII
       string: ''
@@ -21,7 +21,7 @@ http_interactions:
       Server:
       - nginx/1.4.6 (Ubuntu)
       Date:
-      - Tue, 04 Aug 2020 18:12:27 GMT
+      - Tue, 04 Aug 2020 20:50:26 GMT
       Content-Type:
       - application/json
       Transfer-Encoding:
@@ -35,7 +35,7 @@ http_interactions:
       Access-Control-Max-Age:
       - '86400'
       X-Ol-Stats:
-      - '"SR 1 0.612 TT 0 0.635"'
+      - '"SR 1 1.031 TT 0 1.073"'
     body:
       encoding: UTF-8
       string: |-
@@ -7213,5 +7213,5 @@ http_interactions:
           }
          ]
         }
-  recorded_at: Tue, 04 Aug 2020 18:12:27 GMT
+  recorded_at: Tue, 04 Aug 2020 20:50:26 GMT
 recorded_with: VCR 6.0.0

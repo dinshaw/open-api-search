@@ -46,6 +46,11 @@ RSpec.describe 'Books' do
       expect(json['books'].count).to eq 15
     end
 
+    it 'paginates Books', :vcr do
+      get books_path, params: { subject: 'swimming', page: 2 }, headers: headers
+      expect(json['books'].first).to match 'swimming text for college me'
+    end
+
     context 'with an invalid query', :vcr do
       it 'returns :unprocessable_entity' do
         get books_path, params: { subject: nil }, headers: headers
