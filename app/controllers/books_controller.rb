@@ -5,6 +5,6 @@ class BooksController < ApplicationController
       author: params[:author],
       sort_order: params[:sort_order]
     ).call
-    render json: { books: @books_collection.body }, status: @books_collection.status
+    render json: @books_collection.body, status: @books_collection.status
   end
 end

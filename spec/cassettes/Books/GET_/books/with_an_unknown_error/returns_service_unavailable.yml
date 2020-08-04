@@ -1,0 +1,44 @@
+---
+http_interactions:
+  - request:
+      method: get
+      uri: http://openlibrary.org/search.json?author=&subject=foo
+      body:
+        encoding: US-ASCII
+        string: ""
+      headers:
+        Accept-Encoding:
+          - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+        Accept:
+          - "*/*"
+        User-Agent:
+          - Ruby
+    response:
+      status:
+        code: 200
+        message: OK
+      headers:
+        Server:
+          - nginx/1.4.6 (Ubuntu)
+        Date:
+          - Tue, 04 Aug 2020 16:06:18 GMT
+        Content-Type:
+          - application/json
+        Transfer-Encoding:
+          - chunked
+        Connection:
+          - keep-alive
+        Access-Control-Allow-Origin:
+          - "*"
+        Access-Control-Allow-Method:
+          - GET, OPTIONS
+        Access-Control-Max-Age:
+          - "86400"
+        X-Ol-Stats:
+          - '"SR 1 2.811 TT 0 2.830"'
+      body:
+        encoding: UTF-8
+        string: "Garbage!"
+
+    recorded_at: Tue, 04 Aug 2020 16:06:19 GMT
+recorded_with: VCR 6.0.0
