@@ -1,8 +1,9 @@
 RSpec.describe BooksCollection do
   let(:books_collection) { described_class.new(params) }
   let(:response) { books_collection.call }
+  let(:page) { 1 }
   let(:params) do
-    { subject: :swimming }
+    { subject: :swimming, page: page }
   end
   let(:title_1) { Faker::Book.title }
   let(:title_2) { Faker::Book.title }
@@ -33,7 +34,7 @@ RSpec.describe BooksCollection do
 
       context 'with [sort_order]=desc' do
         let(:params) do
-          { subject: :swimming, sort_order: 'desc' }
+          { subject: :swimming, sort_order: 'desc', page: page }
         end
 
         it 'returns #body as an Array of book titles sorted in reverse order'  do
@@ -43,7 +44,7 @@ RSpec.describe BooksCollection do
 
       context 'with [sort_order]=asc' do
         let(:params) do
-          { subject: :swimming, sort_order: :asc }
+          { subject: :swimming, sort_order: :asc, page: page }
         end
 
         it 'returns #body as an Array of book titles sorted in reverse order'  do
@@ -54,7 +55,7 @@ RSpec.describe BooksCollection do
       context 'and an :author param' do
         let(:author) { Faker::Book.author }
         let(:params) do
-          { subject: :swimming, author: author }
+          { subject: :swimming, author: author, page: page }
         end
 
         it 'adds :author to the @options hash' do

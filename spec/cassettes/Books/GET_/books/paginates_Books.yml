@@ -1,0 +1,6603 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://openlibrary.org/search.json?author=&page=2&subject=swimming
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - nginx/1.4.6 (Ubuntu)
+      Date:
+      - Tue, 04 Aug 2020 20:49:47 GMT
+      Content-Type:
+      - application/json
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - keep-alive
+      Access-Control-Allow-Origin:
+      - "*"
+      Access-Control-Allow-Method:
+      - GET, OPTIONS
+      Access-Control-Max-Age:
+      - '86400'
+      X-Ol-Stats:
+      - '"SR 1 0.241 TT 0 0.260"'
+    body:
+      encoding: UTF-8
+      string: |-
+        {
+         "start": 100,
+         "num_found": 2187,
+         "numFound": 2187,
+         "docs": [
+          {
+           "title_suggest": "How to swim crawl",
+           "publish_place": [
+            "London"
+           ],
+           "has_fulltext": false,
+           "language": [
+            "eng"
+           ],
+           "edition_count": 1,
+           "edition_key": [
+            "OL15219620M"
+           ],
+           "last_modified_i": 1263890588,
+           "title": "How to swim crawl",
+           "subject": [
+            "Swimming"
+           ],
+           "author_name": [
+            "Sidney George Hedges"
+           ],
+           "publish_year": [
+            1934
+           ],
+           "first_publish_year": 1934,
+           "key": "/works/OL11067304W",
+           "text": [
+            "OL15219620M",
+            "Sidney George Hedges",
+            "OL4616162A",
+            "Swimming",
+            "How to swim crawl",
+            "/works/OL11067304W",
+            "with 12 diagrams by Dorothy Franks.",
+            "Methuen"
+           ],
+           "publisher": [
+            "Methuen"
+           ],
+           "publish_date": [
+            "1934"
+           ],
+           "author_key": [
+            "OL4616162A"
+           ],
+           "type": "work",
+           "seed": [
+            "/books/OL15219620M",
+            "/works/OL11067304W",
+            "/subjects/swimming",
+            "/authors/OL4616162A"
+           ],
+           "ebook_count_i": 0
+          },
+          {
+           "title_suggest": "The book of swimming and diving",
+           "publish_place": [
+            "London"
+           ],
+           "has_fulltext": false,
+           "language": [
+            "eng"
+           ],
+           "edition_count": 1,
+           "edition_key": [
+            "OL15219606M"
+           ],
+           "last_modified_i": 1263890588,
+           "title": "The book of swimming and diving",
+           "subject": [
+            "Swimming"
+           ],
+           "author_name": [
+            "Sidney George Hedges"
+           ],
+           "publish_year": [
+            1930
+           ],
+           "first_publish_year": 1930,
+           "key": "/works/OL11067301W",
+           "text": [
+            "OL15219606M",
+            "Sidney George Hedges",
+            "OL4616162A",
+            "Swimming",
+            "The book of swimming and diving",
+            "/works/OL11067301W",
+            "by Sid G. Hedges ... illustrated by Arthur Dixon.",
+            "Hutchinson",
+            "book of swimming and diving"
+           ],
+           "publisher": [
+            "Hutchinson"
+           ],
+           "publish_date": [
+            "1930"
+           ],
+           "author_key": [
+            "OL4616162A"
+           ],
+           "type": "work",
+           "seed": [
+            "/books/OL15219606M",
+            "/works/OL11067301W",
+            "/subjects/swimming",
+            "/authors/OL4616162A"
+           ],
+           "ebook_count_i": 0
+          },
+          {
+           "title_suggest": "Swimming",
+           "edition_key": [
+            "OL5771068M"
+           ],
+           "isbn": [
+            "0392000350",
+            "9780392000352"
+           ],
+           "has_fulltext": false,
+           "text": [
+            "OL5771068M",
+            "0392000350",
+            "9780392000352",
+            "Athole Still",
+            "91819",
+            "OL2160130A",
+            "Swimming",
+            "Swimming",
+            "/works/OL7329845W",
+            "Batsford",
+            "Swimming.",
+            "71498255"
+           ],
+           "author_name": [
+            "Athole Still"
+           ],
+           "seed": [
+            "/books/OL5771068M",
+            "/works/OL7329845W",
+            "/subjects/swimming",
+            "/authors/OL2160130A"
+           ],
+           "oclc": [
+            "91819"
+           ],
+           "author_key": [
+            "OL2160130A"
+           ],
+           "subject": [
+            "Swimming"
+           ],
+           "title": "Swimming",
+           "ddc": [
+            "797.21"
+           ],
+           "publish_date": [
+            "1970"
+           ],
+           "type": "work",
+           "ebook_count_i": 0,
+           "publish_place": [
+            "London"
+           ],
+           "edition_count": 1,
+           "lcc": [
+            "GV-0837.00000000.S84"
+           ],
+           "key": "/works/OL7329845W",
+           "id_goodreads": [
+            "3604783"
+           ],
+           "publisher": [
+            "Batsford"
+           ],
+           "language": [
+            "eng"
+           ],
+           "lccn": [
+            "71498255"
+           ],
+           "last_modified_i": 1304105332,
+           "publish_year": [
+            1970
+           ],
+           "first_publish_year": 1970
+          },
+          {
+           "title_suggest": "Swimming for schools",
+           "edition_key": [
+            "OL5677627M"
+           ],
+           "has_fulltext": false,
+           "text": [
+            "OL5677627M",
+            "A. H. Owen",
+            "Swimming Teachers' Association of Great Britain and the Commonwealth.",
+            "OL2139686A",
+            "Swimming",
+            "Swimming for schools",
+            "/works/OL7295923W",
+            "[by] A. H. Owen; approved by the Swimming Teachers' Association.",
+            "Pelham",
+            "68142346"
+           ],
+           "author_name": [
+            "A. H. Owen"
+           ],
+           "seed": [
+            "/books/OL5677627M",
+            "/works/OL7295923W",
+            "/subjects/swimming",
+            "/authors/OL2139686A"
+           ],
+           "contributor": [
+            "Swimming Teachers' Association of Great Britain and the Commonwealth."
+           ],
+           "author_key": [
+            "OL2139686A"
+           ],
+           "subject": [
+            "Swimming"
+           ],
+           "title": "Swimming for schools",
+           "ddc": [
+            "375.7972"
+           ],
+           "publish_date": [
+            "1968"
+           ],
+           "type": "work",
+           "ebook_count_i": 0,
+           "publish_place": [
+            "London"
+           ],
+           "edition_count": 1,
+           "lcc": [
+            "GV-0837.00000000.O85"
+           ],
+           "key": "/works/OL7295923W",
+           "publisher": [
+            "Pelham"
+           ],
+           "language": [
+            "eng"
+           ],
+           "lccn": [
+            "68142346"
+           ],
+           "last_modified_i": 1291567830,
+           "publish_year": [
+            1968
+           ],
+           "first_publish_year": 1968
+          },
+          {
+           "title_suggest": "I Can Swim You Can Swim",
+           "edition_key": [
+            "OL11407871M"
+           ],
+           "isbn": [
+            "0913668796",
+            "9780913668795"
+           ],
+           "has_fulltext": false,
+           "text": [
+            "OL11407871M",
+            "0913668796",
+            "9780913668795",
+            "Eileen Southern",
+            "5641015",
+            "OL2143975A",
+            "Swimming",
+            "I Can Swim You Can Swim",
+            "/works/OL7305245W",
+            "Ten Speed Pr"
+           ],
+           "author_name": [
+            "Eileen Southern"
+           ],
+           "seed": [
+            "/books/OL11407871M",
+            "/works/OL7305245W",
+            "/subjects/swimming",
+            "/authors/OL2143975A"
+           ],
+           "oclc": [
+            "5641015"
+           ],
+           "author_key": [
+            "OL2143975A"
+           ],
+           "subject": [
+            "Swimming"
+           ],
+           "title": "I Can Swim You Can Swim",
+           "publish_date": [
+            "September 1979"
+           ],
+           "type": "work",
+           "ebook_count_i": 0,
+           "edition_count": 1,
+           "key": "/works/OL7305245W",
+           "id_goodreads": [
+            "4308720"
+           ],
+           "publisher": [
+            "Ten Speed Pr"
+           ],
+           "language": [
+            "eng"
+           ],
+           "last_modified_i": 1582898004,
+           "publish_year": [
+            1979
+           ],
+           "first_publish_year": 1979
+          },
+          {
+           "title_suggest": "A temporal and force analysis of the crawl arm stroke during tethered swimming",
+           "publish_place": [
+            "[Eugene, Ore"
+           ],
+           "has_fulltext": false,
+           "language": [
+            "eng"
+           ],
+           "edition_count": 1,
+           "edition_key": [
+            "OL14625693M"
+           ],
+           "last_modified_i": 1263864876,
+           "title": "A temporal and force analysis of the crawl arm stroke during tethered swimming",
+           "subject": [
+            "Swimming"
+           ],
+           "author_name": [
+            "Arnold J Goldfuss"
+           ],
+           "publish_year": [
+            1972
+           ],
+           "first_publish_year": 1972,
+           "key": "/works/OL11041719W",
+           "text": [
+            "OL14625693M",
+            "Arnold J Goldfuss",
+            "OL4597979A",
+            "Swimming",
+            "A temporal and force analysis of the crawl arm stroke during tethered swimming",
+            "/works/OL11041719W",
+            "Crawl arm stroke",
+            "temporal and force analysis of the crawl arm stroke during tethered swimming"
+           ],
+           "publish_date": [
+            "1972"
+           ],
+           "author_key": [
+            "OL4597979A"
+           ],
+           "type": "work",
+           "seed": [
+            "/books/OL14625693M",
+            "/works/OL11041719W",
+            "/subjects/swimming",
+            "/authors/OL4597979A"
+           ],
+           "ebook_count_i": 0
+          },
+          {
+           "title_suggest": "ASCA clinic talks (1969-1973)",
+           "publish_place": [
+            "Fort Lauderdale Fla"
+           ],
+           "has_fulltext": false,
+           "language": [
+            "eng"
+           ],
+           "edition_count": 1,
+           "edition_key": [
+            "OL16383877M"
+           ],
+           "last_modified_i": 1586074371,
+           "title": "ASCA clinic talks (1969-1973)",
+           "publisher": [
+            "ASCA"
+           ],
+           "publish_year": [
+            1975
+           ],
+           "first_publish_year": 1975,
+           "key": "/works/OL16383877M",
+           "text": [
+            "OL16383877M",
+            "American Swimming Coaches Association",
+            "Ousley, Robert M",
+            "Swimming",
+            "selected clinic talks from the first five years (1969-1973) of American Swimming Coaches Association World Clinics",
+            "ASCA clinic talks (1969-1973)",
+            "/works/OL16383877M",
+            "edited by Robert M. Ousley",
+            "ASCA"
+           ],
+           "contributor": [
+            "American Swimming Coaches Association",
+            "Ousley, Robert M"
+           ],
+           "publish_date": [
+            "1975"
+           ],
+           "subject": [
+            "Swimming"
+           ],
+           "type": "work",
+           "seed": [
+            "/books/OL16383877M",
+            "/works/OL16383877M",
+            "/subjects/swimming"
+           ],
+           "ebook_count_i": 0
+          },
+          {
+           "title_suggest": "Competitive swimming as I see it",
+           "edition_key": [
+            "OL5550230M"
+           ],
+           "has_fulltext": false,
+           "text": [
+            "OL5550230M",
+            "Clark, Steve",
+            "OL2104054A",
+            "Swimming",
+            "Competitive swimming as I see it",
+            "/works/OL7246575W",
+            "Swimming world",
+            "Competitive swimming as I see it.",
+            "67029416"
+           ],
+           "author_name": [
+            "Clark, Steve"
+           ],
+           "seed": [
+            "/books/OL5550230M",
+            "/works/OL7246575W",
+            "/subjects/swimming",
+            "/authors/OL2104054A"
+           ],
+           "author_key": [
+            "OL2104054A"
+           ],
+           "subject": [
+            "Swimming"
+           ],
+           "title": "Competitive swimming as I see it",
+           "ddc": [
+            "797.21"
+           ],
+           "publish_date": [
+            "1967"
+           ],
+           "type": "work",
+           "ebook_count_i": 0,
+           "publish_place": [
+            "North Hollywood, Calif"
+           ],
+           "edition_count": 1,
+           "lcc": [
+            "GV-0837.00000000.C64"
+           ],
+           "key": "/works/OL7246575W",
+           "publisher": [
+            "Swimming world"
+           ],
+           "language": [
+            "eng"
+           ],
+           "lccn": [
+            "67029416"
+           ],
+           "last_modified_i": 1291558187,
+           "publish_year": [
+            1967
+           ],
+           "first_publish_year": 1967
+          },
+          {
+           "title_suggest": "Comparative times required to complete various back stroke turns",
+           "edition_key": [
+            "OL14546221M"
+           ],
+           "has_fulltext": false,
+           "language": [
+            "eng"
+           ],
+           "edition_count": 1,
+           "last_modified_i": 1263897207,
+           "title": "Comparative times required to complete various back stroke turns",
+           "subject": [
+            "Swimming"
+           ],
+           "author_name": [
+            "Wilson D Harris"
+           ],
+           "publish_year": [
+            1976
+           ],
+           "first_publish_year": 1976,
+           "key": "/works/OL11080716W",
+           "text": [
+            "OL14546221M",
+            "Wilson D Harris",
+            "OL4622785A",
+            "Swimming",
+            "Comparative times required to complete various back stroke turns",
+            "/works/OL11080716W",
+            "by Wilson D. Harris"
+           ],
+           "publish_date": [
+            "1976"
+           ],
+           "author_key": [
+            "OL4622785A"
+           ],
+           "type": "work",
+           "seed": [
+            "/books/OL14546221M",
+            "/works/OL11080716W",
+            "/subjects/swimming",
+            "/authors/OL4622785A"
+           ],
+           "ebook_count_i": 0
+          },
+          {
+           "title_suggest": "Learning to swim is fun",
+           "edition_key": [
+            "OL5800595M"
+           ],
+           "has_fulltext": false,
+           "text": [
+            "OL5800595M",
+            "Jack Ryan",
+            "1411447",
+            "OL2172984A",
+            "Swimming",
+            "Learning to swim is fun",
+            "/works/OL7344737W",
+            "[by] Jack Ryan with Marilyn Ryan. Illus. by Phyllis Stephenson.",
+            "Ronald Press Co.",
+            "60013901"
+           ],
+           "author_name": [
+            "Jack Ryan"
+           ],
+           "seed": [
+            "/books/OL5800595M",
+            "/works/OL7344737W",
+            "/subjects/swimming",
+            "/authors/OL2172984A"
+           ],
+           "oclc": [
+            "1411447"
+           ],
+           "author_key": [
+            "OL2172984A"
+           ],
+           "subject": [
+            "Swimming"
+           ],
+           "title": "Learning to swim is fun",
+           "ddc": [
+            "797.2"
+           ],
+           "publish_date": [
+            "1960"
+           ],
+           "type": "work",
+           "ebook_count_i": 0,
+           "publish_place": [
+            "New York"
+           ],
+           "edition_count": 1,
+           "lcc": [
+            "GV-0837.00000000.R9"
+           ],
+           "key": "/works/OL7344737W",
+           "publisher": [
+            "Ronald Press Co."
+           ],
+           "language": [
+            "eng"
+           ],
+           "lccn": [
+            "60013901"
+           ],
+           "last_modified_i": 1559369031,
+           "publish_year": [
+            1960
+           ],
+           "first_publish_year": 1960
+          },
+          {
+           "title_suggest": "Swimming & diving",
+           "publish_place": [
+            "Annapolis, Md"
+           ],
+           "has_fulltext": false,
+           "language": [
+            "eng"
+           ],
+           "edition_count": 1,
+           "edition_key": [
+            "OL16561417M"
+           ],
+           "last_modified_i": 1586077889,
+           "title": "Swimming & diving",
+           "publisher": [
+            "United States Naval Institute"
+           ],
+           "publish_year": [
+            1965
+           ],
+           "first_publish_year": 1965,
+           "key": "/works/OL16561417M",
+           "text": [
+            "OL16561417M",
+            "Higgins, John H.",
+            "Swimming.",
+            "Swimming & diving",
+            "/works/OL16561417M",
+            "John H. Higgins ... [et al.].",
+            "United States Naval Institute",
+            "Swimming and diving."
+           ],
+           "contributor": [
+            "Higgins, John H."
+           ],
+           "publish_date": [
+            "1965"
+           ],
+           "subject": [
+            "Swimming."
+           ],
+           "type": "work",
+           "seed": [
+            "/books/OL16561417M",
+            "/works/OL16561417M",
+            "/subjects/swimming."
+           ],
+           "ebook_count_i": 0
+          },
+          {
+           "title_suggest": "Helpful hints for swimmers",
+           "edition_key": [
+            "OL6286724M"
+           ],
+           "has_fulltext": false,
+           "text": [
+            "OL6286724M",
+            "Frederick L. Gsoell",
+            "5020557",
+            "OL2309755A",
+            "Swimming",
+            "Helpful hints for swimmers",
+            "/works/OL7549189W",
+            "F.L. Gsoell",
+            "Helpful hints for swimmers.",
+            "33006029"
+           ],
+           "author_name": [
+            "Frederick L. Gsoell"
+           ],
+           "seed": [
+            "/books/OL6286724M",
+            "/works/OL7549189W",
+            "/subjects/swimming",
+            "/authors/OL2309755A"
+           ],
+           "oclc": [
+            "5020557"
+           ],
+           "author_key": [
+            "OL2309755A"
+           ],
+           "subject": [
+            "Swimming"
+           ],
+           "title": "Helpful hints for swimmers",
+           "ddc": [
+            "797.2"
+           ],
+           "publish_date": [
+            "1933"
+           ],
+           "type": "work",
+           "ebook_count_i": 0,
+           "publish_place": [
+            "[Hartford]"
+           ],
+           "edition_count": 1,
+           "lcc": [
+            "GV-0837.00000000.G7"
+           ],
+           "key": "/works/OL7549189W",
+           "publisher": [
+            "F.L. Gsoell"
+           ],
+           "language": [
+            "eng"
+           ],
+           "lccn": [
+            "33006029"
+           ],
+           "last_modified_i": 1291610146,
+           "publish_year": [
+            1933
+           ],
+           "first_publish_year": 1933
+          },
+          {
+           "title_suggest": "The new educational life preserver",
+           "edition_key": [
+            "OL6303455M"
+           ],
+           "has_fulltext": false,
+           "text": [
+            "OL6303455M",
+            "Jones, Alfred H.",
+            "17845536",
+            "OL2315992A",
+            "Swimming",
+            "a treatise on the practical development of confidence for greater self-reliance and how to play safe intelligently in or about the water as you like it",
+            "The new educational life preserver",
+            "/works/OL7564945W",
+            "by Alfred H. Jones.",
+            "The author",
+            "new educational life preserver",
+            "34008676"
+           ],
+           "author_name": [
+            "Jones, Alfred H."
+           ],
+           "seed": [
+            "/books/OL6303455M",
+            "/works/OL7564945W",
+            "/subjects/swimming",
+            "/authors/OL2315992A"
+           ],
+           "oclc": [
+            "17845536"
+           ],
+           "author_key": [
+            "OL2315992A"
+           ],
+           "subject": [
+            "Swimming"
+           ],
+           "title": "The new educational life preserver",
+           "publish_date": [
+            "1932"
+           ],
+           "type": "work",
+           "ebook_count_i": 0,
+           "publish_place": [
+            "[Brooklyn, N.Y"
+           ],
+           "edition_count": 1,
+           "lcc": [
+            "GV-0837.00000000.J6 1932a"
+           ],
+           "key": "/works/OL7564945W",
+           "publisher": [
+            "The author"
+           ],
+           "language": [
+            "eng"
+           ],
+           "lccn": [
+            "34008676"
+           ],
+           "last_modified_i": 1291610445,
+           "publish_year": [
+            1932
+           ],
+           "first_publish_year": 1932
+          },
+          {
+           "title_suggest": "Swimming and plain diving",
+           "edition_key": [
+            "OL6738491M"
+           ],
+           "has_fulltext": false,
+           "text": [
+            "OL6738491M",
+            "Ann Avery Smith",
+            "2181464",
+            "OL2275149A",
+            "Swimming",
+            "Swimming and plain diving",
+            "/works/OL7490147W",
+            "by Ann Avery Smith.",
+            "C. Scribner's sons",
+            "30003658"
+           ],
+           "author_name": [
+            "Ann Avery Smith"
+           ],
+           "seed": [
+            "/books/OL6738491M",
+            "/works/OL7490147W",
+            "/subjects/swimming",
+            "/authors/OL2275149A"
+           ],
+           "oclc": [
+            "2181464"
+           ],
+           "author_key": [
+            "OL2275149A"
+           ],
+           "subject": [
+            "Swimming"
+           ],
+           "title": "Swimming and plain diving",
+           "publish_date": [
+            "1930"
+           ],
+           "type": "work",
+           "ebook_count_i": 0,
+           "publish_place": [
+            "New York"
+           ],
+           "edition_count": 1,
+           "lcc": [
+            "GV-0837.00000000.S76"
+           ],
+           "key": "/works/OL7490147W",
+           "publisher": [
+            "C. Scribner's sons"
+           ],
+           "language": [
+            "eng"
+           ],
+           "lccn": [
+            "30003658"
+           ],
+           "last_modified_i": 1291616618,
+           "publish_year": [
+            1930
+           ],
+           "first_publish_year": 1930
+          },
+          {
+           "title_suggest": "Savoir nager et plonger",
+           "publish_place": [
+            "Montr\u00e9al"
+           ],
+           "has_fulltext": false,
+           "language": [
+            "fre"
+           ],
+           "edition_count": 1,
+           "edition_key": [
+            "OL14788655M"
+           ],
+           "last_modified_i": 1263943976,
+           "title": "Savoir nager et plonger",
+           "subject": [
+            "Swimming"
+           ],
+           "author_name": [
+            "Maurice Bricault"
+           ],
+           "publish_year": [
+            1953
+           ],
+           "first_publish_year": 1953,
+           "key": "/works/OL11229744W",
+           "text": [
+            "OL14788655M",
+            "Maurice Bricault",
+            "OL4700448A",
+            "Swimming",
+            "Savoir nager et plonger",
+            "/works/OL11229744W",
+            "Savoir nager et plonger."
+           ],
+           "publish_date": [
+            "1953"
+           ],
+           "author_key": [
+            "OL4700448A"
+           ],
+           "type": "work",
+           "seed": [
+            "/books/OL14788655M",
+            "/works/OL11229744W",
+            "/subjects/swimming",
+            "/authors/OL4700448A"
+           ],
+           "ebook_count_i": 0
+          },
+          {
+           "title_suggest": "Swimming for everyone",
+           "edition_key": [
+            "OL6325042M"
+           ],
+           "has_fulltext": false,
+           "text": [
+            "OL6325042M",
+            "H. G. Whitford",
+            "9304949",
+            "OL2323772A",
+            "Swimming",
+            "Swimming for everyone",
+            "/works/OL7582444W",
+            "by H. G. Whitford.",
+            "Humphries",
+            "35018528"
+           ],
+           "author_name": [
+            "H. G. Whitford"
+           ],
+           "seed": [
+            "/books/OL6325042M",
+            "/works/OL7582444W",
+            "/subjects/swimming",
+            "/authors/OL2323772A"
+           ],
+           "oclc": [
+            "9304949"
+           ],
+           "author_key": [
+            "OL2323772A"
+           ],
+           "subject": [
+            "Swimming"
+           ],
+           "title": "Swimming for everyone",
+           "ddc": [
+            "797.2"
+           ],
+           "publish_date": [
+            "1935"
+           ],
+           "type": "work",
+           "ebook_count_i": 0,
+           "publish_place": [
+            "Boston"
+           ],
+           "edition_count": 1,
+           "lcc": [
+            "GV-0837.00000000.W52"
+           ],
+           "key": "/works/OL7582444W",
+           "publisher": [
+            "Humphries"
+           ],
+           "language": [
+            "eng"
+           ],
+           "lccn": [
+            "35018528"
+           ],
+           "last_modified_i": 1291610869,
+           "publish_year": [
+            1935
+           ],
+           "first_publish_year": 1935
+          },
+          {
+           "title_suggest": "Swimming and diving",
+           "edition_key": [
+            "OL15067398M"
+           ],
+           "isbn": [
+            "057200690X",
+            "9780572006907"
+           ],
+           "has_fulltext": false,
+           "text": [
+            "OL15067398M",
+            "057200690X",
+            "9780572006907",
+            "Harvey Douglas Torbett",
+            "30300291",
+            "OL4778362A",
+            "Swimming",
+            "Swimming and diving",
+            "/works/OL11376771W",
+            "by Harvey D. Torbett.",
+            "Foulsham"
+           ],
+           "author_name": [
+            "Harvey Douglas Torbett"
+           ],
+           "seed": [
+            "/books/OL15067398M",
+            "/works/OL11376771W",
+            "/subjects/swimming",
+            "/authors/OL4778362A"
+           ],
+           "oclc": [
+            "30300291"
+           ],
+           "author_key": [
+            "OL4778362A"
+           ],
+           "subject": [
+            "Swimming"
+           ],
+           "title": "Swimming and diving",
+           "ddc": [
+            "797",
+            "021"
+           ],
+           "publish_date": [
+            "1969"
+           ],
+           "type": "work",
+           "ebook_count_i": 0,
+           "publish_place": [
+            "Slough"
+           ],
+           "edition_count": 1,
+           "lcc": [
+            "GV-0837.00000000"
+           ],
+           "key": "/works/OL11376771W",
+           "publisher": [
+            "Foulsham"
+           ],
+           "language": [
+            "eng"
+           ],
+           "last_modified_i": 1304014439,
+           "publish_year": [
+            1969
+           ],
+           "first_publish_year": 1969
+          },
+          {
+           "title_suggest": "Swimming",
+           "edition_key": [
+            "OL6315290M"
+           ],
+           "has_fulltext": false,
+           "text": [
+            "OL6315290M",
+            "Charles Norelius",
+            "4173406",
+            "Norelius, Martha, 1909-",
+            "OL2320439A",
+            "Swimming",
+            "Swimming",
+            "/works/OL7575236W",
+            "by Charles Norelius.",
+            "The Stone printing and manufacturing company",
+            "34041971"
+           ],
+           "author_name": [
+            "Charles Norelius"
+           ],
+           "seed": [
+            "/books/OL6315290M",
+            "/works/OL7575236W",
+            "/subjects/swimming",
+            "/authors/OL2320439A"
+           ],
+           "oclc": [
+            "4173406"
+           ],
+           "contributor": [
+            "Norelius, Martha, 1909-"
+           ],
+           "author_key": [
+            "OL2320439A"
+           ],
+           "subject": [
+            "Swimming"
+           ],
+           "title": "Swimming",
+           "publish_date": [
+            "1934"
+           ],
+           "type": "work",
+           "ebook_count_i": 0,
+           "publish_place": [
+            "Roanoke, Va"
+           ],
+           "edition_count": 1,
+           "lcc": [
+            "GV-0837.00000000.N6"
+           ],
+           "key": "/works/OL7575236W",
+           "publisher": [
+            "The Stone printing and manufacturing company"
+           ],
+           "language": [
+            "eng"
+           ],
+           "lccn": [
+            "34041971"
+           ],
+           "last_modified_i": 1291610656,
+           "publish_year": [
+            1934
+           ],
+           "first_publish_year": 1934
+          },
+          {
+           "title_suggest": "Les nages modernes",
+           "edition_key": [
+            "OL6318067M"
+           ],
+           "has_fulltext": false,
+           "text": [
+            "OL6318067M",
+            "G. de Villepion",
+            "7055682",
+            "OL2321438A",
+            "Swimming",
+            "l'art de bien nager.",
+            "Les nages modernes",
+            "/works/OL7577457W",
+            "Hachette",
+            "nages modernes",
+            "35004686"
+           ],
+           "author_name": [
+            "G. de Villepion"
+           ],
+           "seed": [
+            "/books/OL6318067M",
+            "/works/OL7577457W",
+            "/subjects/swimming",
+            "/authors/OL2321438A"
+           ],
+           "oclc": [
+            "7055682"
+           ],
+           "author_key": [
+            "OL2321438A"
+           ],
+           "subject": [
+            "Swimming"
+           ],
+           "title": "Les nages modernes",
+           "ddc": [
+            "797.2"
+           ],
+           "publish_date": [
+            "1934"
+           ],
+           "type": "work",
+           "ebook_count_i": 0,
+           "publish_place": [
+            "[Paris]"
+           ],
+           "edition_count": 1,
+           "lcc": [
+            "GV-0837.00000000.V53"
+           ],
+           "key": "/works/OL7577457W",
+           "publisher": [
+            "Hachette"
+           ],
+           "language": [
+            "fre"
+           ],
+           "lccn": [
+            "35004686"
+           ],
+           "last_modified_i": 1291610788,
+           "publish_year": [
+            1934
+           ],
+           "first_publish_year": 1934
+          },
+          {
+           "title_suggest": "Swimming",
+           "edition_key": [
+            "OL6360251M"
+           ],
+           "has_fulltext": false,
+           "text": [
+            "OL6360251M",
+            "Victor E. Lawson",
+            "3645246",
+            "Mader, Priscilla, joint author.",
+            "OL2335461A",
+            "Swimming",
+            "Swimming",
+            "/works/OL7606887W",
+            "by Victor E. Lawson and Priscilla Mader, photographs by Volp\u00e8.",
+            "J.B. Lippincott company",
+            "37028780"
+           ],
+           "author_name": [
+            "Victor E. Lawson"
+           ],
+           "seed": [
+            "/books/OL6360251M",
+            "/works/OL7606887W",
+            "/subjects/swimming",
+            "/authors/OL2335461A"
+           ],
+           "oclc": [
+            "3645246"
+           ],
+           "contributor": [
+            "Mader, Priscilla, joint author."
+           ],
+           "author_key": [
+            "OL2335461A"
+           ],
+           "subject": [
+            "Swimming"
+           ],
+           "title": "Swimming",
+           "ddc": [
+            "797.2"
+           ],
+           "publish_date": [
+            "1937"
+           ],
+           "type": "work",
+           "ebook_count_i": 0,
+           "publish_place": [
+            "London",
+            "Philadelphia"
+           ],
+           "edition_count": 1,
+           "lcc": [
+            "GV-0837.00000000.L33"
+           ],
+           "key": "/works/OL7606887W",
+           "publisher": [
+            "J.B. Lippincott company"
+           ],
+           "language": [
+            "eng"
+           ],
+           "lccn": [
+            "37028780"
+           ],
+           "last_modified_i": 1291611453,
+           "publish_year": [
+            1937
+           ],
+           "first_publish_year": 1937
+          },
+          {
+           "title_suggest": "Swimming for teachers and youth leaders.",
+           "edition_key": [
+            "OL6519832M"
+           ],
+           "has_fulltext": false,
+           "text": [
+            "OL6519832M",
+            "Margaret A. Jarvis",
+            "4340438",
+            "OL2000849A",
+            "Swimming.",
+            "Swimming for teachers and youth leaders.",
+            "/works/OL6519832M",
+            "Faber and Faber",
+            "47024854"
+           ],
+           "author_name": [
+            "Margaret A. Jarvis"
+           ],
+           "seed": [
+            "/books/OL6519832M",
+            "/works/OL6519832M",
+            "/subjects/swimming.",
+            "/authors/OL2000849A"
+           ],
+           "oclc": [
+            "4340438"
+           ],
+           "author_key": [
+            "OL2000849A"
+           ],
+           "subject": [
+            "Swimming."
+           ],
+           "title": "Swimming for teachers and youth leaders.",
+           "ddc": [
+            "797.2"
+           ],
+           "publish_date": [
+            "1946"
+           ],
+           "type": "work",
+           "ebook_count_i": 0,
+           "publish_place": [
+            "London"
+           ],
+           "edition_count": 1,
+           "lcc": [
+            "GV-0837.00000000.J37"
+           ],
+           "key": "/works/OL6519832M",
+           "publisher": [
+            "Faber and Faber"
+           ],
+           "language": [
+            "eng"
+           ],
+           "lccn": [
+            "47024854"
+           ],
+           "last_modified_i": 1586079155,
+           "publish_year": [
+            1946
+           ],
+           "first_publish_year": 1946
+          },
+          {
+           "title_suggest": "Swimming is fun",
+           "edition_key": [
+            "OL6343883M"
+           ],
+           "has_fulltext": false,
+           "text": [
+            "OL6343883M",
+            "Sanderson Smith",
+            "3292344",
+            "OL2330198A",
+            "Swimming",
+            "Swimming is fun",
+            "/works/OL7596426W",
+            "by Sanderson Smith; with diagrams by the author.",
+            "W. Morrow & co.",
+            "36027281"
+           ],
+           "author_name": [
+            "Sanderson Smith"
+           ],
+           "seed": [
+            "/books/OL6343883M",
+            "/works/OL7596426W",
+            "/subjects/swimming",
+            "/authors/OL2330198A"
+           ],
+           "oclc": [
+            "3292344"
+           ],
+           "author_key": [
+            "OL2330198A"
+           ],
+           "subject": [
+            "Swimming"
+           ],
+           "title": "Swimming is fun",
+           "ddc": [
+            "797.2"
+           ],
+           "publish_date": [
+            "1936"
+           ],
+           "type": "work",
+           "ebook_count_i": 0,
+           "publish_place": [
+            "New York"
+           ],
+           "edition_count": 1,
+           "lcc": [
+            "GV-0837.00000000.S78"
+           ],
+           "key": "/works/OL7596426W",
+           "publisher": [
+            "W. Morrow & co."
+           ],
+           "language": [
+            "eng"
+           ],
+           "lccn": [
+            "36027281"
+           ],
+           "last_modified_i": 1291611118,
+           "publish_year": [
+            1936
+           ],
+           "first_publish_year": 1936
+          },
+          {
+           "title_suggest": "Two methods of teaching non-swimmers and an exploratory study of the non-swimmer",
+           "publish_place": [
+            "[Toronto]"
+           ],
+           "has_fulltext": false,
+           "language": [
+            "eng"
+           ],
+           "edition_count": 1,
+           "edition_key": [
+            "OL15094959M"
+           ],
+           "last_modified_i": 1263981912,
+           "title": "Two methods of teaching non-swimmers and an exploratory study of the non-swimmer",
+           "subject": [
+            "Swimming"
+           ],
+           "author_name": [
+            "Cressy Alexander Mayo McCatty"
+           ],
+           "publish_year": [
+            1966
+           ],
+           "first_publish_year": 1966,
+           "lcc": [
+            "LE-0003.00000000.T525 MED 1966 M33"
+           ],
+           "key": "/works/OL11389834W",
+           "text": [
+            "OL15094959M",
+            "Cressy Alexander Mayo McCatty",
+            "Toronto, Ont.  University. Theses (M.Ed.)",
+            "OL4784711A",
+            "Swimming",
+            "Two methods of teaching non-swimmers and an exploratory study of the non-swimmer",
+            "/works/OL11389834W",
+            "Two methods of teaching non-swimmers and an exploratory study of the non-swimmer."
+           ],
+           "contributor": [
+            "Toronto, Ont.  University. Theses (M.Ed.)"
+           ],
+           "publish_date": [
+            "1966"
+           ],
+           "author_key": [
+            "OL4784711A"
+           ],
+           "type": "work",
+           "seed": [
+            "/books/OL15094959M",
+            "/works/OL11389834W",
+            "/subjects/swimming",
+            "/authors/OL4784711A"
+           ],
+           "ebook_count_i": 0
+          },
+          {
+           "title_suggest": "Teach your child to swim",
+           "edition_key": [
+            "OL6201524M"
+           ],
+           "has_fulltext": false,
+           "text": [
+            "OL6201524M",
+            "Gene Stephens",
+            "1280249",
+            "OL2286906A",
+            "Swimming",
+            "a handbook for parents and other teachers.",
+            "Teach your child to swim",
+            "/works/OL7509135W",
+            "With step-by-step illus.",
+            "Exposition Press",
+            "56010978"
+           ],
+           "author_name": [
+            "Gene Stephens"
+           ],
+           "seed": [
+            "/books/OL6201524M",
+            "/works/OL7509135W",
+            "/subjects/swimming",
+            "/authors/OL2286906A"
+           ],
+           "oclc": [
+            "1280249"
+           ],
+           "author_key": [
+            "OL2286906A"
+           ],
+           "subject": [
+            "Swimming"
+           ],
+           "title": "Teach your child to swim",
+           "publish_date": [
+            "1956"
+           ],
+           "type": "work",
+           "ebook_count_i": 0,
+           "publish_place": [
+            "New York"
+           ],
+           "edition_count": 1,
+           "lcc": [
+            "GV-0837.00000000.S827"
+           ],
+           "key": "/works/OL7509135W",
+           "publisher": [
+            "Exposition Press"
+           ],
+           "language": [
+            "eng"
+           ],
+           "lccn": [
+            "56010978"
+           ],
+           "last_modified_i": 1291608853,
+           "publish_year": [
+            1956
+           ],
+           "first_publish_year": 1956
+          },
+          {
+           "title_suggest": "A method of teaching young children to swim",
+           "publish_place": [
+            "Hanover, N.H"
+           ],
+           "has_fulltext": false,
+           "language": [
+            "eng"
+           ],
+           "edition_count": 1,
+           "edition_key": [
+            "OL14336932M"
+           ],
+           "last_modified_i": 1291377885,
+           "title": "A method of teaching young children to swim",
+           "subject": [
+            "Swimming"
+           ],
+           "author_name": [
+            "Sidney C. Hazelton"
+           ],
+           "publish_year": [
+            1948
+           ],
+           "first_publish_year": 1948,
+           "lcc": [
+            "GV-0837.00000000.H39 1948"
+           ],
+           "key": "/works/OL7512558W",
+           "text": [
+            "OL14336932M",
+            "Sidney C. Hazelton",
+            "OL2289330A",
+            "Swimming",
+            "A method of teaching young children to swim",
+            "/works/OL7512558W",
+            "Lithographed by Roger Burt",
+            "method of teaching young children to swim."
+           ],
+           "publisher": [
+            "Lithographed by Roger Burt"
+           ],
+           "publish_date": [
+            "1948"
+           ],
+           "author_key": [
+            "OL2289330A"
+           ],
+           "type": "work",
+           "seed": [
+            "/books/OL14336932M",
+            "/works/OL7512558W",
+            "/subjects/swimming",
+            "/authors/OL2289330A"
+           ],
+           "ebook_count_i": 0
+          },
+          {
+           "title_suggest": "It's cold in the Channel",
+           "edition_key": [
+            "OL6231535M"
+           ],
+           "has_fulltext": false,
+           "text": [
+            "OL6231535M",
+            "Sam Rockett",
+            "8010766",
+            "OL2294685A",
+            "Swimming",
+            "It's cold in the Channel",
+            "/works/OL7520391W",
+            "Sam Rockett.",
+            "Hutchinson",
+            "57028081",
+            "English Channel"
+           ],
+           "author_name": [
+            "Sam Rockett"
+           ],
+           "seed": [
+            "/books/OL6231535M",
+            "/works/OL7520391W",
+            "/subjects/swimming",
+            "/subjects/place:english_channel",
+            "/authors/OL2294685A"
+           ],
+           "oclc": [
+            "8010766"
+           ],
+           "author_key": [
+            "OL2294685A"
+           ],
+           "subject": [
+            "Swimming"
+           ],
+           "title": "It's cold in the Channel",
+           "place": [
+            "English Channel"
+           ],
+           "type": "work",
+           "ebook_count_i": 0,
+           "publish_place": [
+            "London"
+           ],
+           "edition_count": 1,
+           "lcc": [
+            "GV-0837.00000000.R63"
+           ],
+           "key": "/works/OL7520391W",
+           "publisher": [
+            "Hutchinson"
+           ],
+           "language": [
+            "eng"
+           ],
+           "lccn": [
+            "57028081"
+           ],
+           "last_modified_i": 1291609142,
+           "publish_year": [
+            1956
+           ],
+           "first_publish_year": 1956,
+           "publish_date": [
+            "1956"
+           ]
+          },
+          {
+           "title_suggest": "Swimming Australian style",
+           "publish_place": [
+            "London"
+           ],
+           "has_fulltext": false,
+           "language": [
+            "eng"
+           ],
+           "edition_count": 1,
+           "edition_key": [
+            "OL14826880M"
+           ],
+           "last_modified_i": 1296892872,
+           "title": "Swimming Australian style",
+           "subject": [
+            "Swimming"
+           ],
+           "author_name": [
+            "Pollard, Jack."
+           ],
+           "publish_year": [
+            1963
+           ],
+           "first_publish_year": 1963,
+           "author_alternative_name": [
+            "Jack Pollard"
+           ],
+           "key": "/works/OL11251949W",
+           "text": [
+            "OL14826880M",
+            "Pollard, Jack.",
+            "OL340122A",
+            "Swimming",
+            "Swimming Australian style",
+            "/works/OL11251949W",
+            "N. Kaye",
+            "Jack Pollard"
+           ],
+           "publisher": [
+            "N. Kaye"
+           ],
+           "publish_date": [
+            "1963"
+           ],
+           "author_key": [
+            "OL340122A"
+           ],
+           "type": "work",
+           "seed": [
+            "/books/OL14826880M",
+            "/works/OL11251949W",
+            "/subjects/swimming",
+            "/authors/OL340122A"
+           ],
+           "ebook_count_i": 0
+          },
+          {
+           "title_suggest": "Swimming for everyone",
+           "publish_place": [
+            "London"
+           ],
+           "has_fulltext": false,
+           "language": [
+            "eng"
+           ],
+           "edition_count": 1,
+           "edition_key": [
+            "OL14617613M"
+           ],
+           "last_modified_i": 1291380042,
+           "title": "Swimming for everyone",
+           "subject": [
+            "Swimming"
+           ],
+           "author_name": [
+            "Norman Woods Sarsfield"
+           ],
+           "publish_year": [
+            1965
+           ],
+           "first_publish_year": 1965,
+           "lcc": [
+            "GV-0837.00000000.S3"
+           ],
+           "key": "/works/OL7477832W",
+           "text": [
+            "OL14617613M",
+            "Norman Woods Sarsfield",
+            "OL2268042A",
+            "Swimming",
+            "Swimming for everyone",
+            "/works/OL7477832W",
+            "Faber",
+            "Swimming for everyone."
+           ],
+           "publisher": [
+            "Faber"
+           ],
+           "publish_date": [
+            "1965"
+           ],
+           "author_key": [
+            "OL2268042A"
+           ],
+           "type": "work",
+           "seed": [
+            "/books/OL14617613M",
+            "/works/OL7477832W",
+            "/subjects/swimming",
+            "/authors/OL2268042A"
+           ],
+           "ebook_count_i": 0
+          },
+          {
+           "title_suggest": "The shallow water method of swimming instruction",
+           "publish_place": [
+            "London"
+           ],
+           "has_fulltext": false,
+           "language": [
+            "eng"
+           ],
+           "edition_count": 1,
+           "edition_key": [
+            "OL13577141M"
+           ],
+           "last_modified_i": 1291620466,
+           "title": "The shallow water method of swimming instruction",
+           "subject": [
+            "Swimming"
+           ],
+           "author_name": [
+            "Winifred Gibson"
+           ],
+           "publish_year": [
+            1946
+           ],
+           "first_publish_year": 1946,
+           "oclc": [
+            "2554690"
+           ],
+           "key": "/works/OL7460632W",
+           "text": [
+            "OL13577141M",
+            "Winifred Gibson",
+            "2554690",
+            "OL2258911A",
+            "Swimming",
+            "The shallow water method of swimming instruction",
+            "/works/OL7460632W",
+            "Winnifred Gibson.",
+            "I. Pitman",
+            "shallow water method of swimming instruction"
+           ],
+           "publisher": [
+            "I. Pitman"
+           ],
+           "publish_date": [
+            "1946"
+           ],
+           "author_key": [
+            "OL2258911A"
+           ],
+           "type": "work",
+           "seed": [
+            "/books/OL13577141M",
+            "/works/OL7460632W",
+            "/subjects/swimming",
+            "/authors/OL2258911A"
+           ],
+           "ebook_count_i": 0
+          },
+          {
+           "title_suggest": "What every competitive swimmer should know",
+           "edition_key": [
+            "OL5843560M"
+           ],
+           "has_fulltext": false,
+           "text": [
+            "OL5843560M",
+            "William R. Demastus",
+            "4106168",
+            "Cummings, Benner T.",
+            "OL2186589A",
+            "Swimming",
+            "What every competitive swimmer should know",
+            "/works/OL7360531W",
+            "William R. Demastus and Benner T. Cummings.",
+            "Swimming Magazine",
+            "62000054"
+           ],
+           "author_name": [
+            "William R. Demastus"
+           ],
+           "seed": [
+            "/books/OL5843560M",
+            "/works/OL7360531W",
+            "/subjects/swimming",
+            "/authors/OL2186589A"
+           ],
+           "oclc": [
+            "4106168"
+           ],
+           "contributor": [
+            "Cummings, Benner T."
+           ],
+           "author_key": [
+            "OL2186589A"
+           ],
+           "subject": [
+            "Swimming"
+           ],
+           "title": "What every competitive swimmer should know",
+           "publish_date": [
+            "1961"
+           ],
+           "type": "work",
+           "ebook_count_i": 0,
+           "publish_place": [
+            "Los Angeles"
+           ],
+           "edition_count": 1,
+           "lcc": [
+            "GV-0837.00000000.D4 1961"
+           ],
+           "key": "/works/OL7360531W",
+           "publisher": [
+            "Swimming Magazine"
+           ],
+           "language": [
+            "eng"
+           ],
+           "lccn": [
+            "62000054"
+           ],
+           "last_modified_i": 1291580062,
+           "publish_year": [
+            1961
+           ],
+           "first_publish_year": 1961
+          },
+          {
+           "title_suggest": "The science of swimming",
+           "edition_key": [
+            "OL14611881M"
+           ],
+           "has_fulltext": false,
+           "text": [
+            "OL14611881M",
+            "James E Counsilman",
+            "OL4640259A",
+            "Swimming",
+            "The science of swimming",
+            "/works/OL11118887W",
+            "[by] James E. Counsilman",
+            "Prentice-Hall",
+            "science of swimming",
+            "68-10089"
+           ],
+           "author_name": [
+            "James E Counsilman"
+           ],
+           "seed": [
+            "/books/OL14611881M",
+            "/works/OL11118887W",
+            "/subjects/swimming",
+            "/authors/OL4640259A"
+           ],
+           "author_key": [
+            "OL4640259A"
+           ],
+           "subject": [
+            "Swimming"
+           ],
+           "title": "The science of swimming",
+           "publish_date": [
+            "1968"
+           ],
+           "type": "work",
+           "ebook_count_i": 0,
+           "publish_place": [
+            "Englewood Cliffs, N.J"
+           ],
+           "edition_count": 1,
+           "lcc": [
+            "GV-0837.00000000.C84"
+           ],
+           "key": "/works/OL11118887W",
+           "publisher": [
+            "Prentice-Hall"
+           ],
+           "language": [
+            "eng"
+           ],
+           "lccn": [
+            "68-10089"
+           ],
+           "last_modified_i": 1263906037,
+           "publish_year": [
+            1968
+           ],
+           "first_publish_year": 1968
+          },
+          {
+           "title_suggest": "A mathematical and cinematographical analysis of propulsive effects in the dolphin butterfly",
+           "publish_place": [
+            "[Eugene, Ore"
+           ],
+           "has_fulltext": false,
+           "language": [
+            "eng"
+           ],
+           "edition_count": 1,
+           "edition_key": [
+            "OL14625998M"
+           ],
+           "last_modified_i": 1263907779,
+           "title": "A mathematical and cinematographical analysis of propulsive effects in the dolphin butterfly",
+           "subject": [
+            "Swimming"
+           ],
+           "author_name": [
+            "Michael J Cavill"
+           ],
+           "publish_year": [
+            1973
+           ],
+           "first_publish_year": 1973,
+           "key": "/works/OL11126071W",
+           "text": [
+            "OL14625998M",
+            "Michael J Cavill",
+            "OL4643892A",
+            "Swimming",
+            "A mathematical and cinematographical analysis of propulsive effects in the dolphin butterfly",
+            "/works/OL11126071W",
+            "mathematical and cinematographical analysis of propulsive effects in the dolphin butterfly"
+           ],
+           "publish_date": [
+            "1973"
+           ],
+           "author_key": [
+            "OL4643892A"
+           ],
+           "type": "work",
+           "seed": [
+            "/books/OL14625998M",
+            "/works/OL11126071W",
+            "/subjects/swimming",
+            "/authors/OL4643892A"
+           ],
+           "ebook_count_i": 0
+          },
+          {
+           "title_suggest": "American swimmer : the official book of swimming records",
+           "publish_place": [
+            "Los Angeles"
+           ],
+           "has_fulltext": false,
+           "language": [
+            "eng"
+           ],
+           "edition_count": 1,
+           "edition_key": [
+            "OL16619470M"
+           ],
+           "last_modified_i": 1586076385,
+           "title": "American swimmer : the official book of swimming records",
+           "publisher": [
+            "Swimming World"
+           ],
+           "publish_year": [
+            1974
+           ],
+           "first_publish_year": 1974,
+           "key": "/works/OL16619470M",
+           "text": [
+            "OL16619470M",
+            "Swimming.",
+            "American swimmer : the official book of swimming records",
+            "/works/OL16619470M",
+            "produced by the editors of Swimming World Magazine.",
+            "Swimming World",
+            "Swimming world magazine."
+           ],
+           "publish_date": [
+            "1974"
+           ],
+           "subject": [
+            "Swimming."
+           ],
+           "type": "work",
+           "seed": [
+            "/books/OL16619470M",
+            "/works/OL16619470M",
+            "/subjects/swimming."
+           ],
+           "ebook_count_i": 0
+          },
+          {
+           "title_suggest": "Get swimming",
+           "edition_key": [
+            "OL6018825M"
+           ],
+           "has_fulltext": false,
+           "text": [
+            "OL6018825M",
+            "Harold Vincent Howard",
+            "Grainger, David Patrick, joint author.",
+            "OL2231715A",
+            "Swimming",
+            "a sure guide to confidence in the water",
+            "Get swimming",
+            "/works/OL7408101W",
+            "[by] H. V. Howard [and] D. P. Grainger; foreword by A. D. Kinnear.",
+            "Souvenir P. in association with National Benzole",
+            "66077886"
+           ],
+           "author_name": [
+            "Harold Vincent Howard"
+           ],
+           "seed": [
+            "/books/OL6018825M",
+            "/works/OL7408101W",
+            "/subjects/swimming",
+            "/authors/OL2231715A"
+           ],
+           "contributor": [
+            "Grainger, David Patrick, joint author."
+           ],
+           "author_key": [
+            "OL2231715A"
+           ],
+           "subject": [
+            "Swimming"
+           ],
+           "title": "Get swimming",
+           "ddc": [
+            "797.21"
+           ],
+           "publish_date": [
+            "1966"
+           ],
+           "type": "work",
+           "ebook_count_i": 0,
+           "publish_place": [
+            "London"
+           ],
+           "edition_count": 1,
+           "lcc": [
+            "GV-0837.00000000.H63"
+           ],
+           "key": "/works/OL7408101W",
+           "publisher": [
+            "Souvenir P. in association with National Benzole"
+           ],
+           "language": [
+            "eng"
+           ],
+           "lccn": [
+            "66077886"
+           ],
+           "last_modified_i": 1291593800,
+           "publish_year": [
+            1966
+           ],
+           "first_publish_year": 1966
+          },
+          {
+           "title_suggest": "La natation, \"sport universal.\"",
+           "edition_key": [
+            "OL6028852M"
+           ],
+           "has_fulltext": false,
+           "text": [
+            "OL6028852M",
+            "Fernand Legouge",
+            "26510862",
+            "OL2234966A",
+            "Swimming",
+            "Avec La natation par un m\u00e9decin",
+            "La natation, \"sport universal.\"",
+            "/works/OL7411991W",
+            "par J.-E. Martin. Pr\u00e9f. de Jean Taris.",
+            "Vig\u00f3t fr\u00e8res",
+            "natation, \"sport universal.\"",
+            "48004386"
+           ],
+           "author_name": [
+            "Fernand Legouge"
+           ],
+           "seed": [
+            "/books/OL6028852M",
+            "/works/OL7411991W",
+            "/subjects/swimming",
+            "/authors/OL2234966A"
+           ],
+           "oclc": [
+            "26510862"
+           ],
+           "author_key": [
+            "OL2234966A"
+           ],
+           "subject": [
+            "Swimming"
+           ],
+           "title": "La natation, \"sport universal.\"",
+           "ddc": [
+            "797.2"
+           ],
+           "publish_date": [
+            "1946"
+           ],
+           "type": "work",
+           "ebook_count_i": 0,
+           "publish_place": [
+            "Paris"
+           ],
+           "edition_count": 1,
+           "lcc": [
+            "GV-0837.00000000.L4"
+           ],
+           "key": "/works/OL7411991W",
+           "publisher": [
+            "Vig\u00f3t fr\u00e8res"
+           ],
+           "language": [
+            "fre"
+           ],
+           "lccn": [
+            "48004386"
+           ],
+           "last_modified_i": 1291594362,
+           "publish_year": [
+            1946
+           ],
+           "first_publish_year": 1946
+          },
+          {
+           "title_suggest": "Daredemo oyogeru y\u014dni naru suiei shid\u014d / Suzuki Kanzo cho",
+           "edition_key": [
+            "OL22937912M"
+           ],
+           "isbn": [
+            "9784654015689",
+            "465401568X"
+           ],
+           "has_fulltext": false,
+           "text": [
+            "OL22937912M",
+            "9784654015689",
+            "465401568X",
+            "Kanz\u014d Suzuki",
+            "34716216",
+            "OL6561876A",
+            "Swimming",
+            "Daredemo oyogeru y\u014dni naru suiei shid\u014d / Suzuki Kanzo cho",
+            "/works/OL13711382W",
+            "Reimei Shob\u014d",
+            "Swimming",
+            "Suiei shid\u014d",
+            "Daredemo oyogeru y\u014dni naru suiei shid\u014d / Suzuki Kanzo cho."
+           ],
+           "author_name": [
+            "Kanz\u014d Suzuki"
+           ],
+           "seed": [
+            "/books/OL22937912M",
+            "/works/OL13711382W",
+            "/subjects/swimming",
+            "/authors/OL6561876A"
+           ],
+           "oclc": [
+            "34716216"
+           ],
+           "author_key": [
+            "OL6561876A"
+           ],
+           "subject": [
+            "Swimming"
+           ],
+           "title": "Daredemo oyogeru y\u014dni naru suiei shid\u014d / Suzuki Kanzo cho",
+           "publish_date": [
+            "1995"
+           ],
+           "type": "work",
+           "ebook_count_i": 0,
+           "publish_place": [
+            "T\u014dky\u014d"
+           ],
+           "edition_count": 1,
+           "key": "/works/OL13711382W",
+           "publisher": [
+            "Reimei Shob\u014d"
+           ],
+           "language": [
+            "jpn"
+           ],
+           "last_modified_i": 1264785559,
+           "publish_year": [
+            1995
+           ],
+           "first_publish_year": 1995
+          },
+          {
+           "title_suggest": "You yong ru men",
+           "edition_key": [
+            "OL22965737M"
+           ],
+           "isbn": [
+            "9575578325",
+            "9789575578329"
+           ],
+           "has_fulltext": false,
+           "text": [
+            "OL22965737M",
+            "9575578325",
+            "9789575578329",
+            "Guiping Tang",
+            "40969114",
+            "OL6565766A",
+            "Swimming",
+            "You yong ru men",
+            "/works/OL13716908W",
+            "Tang Guiping bian zhu.",
+            "Da zhan chu ban she"
+           ],
+           "author_name": [
+            "Guiping Tang"
+           ],
+           "seed": [
+            "/books/OL22965737M",
+            "/works/OL13716908W",
+            "/subjects/swimming",
+            "/authors/OL6565766A"
+           ],
+           "oclc": [
+            "40969114"
+           ],
+           "author_key": [
+            "OL6565766A"
+           ],
+           "subject": [
+            "Swimming"
+           ],
+           "title": "You yong ru men",
+           "publish_date": [
+            "1998"
+           ],
+           "type": "work",
+           "ebook_count_i": 0,
+           "publish_place": [
+            "Taibei Shi"
+           ],
+           "edition_count": 1,
+           "key": "/works/OL13716908W",
+           "publisher": [
+            "Da zhan chu ban she"
+           ],
+           "language": [
+            "chi"
+           ],
+           "last_modified_i": 1303937490,
+           "publish_year": [
+            1998
+           ],
+           "first_publish_year": 1998
+          },
+          {
+           "title_suggest": "The boys' and girls' swim book",
+           "edition_key": [
+            "OL6378762M"
+           ],
+           "has_fulltext": false,
+           "text": [
+            "OL6378762M",
+            "Sid G. Hedges",
+            "15309289",
+            "OL1930241A",
+            "Swimming",
+            "The boys' and girls' swim book",
+            "/works/OL6953701W",
+            "by Sid G. Hedges; illustrated by Stephen Lewis.",
+            "Methuen & co. ltd.",
+            "boys' and girls' swim book",
+            "38033508"
+           ],
+           "author_name": [
+            "Sid G. Hedges"
+           ],
+           "seed": [
+            "/books/OL6378762M",
+            "/works/OL6953701W",
+            "/subjects/swimming",
+            "/authors/OL1930241A"
+           ],
+           "oclc": [
+            "15309289"
+           ],
+           "author_key": [
+            "OL1930241A"
+           ],
+           "subject": [
+            "Swimming"
+           ],
+           "title": "The boys' and girls' swim book",
+           "ddc": [
+            "797.2"
+           ],
+           "publish_date": [
+            "1937"
+           ],
+           "type": "work",
+           "ebook_count_i": 0,
+           "publish_place": [
+            "London"
+           ],
+           "edition_count": 1,
+           "lcc": [
+            "GV-0837.00000000.H417"
+           ],
+           "key": "/works/OL6953701W",
+           "publisher": [
+            "Methuen & co. ltd."
+           ],
+           "language": [
+            "eng"
+           ],
+           "lccn": [
+            "38033508"
+           ],
+           "last_modified_i": 1291611790,
+           "publish_year": [
+            1937
+           ],
+           "first_publish_year": 1937
+          },
+          {
+           "title_suggest": "Swimming is for everyone",
+           "edition_key": [
+            "OL5579943M"
+           ],
+           "has_fulltext": false,
+           "text": [
+            "OL5579943M",
+            "Sid G. Hedges",
+            "OL1930241A",
+            "Swimming",
+            "Swimming is for everyone",
+            "/works/OL6953713W",
+            "[by] Sid G. Hedges.",
+            "Methuen",
+            "67093910"
+           ],
+           "author_name": [
+            "Sid G. Hedges"
+           ],
+           "seed": [
+            "/books/OL5579943M",
+            "/works/OL6953713W",
+            "/subjects/swimming",
+            "/authors/OL1930241A"
+           ],
+           "author_key": [
+            "OL1930241A"
+           ],
+           "subject": [
+            "Swimming"
+           ],
+           "title": "Swimming is for everyone",
+           "ddc": [
+            "797.21"
+           ],
+           "publish_date": [
+            "1967"
+           ],
+           "type": "work",
+           "ebook_count_i": 0,
+           "publish_place": [
+            "London"
+           ],
+           "edition_count": 1,
+           "lcc": [
+            "GV-0837.00000000.H46"
+           ],
+           "key": "/works/OL6953713W",
+           "publisher": [
+            "Methuen"
+           ],
+           "language": [
+            "eng"
+           ],
+           "lccn": [
+            "67093910"
+           ],
+           "last_modified_i": 1291559980,
+           "publish_year": [
+            1967
+           ],
+           "first_publish_year": 1967
+          },
+          {
+           "title_suggest": "Swimming series",
+           "publish_place": [
+            "North Palm Beach, Fla"
+           ],
+           "has_fulltext": false,
+           "edition_count": 1,
+           "edition_key": [
+            "OL14419583M"
+           ],
+           "last_modified_i": 1586071146,
+           "title": "Swimming series",
+           "publisher": [
+            "Athletic Institute"
+           ],
+           "seed": [
+            "/books/OL14419583M",
+            "/works/OL14419583M",
+            "/subjects/swimming."
+           ],
+           "key": "/works/OL14419583M",
+           "text": [
+            "OL14419583M",
+            "Athletic Institute.",
+            "Swimming.",
+            "SW-1, SW-2, SW-3.",
+            "Swimming series",
+            "/works/OL14419583M",
+            "Athletic Institute"
+           ],
+           "contributor": [
+            "Athletic Institute."
+           ],
+           "subject": [
+            "Swimming."
+           ],
+           "type": "work",
+           "ebook_count_i": 0
+          },
+          {
+           "title_suggest": "Chishiki zero kara no suimingu ny\u016bmon",
+           "publish_place": [
+            "T\u014dky\u014d"
+           ],
+           "isbn": [
+            "4344900847",
+            "9784344900844"
+           ],
+           "has_fulltext": false,
+           "language": [
+            "jpn"
+           ],
+           "edition_count": 1,
+           "edition_key": [
+            "OL23102073M"
+           ],
+           "last_modified_i": 1264800551,
+           "title": "Chishiki zero kara no suimingu ny\u016bmon",
+           "subject": [
+            "Swimming"
+           ],
+           "author_name": [
+            "Norimasa Hirai"
+           ],
+           "publish_year": [
+            2006
+           ],
+           "first_publish_year": 2006,
+           "key": "/works/OL13749869W",
+           "text": [
+            "OL23102073M",
+            "4344900847",
+            "9784344900844",
+            "Norimasa Hirai",
+            "OL6590997A",
+            "Swimming",
+            "Chishiki zero kara no suimingu ny\u016bmon",
+            "/works/OL13749869W",
+            "Hirai Norimasa = An instruction for swimming for beginner : let's go to the pool for keeping your health / Norimasa Hirai.",
+            "Gent\u014dsha",
+            "Suimingu ny\u016bmon",
+            "Instruction of swimming for beginner :"
+           ],
+           "publisher": [
+            "Gent\u014dsha"
+           ],
+           "publish_date": [
+            "2006"
+           ],
+           "author_key": [
+            "OL6590997A"
+           ],
+           "type": "work",
+           "seed": [
+            "/books/OL23102073M",
+            "/works/OL13749869W",
+            "/subjects/swimming",
+            "/authors/OL6590997A"
+           ],
+           "ebook_count_i": 0
+          },
+          {
+           "title_suggest": "Bains froids et \u00e9coles de natation dans le Rh\u00f4ne \u00e0 Avignon, du XVIIIe au XXe si\u00e8cle",
+           "edition_key": [
+            "OL5731824M"
+           ],
+           "has_fulltext": false,
+           "text": [
+            "OL5731824M",
+            "Alain Maureau",
+            "1375111",
+            "OL2052262A",
+            "Swimming",
+            "Bains froids et \u00e9coles de natation dans le Rh\u00f4ne \u00e0 Avignon, du XVIIIe au XXe si\u00e8cle",
+            "/works/OL7175943W",
+            "l'auteur, [20, rue Notre-Dame des Sept-Douleurs,]",
+            "Bains froids et \u00e9coles de natation dans le Rh\u00f4ne \u00e0 Avignon, du XVIIIe au XXe si\u00e8cle.",
+            "70531073",
+            "Avignon",
+            "France"
+           ],
+           "author_name": [
+            "Alain Maureau"
+           ],
+           "seed": [
+            "/books/OL5731824M",
+            "/works/OL7175943W",
+            "/subjects/swimming",
+            "/subjects/place:avignon",
+            "/subjects/place:france",
+            "/authors/OL2052262A"
+           ],
+           "oclc": [
+            "1375111"
+           ],
+           "author_key": [
+            "OL2052262A"
+           ],
+           "subject": [
+            "Swimming"
+           ],
+           "title": "Bains froids et \u00e9coles de natation dans le Rh\u00f4ne \u00e0 Avignon, du XVIIIe au XXe si\u00e8cle",
+           "place": [
+            "Avignon",
+            "France"
+           ],
+           "type": "work",
+           "ebook_count_i": 0,
+           "publish_place": [
+            "Avignon"
+           ],
+           "edition_count": 1,
+           "lcc": [
+            "GV-0837.00000000.M377"
+           ],
+           "key": "/works/OL7175943W",
+           "publisher": [
+            "l'auteur, [20, rue Notre-Dame des Sept-Douleurs,]"
+           ],
+           "language": [
+            "fre"
+           ],
+           "lccn": [
+            "70531073"
+           ],
+           "last_modified_i": 1291571154,
+           "publish_year": [
+            1970
+           ],
+           "first_publish_year": 1970,
+           "publish_date": [
+            "1970"
+           ]
+          },
+          {
+           "title_suggest": "Konsten at simma",
+           "edition_key": [
+            "OL6239279M"
+           ],
+           "has_fulltext": false,
+           "text": [
+            "OL6239279M",
+            "Benjamin Franklin",
+            "Benjamin Franklin Collection (Library of Congress)",
+            "OL26170A",
+            "Swimming.",
+            "Konsten at simma",
+            "/works/OL6239279M",
+            "f\u00f6rsattad af D. Benjamin Franklin ; \u00f6fwers\u00e4tning.",
+            "Tryckt i Rumblinska boktryckeriet",
+            "Universal asylum, and Columbian magazine.",
+            "57057469",
+            "Franklin, Benjamin",
+            "Benjamin, Franklin"
+           ],
+           "author_name": [
+            "Benjamin Franklin"
+           ],
+           "seed": [
+            "/books/OL6239279M",
+            "/works/OL6239279M",
+            "/subjects/swimming.",
+            "/authors/OL26170A"
+           ],
+           "contributor": [
+            "Benjamin Franklin Collection (Library of Congress)"
+           ],
+           "author_key": [
+            "OL26170A"
+           ],
+           "subject": [
+            "Swimming."
+           ],
+           "title": "Konsten at simma",
+           "publish_date": [
+            "1804"
+           ],
+           "type": "work",
+           "ebook_count_i": 0,
+           "publish_place": [
+            "Stockholm"
+           ],
+           "edition_count": 1,
+           "lcc": [
+            "GV-0837.00000000.F8615"
+           ],
+           "key": "/works/OL6239279M",
+           "publisher": [
+            "Tryckt i Rumblinska boktryckeriet"
+           ],
+           "language": [
+            "swe"
+           ],
+           "lccn": [
+            "57057469"
+           ],
+           "last_modified_i": 1586074025,
+           "author_alternative_name": [
+            "Franklin, Benjamin",
+            "Benjamin, Franklin"
+           ],
+           "publish_year": [
+            1804
+           ],
+           "first_publish_year": 1804
+          },
+          {
+           "title_suggest": "Modern swimming and training techniques for coach and competitor",
+           "edition_key": [
+            "OL5457938M"
+           ],
+           "isbn": [
+            "0213994186",
+            "9780213994181"
+           ],
+           "has_fulltext": false,
+           "text": [
+            "OL5457938M",
+            "0213994186",
+            "9780213994181",
+            "Roger Eady",
+            "641445",
+            "OL2077810A",
+            "Swimming",
+            "Modern swimming and training techniques for coach and competitor",
+            "/works/OL7218799W",
+            "Barker",
+            "Modern swimming and training techniques for coach and competitor.",
+            "73160297"
+           ],
+           "author_name": [
+            "Roger Eady"
+           ],
+           "seed": [
+            "/books/OL5457938M",
+            "/works/OL7218799W",
+            "/subjects/swimming",
+            "/authors/OL2077810A"
+           ],
+           "oclc": [
+            "641445"
+           ],
+           "author_key": [
+            "OL2077810A"
+           ],
+           "subject": [
+            "Swimming"
+           ],
+           "title": "Modern swimming and training techniques for coach and competitor",
+           "ddc": [
+            "797.21"
+           ],
+           "publish_date": [
+            "1972"
+           ],
+           "type": "work",
+           "ebook_count_i": 0,
+           "publish_place": [
+            "London"
+           ],
+           "edition_count": 1,
+           "lcc": [
+            "GV-0837.00000000.E16"
+           ],
+           "key": "/works/OL7218799W",
+           "id_goodreads": [
+            "5116840"
+           ],
+           "publisher": [
+            "Barker"
+           ],
+           "language": [
+            "eng"
+           ],
+           "lccn": [
+            "73160297"
+           ],
+           "last_modified_i": 1304096761,
+           "publish_year": [
+            1972
+           ],
+           "first_publish_year": 1972
+          },
+          {
+           "title_suggest": "El programa acu\u00e1tico y su administraci\u00f3n",
+           "edition_key": [
+            "OL5498130M"
+           ],
+           "has_fulltext": false,
+           "text": [
+            "OL5498130M",
+            "Prescott K. Johnson",
+            "1133262",
+            "Young Men's Christian Associations. South America. Confederaci\u00f3n Sudamericana de Asociaciones Cristianas de J\u00f3venes.",
+            "OL2089391A",
+            "Swimming",
+            "El programa acu\u00e1tico y su administraci\u00f3n",
+            "/works/OL7231439W",
+            "Prescott K. Johnson (compilador).  Supervisi\u00f3n: Enrique C. Romero Brest.",
+            "Editorial Paid\u00f3s",
+            "programa acu\u00e1tico y su administraci\u00f3n.",
+            "73333387"
+           ],
+           "author_name": [
+            "Prescott K. Johnson"
+           ],
+           "seed": [
+            "/books/OL5498130M",
+            "/works/OL7231439W",
+            "/subjects/swimming",
+            "/authors/OL2089391A"
+           ],
+           "oclc": [
+            "1133262"
+           ],
+           "contributor": [
+            "Young Men's Christian Associations. South America. Confederaci\u00f3n Sudamericana de Asociaciones Cristianas de J\u00f3venes."
+           ],
+           "author_key": [
+            "OL2089391A"
+           ],
+           "subject": [
+            "Swimming"
+           ],
+           "title": "El programa acu\u00e1tico y su administraci\u00f3n",
+           "publish_date": [
+            "1972"
+           ],
+           "type": "work",
+           "ebook_count_i": 0,
+           "publish_place": [
+            "Buenos Aires"
+           ],
+           "edition_count": 1,
+           "lcc": [
+            "GV-0837.00000000.J588"
+           ],
+           "key": "/works/OL7231439W",
+           "publisher": [
+            "Editorial Paid\u00f3s"
+           ],
+           "language": [
+            "spa"
+           ],
+           "lccn": [
+            "73333387"
+           ],
+           "last_modified_i": 1291553525,
+           "publish_year": [
+            1972
+           ],
+           "first_publish_year": 1972
+          },
+          {
+           "title_suggest": "Coach Steve Forsyth's quick way to better swimming",
+           "edition_key": [
+            "OL6389262M"
+           ],
+           "has_fulltext": false,
+           "text": [
+            "OL6389262M",
+            "Steve Forsyth",
+            "1867115",
+            "OL2344753A",
+            "Swimming",
+            "Coach Steve Forsyth's quick way to better swimming",
+            "/works/OL7638591W",
+            "over 240 action photographs for elementary and advanced swimmers.",
+            "The Sun dial press",
+            "39017979"
+           ],
+           "author_name": [
+            "Steve Forsyth"
+           ],
+           "seed": [
+            "/books/OL6389262M",
+            "/works/OL7638591W",
+            "/subjects/swimming",
+            "/authors/OL2344753A"
+           ],
+           "oclc": [
+            "1867115"
+           ],
+           "author_key": [
+            "OL2344753A"
+           ],
+           "subject": [
+            "Swimming"
+           ],
+           "title": "Coach Steve Forsyth's quick way to better swimming",
+           "ddc": [
+            "797.2"
+           ],
+           "publish_date": [
+            "1939"
+           ],
+           "type": "work",
+           "ebook_count_i": 0,
+           "publish_place": [
+            "[New York"
+           ],
+           "edition_count": 1,
+           "lcc": [
+            "GV-0837.00000000.F65"
+           ],
+           "key": "/works/OL7638591W",
+           "publisher": [
+            "The Sun dial press"
+           ],
+           "language": [
+            "eng"
+           ],
+           "lccn": [
+            "39017979"
+           ],
+           "last_modified_i": 1291611748,
+           "publish_year": [
+            1939
+           ],
+           "first_publish_year": 1939
+          },
+          {
+           "title_suggest": "A comparative study of two methods of teaching beginning swimming",
+           "edition_key": [
+            "OL18955177M"
+           ],
+           "has_fulltext": false,
+           "language": [
+            "eng"
+           ],
+           "edition_count": 1,
+           "last_modified_i": 1344541267,
+           "title": "A comparative study of two methods of teaching beginning swimming",
+           "subject": [
+            "Swimming"
+           ],
+           "author_name": [
+            "John O. Lewellen"
+           ],
+           "publish_year": [
+            1952
+           ],
+           "first_publish_year": 1952,
+           "key": "/works/OL12587610W",
+           "text": [
+            "OL18955177M",
+            "John O. Lewellen",
+            "OL5599468A",
+            "Swimming",
+            "A comparative study of two methods of teaching beginning swimming",
+            "/works/OL12587610W",
+            "by John O. Lewellen."
+           ],
+           "publish_date": [
+            "1952"
+           ],
+           "author_key": [
+            "OL5599468A"
+           ],
+           "type": "work",
+           "seed": [
+            "/books/OL18955177M",
+            "/works/OL12587610W",
+            "/subjects/swimming",
+            "/authors/OL5599468A"
+           ],
+           "ebook_count_i": 0
+          },
+          {
+           "title_suggest": "A time and motion study of competitive backstroke swimming turns",
+           "edition_key": [
+            "OL18969887M"
+           ],
+           "has_fulltext": false,
+           "language": [
+            "eng"
+           ],
+           "edition_count": 1,
+           "last_modified_i": 1344553344,
+           "title": "A time and motion study of competitive backstroke swimming turns",
+           "subject": [
+            "Swimming"
+           ],
+           "author_name": [
+            "William Howard King"
+           ],
+           "publish_year": [
+            1959
+           ],
+           "first_publish_year": 1959,
+           "key": "/works/OL12592478W",
+           "text": [
+            "OL18969887M",
+            "William Howard King",
+            "OL5603156A",
+            "Swimming",
+            "A time and motion study of competitive backstroke swimming turns",
+            "/works/OL12592478W",
+            "by William Howard King, Jr."
+           ],
+           "publish_date": [
+            "1959"
+           ],
+           "author_key": [
+            "OL5603156A"
+           ],
+           "type": "work",
+           "seed": [
+            "/books/OL18969887M",
+            "/works/OL12592478W",
+            "/subjects/swimming",
+            "/authors/OL5603156A"
+           ],
+           "ebook_count_i": 0
+          },
+          {
+           "title_suggest": "Swim fins as an aid in teaching the flutter kick for the front crawl",
+           "edition_key": [
+            "OL17456012M"
+           ],
+           "has_fulltext": false,
+           "language": [
+            "eng"
+           ],
+           "edition_count": 1,
+           "last_modified_i": 1264175973,
+           "title": "Swim fins as an aid in teaching the flutter kick for the front crawl",
+           "subject": [
+            "Swimming"
+           ],
+           "author_name": [
+            "Lulu Wallace"
+           ],
+           "publish_year": [
+            1960
+           ],
+           "first_publish_year": 1960,
+           "oclc": [
+            "37747056"
+           ],
+           "key": "/works/OL12183513W",
+           "text": [
+            "OL17456012M",
+            "Lulu Wallace",
+            "37747056",
+            "OL5295496A",
+            "Swimming",
+            "Swim fins as an aid in teaching the flutter kick for the front crawl",
+            "/works/OL12183513W",
+            "Swim fins as an aid in teaching the flutter kick for the front crawl."
+           ],
+           "publish_date": [
+            "1960"
+           ],
+           "author_key": [
+            "OL5295496A"
+           ],
+           "type": "work",
+           "seed": [
+            "/books/OL17456012M",
+            "/works/OL12183513W",
+            "/subjects/swimming",
+            "/authors/OL5295496A"
+           ],
+           "ebook_count_i": 0
+          },
+          {
+           "title_suggest": "The relationship of bobbing to the achievement of non-swimmers",
+           "edition_key": [
+            "OL17456005M"
+           ],
+           "has_fulltext": false,
+           "language": [
+            "eng"
+           ],
+           "edition_count": 1,
+           "last_modified_i": 1264175973,
+           "title": "The relationship of bobbing to the achievement of non-swimmers",
+           "subject": [
+            "Swimming"
+           ],
+           "author_name": [
+            "Roy Gilman Corbett"
+           ],
+           "publish_year": [
+            1955
+           ],
+           "first_publish_year": 1955,
+           "oclc": [
+            "37747038"
+           ],
+           "key": "/works/OL12183509W",
+           "text": [
+            "OL17456005M",
+            "Roy Gilman Corbett",
+            "37747038",
+            "OL5295492A",
+            "Swimming",
+            "The relationship of bobbing to the achievement of non-swimmers",
+            "/works/OL12183509W",
+            "relationship of bobbing to the achievement of non-swimmers."
+           ],
+           "publish_date": [
+            "1955"
+           ],
+           "author_key": [
+            "OL5295492A"
+           ],
+           "type": "work",
+           "seed": [
+            "/books/OL17456005M",
+            "/works/OL12183509W",
+            "/subjects/swimming",
+            "/authors/OL5295492A"
+           ],
+           "ebook_count_i": 0
+          },
+          {
+           "title_suggest": "The relationship of motor ability and rhythm to achievement in swimming",
+           "edition_key": [
+            "OL17456010M"
+           ],
+           "has_fulltext": false,
+           "language": [
+            "eng"
+           ],
+           "edition_count": 1,
+           "last_modified_i": 1264175973,
+           "title": "The relationship of motor ability and rhythm to achievement in swimming",
+           "subject": [
+            "Swimming"
+           ],
+           "author_name": [
+            "Jean Sprunt"
+           ],
+           "publish_year": [
+            1960
+           ],
+           "first_publish_year": 1960,
+           "oclc": [
+            "37747052"
+           ],
+           "key": "/works/OL12183512W",
+           "text": [
+            "OL17456010M",
+            "Jean Sprunt",
+            "37747052",
+            "OL5295495A",
+            "Swimming",
+            "The relationship of motor ability and rhythm to achievement in swimming",
+            "/works/OL12183512W",
+            "relationship of motor ability and rhythm to achievement in swimming."
+           ],
+           "publish_date": [
+            "1960"
+           ],
+           "author_key": [
+            "OL5295495A"
+           ],
+           "type": "work",
+           "seed": [
+            "/books/OL17456010M",
+            "/works/OL12183512W",
+            "/subjects/swimming",
+            "/authors/OL5295495A"
+           ],
+           "ebook_count_i": 0
+          },
+          {
+           "title_suggest": "A classification swimming text for college men that will indicate their knowledge of adequate survival techniques",
+           "edition_key": [
+            "OL17780965M"
+           ],
+           "has_fulltext": false,
+           "language": [
+            "eng"
+           ],
+           "edition_count": 1,
+           "last_modified_i": 1264195206,
+           "title": "A classification swimming text for college men that will indicate their knowledge of adequate survival techniques",
+           "subject": [
+            "Swimming"
+           ],
+           "author_name": [
+            "Robert Melvin Olson"
+           ],
+           "publish_year": [
+            1955
+           ],
+           "first_publish_year": 1955,
+           "key": "/works/OL12245672W",
+           "text": [
+            "OL17780965M",
+            "Robert Melvin Olson",
+            "OL5343197A",
+            "Swimming",
+            "A classification swimming text for college men that will indicate their knowledge of adequate survival techniques",
+            "/works/OL12245672W",
+            "classification swimming text for college men that will indicate their knowledge of adequate survival techniques."
+           ],
+           "publish_date": [
+            "1955"
+           ],
+           "author_key": [
+            "OL5343197A"
+           ],
+           "type": "work",
+           "seed": [
+            "/books/OL17780965M",
+            "/works/OL12245672W",
+            "/subjects/swimming",
+            "/authors/OL5343197A"
+           ],
+           "ebook_count_i": 0
+          },
+          {
+           "title_suggest": "Swimming",
+           "edition_key": [
+            "OL4274765M"
+           ],
+           "isbn": [
+            "9780905703060",
+            "0905703065"
+           ],
+           "has_fulltext": false,
+           "text": [
+            "OL4274765M",
+            "9780905703060",
+            "0905703065",
+            "C. G. Wilson",
+            "3649488",
+            "OL1078196A",
+            "Swimming",
+            "learning, training, competing",
+            "Swimming",
+            "/works/OL4986656W",
+            "[by] Charlie Wilson ; drawings by J. Arbeau.",
+            "Chancerel : Barrie and Jenkins",
+            "78300183"
+           ],
+           "author_name": [
+            "C. G. Wilson"
+           ],
+           "seed": [
+            "/books/OL4274765M",
+            "/works/OL4986656W",
+            "/subjects/swimming",
+            "/authors/OL1078196A"
+           ],
+           "oclc": [
+            "3649488"
+           ],
+           "author_key": [
+            "OL1078196A"
+           ],
+           "subject": [
+            "Swimming"
+           ],
+           "title": "Swimming",
+           "ddc": [
+            "797.21"
+           ],
+           "publish_date": [
+            "1977"
+           ],
+           "type": "work",
+           "ebook_count_i": 0,
+           "publish_place": [
+            "London"
+           ],
+           "edition_count": 1,
+           "lcc": [
+            "GV-0837.00000000.W735"
+           ],
+           "key": "/works/OL4986656W",
+           "id_goodreads": [
+            "2472546"
+           ],
+           "publisher": [
+            "Chancerel : Barrie and Jenkins"
+           ],
+           "language": [
+            "eng"
+           ],
+           "lccn": [
+            "78300183"
+           ],
+           "last_modified_i": 1303742394,
+           "publish_year": [
+            1977
+           ],
+           "first_publish_year": 1977
+          },
+          {
+           "title_suggest": "Swimming systematized",
+           "edition_key": [
+            "OL24851793M"
+           ],
+           "has_fulltext": false,
+           "text": [
+            "OL24851793M",
+            "Clarence G. Dowd",
+            "31276878",
+            "OL160280A",
+            "Swimming",
+            "a compendious manual of swimming",
+            "Swimming systematized",
+            "/works/OL15945731W",
+            "C.G. Dowd",
+            "22000482"
+           ],
+           "author_name": [
+            "Clarence G. Dowd"
+           ],
+           "seed": [
+            "/books/OL24851793M",
+            "/works/OL15945731W",
+            "/subjects/swimming",
+            "/authors/OL160280A"
+           ],
+           "oclc": [
+            "31276878"
+           ],
+           "author_key": [
+            "OL160280A"
+           ],
+           "subject": [
+            "Swimming"
+           ],
+           "title": "Swimming systematized",
+           "publish_date": [
+            "1922"
+           ],
+           "type": "work",
+           "ebook_count_i": 0,
+           "publish_place": [
+            "Brooklyn, N.Y"
+           ],
+           "edition_count": 1,
+           "lcc": [
+            "GV-0837.00000000.D75"
+           ],
+           "key": "/works/OL15945731W",
+           "publisher": [
+            "C.G. Dowd"
+           ],
+           "language": [
+            "eng"
+           ],
+           "lccn": [
+            "22000482"
+           ],
+           "last_modified_i": 1311717980,
+           "publish_year": [
+            1922
+           ],
+           "first_publish_year": 1922
+          },
+          {
+           "title_suggest": "Warfare aquatics",
+           "edition_key": [
+            "OL6451188M"
+           ],
+           "has_fulltext": false,
+           "text": [
+            "OL6451188M",
+            "Thomas Kirk Cureton",
+            "3208041",
+            "OL130488A",
+            "Swimming",
+            "course syllabus and activities manual",
+            "Warfare aquatics",
+            "/works/OL1287131W",
+            "by Thomas Kirk Cureton. Including illustrations by Felix Pfeifer.",
+            "Stipes publishing co.",
+            "43006746"
+           ],
+           "author_name": [
+            "Thomas Kirk Cureton"
+           ],
+           "seed": [
+            "/books/OL6451188M",
+            "/works/OL1287131W",
+            "/subjects/swimming",
+            "/authors/OL130488A"
+           ],
+           "oclc": [
+            "3208041"
+           ],
+           "author_key": [
+            "OL130488A"
+           ],
+           "subject": [
+            "Swimming"
+           ],
+           "title": "Warfare aquatics",
+           "ddc": [
+            "797.2"
+           ],
+           "publish_date": [
+            "1943"
+           ],
+           "type": "work",
+           "ebook_count_i": 0,
+           "publish_place": [
+            "Champaign, Ill"
+           ],
+           "edition_count": 1,
+           "lcc": [
+            "GV-0837.00000000.C884"
+           ],
+           "key": "/works/OL1287131W",
+           "publisher": [
+            "Stipes publishing co."
+           ],
+           "language": [
+            "eng"
+           ],
+           "lccn": [
+            "43006746"
+           ],
+           "last_modified_i": 1264387590,
+           "publish_year": [
+            1943
+           ],
+           "first_publish_year": 1943
+          },
+          {
+           "title_suggest": "Age group swimming",
+           "publish_place": [
+            "London"
+           ],
+           "has_fulltext": false,
+           "language": [
+            "eng"
+           ],
+           "edition_count": 1,
+           "edition_key": [
+            "OL19829541M"
+           ],
+           "last_modified_i": 1264396390,
+           "title": "Age group swimming",
+           "subject": [
+            "Swimming"
+           ],
+           "author_name": [
+            "Rose Mary Mann Dawson"
+           ],
+           "publish_year": [
+            1965
+           ],
+           "first_publish_year": 1965,
+           "lcc": [
+            "GV-0837.00000000.D39"
+           ],
+           "key": "/works/OL12901934W",
+           "text": [
+            "OL19829541M",
+            "Rose Mary Mann Dawson",
+            "OL5835277A",
+            "Swimming",
+            "a blueprint for Olympic success",
+            "Age group swimming",
+            "/works/OL12901934W",
+            "Pelham Books"
+           ],
+           "publisher": [
+            "Pelham Books"
+           ],
+           "publish_date": [
+            "1965"
+           ],
+           "author_key": [
+            "OL5835277A"
+           ],
+           "type": "work",
+           "seed": [
+            "/books/OL19829541M",
+            "/works/OL12901934W",
+            "/subjects/swimming",
+            "/authors/OL5835277A"
+           ],
+           "ebook_count_i": 0
+          },
+          {
+           "title_suggest": "Az \u00e9n m\u00f3dszerem",
+           "edition_key": [
+            "OL5555910M"
+           ],
+           "has_fulltext": false,
+           "text": [
+            "OL5555910M",
+            "Sz\u00e9kely, \u00c9va",
+            "OL911697A",
+            "Swimming",
+            "\u00fasz\u00f3k edz\u00e9se \u00e9s versenyz\u00e9se.",
+            "Az \u00e9n m\u00f3dszerem",
+            "/works/OL4531583W",
+            "Sport",
+            "\u00e9n m\u00f3dszerem",
+            "67044149"
+           ],
+           "author_name": [
+            "Sz\u00e9kely, \u00c9va"
+           ],
+           "seed": [
+            "/books/OL5555910M",
+            "/works/OL4531583W",
+            "/subjects/swimming",
+            "/authors/OL911697A"
+           ],
+           "author_key": [
+            "OL911697A"
+           ],
+           "subject": [
+            "Swimming"
+           ],
+           "title": "Az \u00e9n m\u00f3dszerem",
+           "publish_date": [
+            "1963"
+           ],
+           "type": "work",
+           "ebook_count_i": 0,
+           "publish_place": [
+            "Budapest"
+           ],
+           "edition_count": 1,
+           "lcc": [
+            "GV-0837.00000000.S97"
+           ],
+           "key": "/works/OL4531583W",
+           "publisher": [
+            "Sport"
+           ],
+           "language": [
+            "hun"
+           ],
+           "lccn": [
+            "67044149"
+           ],
+           "last_modified_i": 1291557659,
+           "publish_year": [
+            1963
+           ],
+           "first_publish_year": 1963
+          },
+          {
+           "title_suggest": "Swimming",
+           "edition_key": [
+            "OL6464037M"
+           ],
+           "has_fulltext": false,
+           "text": [
+            "OL6464037M",
+            "United States. Office of the Chief of Naval Operations.",
+            "3316565",
+            "United States Naval Institute.",
+            "OL931221A",
+            "Swimming",
+            "Swimming",
+            "/works/OL4582724W",
+            "Issued by the Aviation Training Division, Office of the Chief of Naval Operations, U.S. Navy.",
+            "United States Naval Institute",
+            "Swimming.",
+            "44001380"
+           ],
+           "author_name": [
+            "United States. Office of the Chief of Naval Operations."
+           ],
+           "seed": [
+            "/books/OL6464037M",
+            "/works/OL4582724W",
+            "/subjects/swimming",
+            "/authors/OL931221A"
+           ],
+           "oclc": [
+            "3316565"
+           ],
+           "contributor": [
+            "United States Naval Institute."
+           ],
+           "author_key": [
+            "OL931221A"
+           ],
+           "subject": [
+            "Swimming"
+           ],
+           "title": "Swimming",
+           "publish_date": [
+            "1944"
+           ],
+           "type": "work",
+           "ebook_count_i": 0,
+           "publish_place": [
+            "Annapolis, Md"
+           ],
+           "edition_count": 1,
+           "lcc": [
+            "GV-0837.00000000.U6 1944"
+           ],
+           "key": "/works/OL4582724W",
+           "publisher": [
+            "United States Naval Institute"
+           ],
+           "language": [
+            "eng"
+           ],
+           "lccn": [
+            "44001380"
+           ],
+           "last_modified_i": 1291613200,
+           "publish_year": [
+            1944
+           ],
+           "first_publish_year": 1944
+          },
+          {
+           "title_suggest": "Teaching techniques used with fear cases in beginning swimming for college women",
+           "edition_key": [
+            "OL18760216M"
+           ],
+           "has_fulltext": false,
+           "language": [
+            "eng"
+           ],
+           "edition_count": 1,
+           "last_modified_i": 1343768253,
+           "title": "Teaching techniques used with fear cases in beginning swimming for college women",
+           "subject": [
+            "Swimming"
+           ],
+           "author_name": [
+            "Emily Catherine Ribet"
+           ],
+           "publish_year": [
+            1967
+           ],
+           "first_publish_year": 1967,
+           "key": "/works/OL12524124W",
+           "text": [
+            "OL18760216M",
+            "Emily Catherine Ribet",
+            "OL5551398A",
+            "Swimming",
+            "Teaching techniques used with fear cases in beginning swimming for college women",
+            "/works/OL12524124W"
+           ],
+           "publish_date": [
+            "1967"
+           ],
+           "author_key": [
+            "OL5551398A"
+           ],
+           "type": "work",
+           "seed": [
+            "/books/OL18760216M",
+            "/works/OL12524124W",
+            "/subjects/swimming",
+            "/authors/OL5551398A"
+           ],
+           "ebook_count_i": 0
+          },
+          {
+           "title_suggest": "The relative effectiveness of teaching two basic swimming strokes by two methods to nonswimmers",
+           "edition_key": [
+            "OL18760213M"
+           ],
+           "has_fulltext": false,
+           "language": [
+            "eng"
+           ],
+           "edition_count": 1,
+           "last_modified_i": 1343768234,
+           "title": "The relative effectiveness of teaching two basic swimming strokes by two methods to nonswimmers",
+           "subject": [
+            "Swimming"
+           ],
+           "author_name": [
+            "John Edward Sheard"
+           ],
+           "publish_year": [
+            1967
+           ],
+           "first_publish_year": 1967,
+           "key": "/works/OL12524122W",
+           "text": [
+            "OL18760213M",
+            "John Edward Sheard",
+            "OL5551396A",
+            "Swimming",
+            "The relative effectiveness of teaching two basic swimming strokes by two methods to nonswimmers",
+            "/works/OL12524122W"
+           ],
+           "publish_date": [
+            "1967"
+           ],
+           "author_key": [
+            "OL5551396A"
+           ],
+           "type": "work",
+           "seed": [
+            "/books/OL18760213M",
+            "/works/OL12524122W",
+            "/subjects/swimming",
+            "/authors/OL5551396A"
+           ],
+           "ebook_count_i": 0
+          },
+          {
+           "title_suggest": "Swim with me",
+           "edition_key": [
+            "OL5334010M"
+           ],
+           "isbn": [
+            "9780091079208",
+            "0091079209"
+           ],
+           "has_fulltext": false,
+           "text": [
+            "OL5334010M",
+            "9780091079208",
+            "0091079209",
+            "Julie Smith",
+            "380171",
+            "OL24367A",
+            "Swimming",
+            "Swim with me",
+            "/works/OL19136252W",
+            "Paul",
+            "Swim with me.",
+            "72187258",
+            "Julie Smith"
+           ],
+           "author_name": [
+            "Julie Smith"
+           ],
+           "seed": [
+            "/books/OL5334010M",
+            "/works/OL19136252W",
+            "/subjects/swimming",
+            "/subjects/person:julie_smith",
+            "/authors/OL24367A"
+           ],
+           "oclc": [
+            "380171"
+           ],
+           "author_key": [
+            "OL24367A"
+           ],
+           "subject": [
+            "Swimming"
+           ],
+           "title": "Swim with me",
+           "ddc": [
+            "797.21"
+           ],
+           "publish_date": [
+            "1971"
+           ],
+           "type": "work",
+           "ebook_count_i": 0,
+           "publish_place": [
+            "London"
+           ],
+           "edition_count": 1,
+           "lcc": [
+            "GV-0837.00000000.S765"
+           ],
+           "key": "/works/OL19136252W",
+           "id_goodreads": [
+            "1869765"
+           ],
+           "publisher": [
+            "Paul"
+           ],
+           "language": [
+            "eng"
+           ],
+           "lccn": [
+            "72187258"
+           ],
+           "last_modified_i": 1552230676,
+           "person": [
+            "Julie Smith"
+           ],
+           "publish_year": [
+            1971
+           ],
+           "first_publish_year": 1971
+          },
+          {
+           "title_suggest": "Konkurransesv\u00f8mming",
+           "edition_key": [
+            "OL5731437M"
+           ],
+           "has_fulltext": false,
+           "text": [
+            "OL5731437M",
+            "Ragnar Wold",
+            "1581416",
+            "OL779618A",
+            "Swimming",
+            "Teknikk, trening og organisasjon.",
+            "Konkurransesv\u00f8mming",
+            "/works/OL4142971W",
+            "Gyldendal",
+            "Konkurransesv\u00f8mming.",
+            "70525942"
+           ],
+           "author_name": [
+            "Ragnar Wold"
+           ],
+           "seed": [
+            "/books/OL5731437M",
+            "/works/OL4142971W",
+            "/subjects/swimming",
+            "/authors/OL779618A"
+           ],
+           "oclc": [
+            "1581416"
+           ],
+           "author_key": [
+            "OL779618A"
+           ],
+           "subject": [
+            "Swimming"
+           ],
+           "title": "Konkurransesv\u00f8mming",
+           "publish_date": [
+            "1970"
+           ],
+           "type": "work",
+           "ebook_count_i": 0,
+           "publish_place": [
+            "Oslo"
+           ],
+           "edition_count": 1,
+           "lcc": [
+            "GV-0837.00000000.W8"
+           ],
+           "key": "/works/OL4142971W",
+           "publisher": [
+            "Gyldendal"
+           ],
+           "language": [
+            "nor"
+           ],
+           "lccn": [
+            "70525942"
+           ],
+           "last_modified_i": 1291571154,
+           "publish_year": [
+            1970
+           ],
+           "first_publish_year": 1970
+          },
+          {
+           "title_suggest": "Beginning and intermediate national Y.M.C.A. progressive aquatic tests",
+           "edition_key": [
+            "OL6397909M"
+           ],
+           "has_fulltext": false,
+           "text": [
+            "OL6397909M",
+            "YMCA of the USA",
+            "11522741",
+            "Cureton, Thomas Kirk, 1901-",
+            "OL2804617A",
+            "Swimming",
+            "Beginning and intermediate national Y.M.C.A. progressive aquatic tests",
+            "/works/OL1915546W",
+            "Thomas K. Cureton, Jr., chairman of the National Aquatic Committee ; to be used with the new Y.M.C.A. aquatic program.",
+            "Association Press",
+            "National Y.M.C.A. progressive aquatic tests.",
+            "40003246",
+            "YMCA of the USA."
+           ],
+           "author_name": [
+            "YMCA of the USA"
+           ],
+           "seed": [
+            "/books/OL6397909M",
+            "/works/OL1915546W",
+            "/subjects/swimming",
+            "/authors/OL2804617A"
+           ],
+           "oclc": [
+            "11522741"
+           ],
+           "contributor": [
+            "Cureton, Thomas Kirk, 1901-"
+           ],
+           "author_key": [
+            "OL2804617A"
+           ],
+           "subject": [
+            "Swimming"
+           ],
+           "title": "Beginning and intermediate national Y.M.C.A. progressive aquatic tests",
+           "publish_date": [
+            "1938"
+           ],
+           "type": "work",
+           "ebook_count_i": 0,
+           "publish_place": [
+            "New York"
+           ],
+           "edition_count": 1,
+           "lcc": [
+            "GV-0837.00000000.A1 Y6 new ser., vol. 2"
+           ],
+           "key": "/works/OL1915546W",
+           "publisher": [
+            "Association Press"
+           ],
+           "language": [
+            "eng"
+           ],
+           "lccn": [
+            "40003246"
+           ],
+           "last_modified_i": 1321052943,
+           "author_alternative_name": [
+            "YMCA of the USA."
+           ],
+           "publish_year": [
+            1938
+           ],
+           "first_publish_year": 1938
+          },
+          {
+           "title_suggest": "A comparative study of an interval and a traditional method of training for competitive swimming",
+           "edition_key": [
+            "OL16799073M"
+           ],
+           "has_fulltext": false,
+           "language": [
+            "eng"
+           ],
+           "edition_count": 1,
+           "last_modified_i": 1264095907,
+           "title": "A comparative study of an interval and a traditional method of training for competitive swimming",
+           "subject": [
+            "Swimming"
+           ],
+           "author_name": [
+            "Harold David Turkington"
+           ],
+           "publish_year": [
+            1959
+           ],
+           "first_publish_year": 1959,
+           "key": "/works/OL11903943W",
+           "text": [
+            "OL16799073M",
+            "Harold David Turkington",
+            "OL5105329A",
+            "Swimming",
+            "A comparative study of an interval and a traditional method of training for competitive swimming",
+            "/works/OL11903943W",
+            "comparative study of an interval and a traditional method of training for competitive swimming."
+           ],
+           "publish_date": [
+            "1959"
+           ],
+           "author_key": [
+            "OL5105329A"
+           ],
+           "type": "work",
+           "seed": [
+            "/books/OL16799073M",
+            "/works/OL11903943W",
+            "/subjects/swimming",
+            "/authors/OL5105329A"
+           ],
+           "ebook_count_i": 0
+          },
+          {
+           "title_suggest": "The new Y.M.C.A. aquatic program",
+           "edition_key": [
+            "OL6387721M"
+           ],
+           "has_fulltext": false,
+           "text": [
+            "OL6387721M",
+            "YMCA of the USA",
+            "9501584",
+            "Fuhrer, John W.",
+            "Cureton, Thomas Kirk, 1901-",
+            "Brown, John, 1880-",
+            "OL2804617A",
+            "Swimming",
+            "The new Y.M.C.A. aquatic program",
+            "/works/OL1915556W",
+            "editorial committee: Professor Thomas K. Cureton, jr., chairman, Dr. John Brown, jr. [and] John W. Fuher ...",
+            "Association press",
+            "Y.M.C.A. aquatic program.",
+            "Aquatic program.",
+            "39014563",
+            "YMCA of the USA."
+           ],
+           "author_name": [
+            "YMCA of the USA"
+           ],
+           "seed": [
+            "/books/OL6387721M",
+            "/works/OL1915556W",
+            "/subjects/swimming",
+            "/authors/OL2804617A"
+           ],
+           "oclc": [
+            "9501584"
+           ],
+           "contributor": [
+            "Fuhrer, John W.",
+            "Cureton, Thomas Kirk, 1901-",
+            "Brown, John, 1880-"
+           ],
+           "author_key": [
+            "OL2804617A"
+           ],
+           "subject": [
+            "Swimming"
+           ],
+           "title": "The new Y.M.C.A. aquatic program",
+           "publish_date": [
+            "1938"
+           ],
+           "type": "work",
+           "ebook_count_i": 0,
+           "publish_place": [
+            "New York"
+           ],
+           "edition_count": 1,
+           "lcc": [
+            "GV-0837.00000000.A1 Y6 new ser., vol. 1"
+           ],
+           "key": "/works/OL1915556W",
+           "publisher": [
+            "Association press"
+           ],
+           "language": [
+            "eng"
+           ],
+           "lccn": [
+            "39014563"
+           ],
+           "last_modified_i": 1321052943,
+           "author_alternative_name": [
+            "YMCA of the USA."
+           ],
+           "publish_year": [
+            1938
+           ],
+           "first_publish_year": 1938
+          },
+          {
+           "title_suggest": "Factors influencing whip kick performance",
+           "edition_key": [
+            "OL16750632M"
+           ],
+           "has_fulltext": false,
+           "language": [
+            "eng"
+           ],
+           "edition_count": 1,
+           "last_modified_i": 1264097912,
+           "title": "Factors influencing whip kick performance",
+           "subject": [
+            "Swimming"
+           ],
+           "author_name": [
+            "Susan Scott"
+           ],
+           "publish_year": [
+            1969
+           ],
+           "first_publish_year": 1969,
+           "key": "/works/OL11912834W",
+           "text": [
+            "OL16750632M",
+            "Susan Scott",
+            "OL5112206A",
+            "Swimming",
+            "Factors influencing whip kick performance",
+            "/works/OL11912834W",
+            "Factors influencing whip kick performance."
+           ],
+           "publish_date": [
+            "1969"
+           ],
+           "author_key": [
+            "OL5112206A"
+           ],
+           "type": "work",
+           "seed": [
+            "/books/OL16750632M",
+            "/works/OL11912834W",
+            "/subjects/swimming",
+            "/authors/OL5112206A"
+           ],
+           "ebook_count_i": 0
+          },
+          {
+           "title_suggest": "Pressure reception ability as related to athletic performance in swimming the crawl stroke",
+           "edition_key": [
+            "OL16750391M"
+           ],
+           "has_fulltext": false,
+           "language": [
+            "eng"
+           ],
+           "edition_count": 1,
+           "last_modified_i": 1264097912,
+           "title": "Pressure reception ability as related to athletic performance in swimming the crawl stroke",
+           "subject": [
+            "Swimming"
+           ],
+           "author_name": [
+            "Alfred Richard Alseth"
+           ],
+           "publish_year": [
+            1968
+           ],
+           "first_publish_year": 1968,
+           "key": "/works/OL11912715W",
+           "text": [
+            "OL16750391M",
+            "Alfred Richard Alseth",
+            "OL5112096A",
+            "Swimming",
+            "Pressure reception ability as related to athletic performance in swimming the crawl stroke",
+            "/works/OL11912715W",
+            "Pressure reception ability as related to athletic performance in swimming the crawl stroke."
+           ],
+           "publish_date": [
+            "1968"
+           ],
+           "author_key": [
+            "OL5112096A"
+           ],
+           "type": "work",
+           "seed": [
+            "/books/OL16750391M",
+            "/works/OL11912715W",
+            "/subjects/swimming",
+            "/authors/OL5112096A"
+           ],
+           "ebook_count_i": 0
+          },
+          {
+           "title_suggest": "A performance analysis of the propulsive force of the flutter kick",
+           "edition_key": [
+            "OL16823750M"
+           ],
+           "has_fulltext": false,
+           "language": [
+            "eng"
+           ],
+           "edition_count": 1,
+           "last_modified_i": 1339035815,
+           "title": "A performance analysis of the propulsive force of the flutter kick",
+           "subject": [
+            "Swimming"
+           ],
+           "author_name": [
+            "William Robinson Thrall"
+           ],
+           "publish_year": [
+            1967
+           ],
+           "first_publish_year": 1967,
+           "key": "/works/OL11939737W",
+           "text": [
+            "OL16823750M",
+            "William Robinson Thrall",
+            "OL5131455A",
+            "Swimming",
+            "A performance analysis of the propulsive force of the flutter kick",
+            "/works/OL11939737W"
+           ],
+           "publish_date": [
+            "1967"
+           ],
+           "author_key": [
+            "OL5131455A"
+           ],
+           "type": "work",
+           "seed": [
+            "/books/OL16823750M",
+            "/works/OL11939737W",
+            "/subjects/swimming",
+            "/authors/OL5131455A"
+           ],
+           "ebook_count_i": 0
+          },
+          {
+           "title_suggest": "The efficacy of the land-drill, implicit-rehearsal, and water-practice methods in teaching the breast stroke and crawl stroke to college men",
+           "edition_key": [
+            "OL16823856M"
+           ],
+           "has_fulltext": false,
+           "language": [
+            "eng"
+           ],
+           "edition_count": 1,
+           "last_modified_i": 1339035949,
+           "title": "The efficacy of the land-drill, implicit-rehearsal, and water-practice methods in teaching the breast stroke and crawl stroke to college men",
+           "subject": [
+            "Swimming"
+           ],
+           "author_name": [
+            "Robert Donald Clayton"
+           ],
+           "publish_year": [
+            1967
+           ],
+           "first_publish_year": 1967,
+           "key": "/works/OL11939790W",
+           "text": [
+            "OL16823856M",
+            "Robert Donald Clayton",
+            "OL5131497A",
+            "Swimming",
+            "The efficacy of the land-drill, implicit-rehearsal, and water-practice methods in teaching the breast stroke and crawl stroke to college men",
+            "/works/OL11939790W"
+           ],
+           "publish_date": [
+            "1967"
+           ],
+           "author_key": [
+            "OL5131497A"
+           ],
+           "type": "work",
+           "seed": [
+            "/books/OL16823856M",
+            "/works/OL11939790W",
+            "/subjects/swimming",
+            "/authors/OL5131497A"
+           ],
+           "ebook_count_i": 0
+          },
+          {
+           "title_suggest": "The diving and swimming book",
+           "publish_place": [
+            "New York"
+           ],
+           "has_fulltext": false,
+           "language": [
+            "eng"
+           ],
+           "edition_count": 1,
+           "edition_key": [
+            "OL14865215M"
+           ],
+           "last_modified_i": 1291382034,
+           "title": "The diving and swimming book",
+           "subject": [
+            "Swimming"
+           ],
+           "author_name": [
+            "Corsan, George Hebden"
+           ],
+           "publish_year": [
+            1929
+           ],
+           "first_publish_year": 1929,
+           "key": "/works/OL7905275W",
+           "text": [
+            "OL14865215M",
+            "Corsan, George Hebden",
+            "OL2614895A",
+            "Swimming",
+            "The diving and swimming book",
+            "/works/OL7905275W",
+            "Barnes",
+            "diving and swimming book."
+           ],
+           "publisher": [
+            "Barnes"
+           ],
+           "publish_date": [
+            "1929"
+           ],
+           "author_key": [
+            "OL2614895A"
+           ],
+           "type": "work",
+           "seed": [
+            "/books/OL14865215M",
+            "/works/OL7905275W",
+            "/subjects/swimming",
+            "/authors/OL2614895A"
+           ],
+           "ebook_count_i": 0
+          },
+          {
+           "title_suggest": "Swimming for the handicapped",
+           "edition_key": [
+            "OL6189157M"
+           ],
+           "has_fulltext": false,
+           "text": [
+            "OL6189157M",
+            "American National Red Cross.",
+            "7471875",
+            "OL17804A",
+            "Swimming",
+            "instructor's manual.",
+            "Swimming for the handicapped",
+            "/works/OL405956W",
+            "55043654"
+           ],
+           "author_name": [
+            "American National Red Cross."
+           ],
+           "seed": [
+            "/books/OL6189157M",
+            "/works/OL405956W",
+            "/subjects/swimming",
+            "/authors/OL17804A"
+           ],
+           "oclc": [
+            "7471875"
+           ],
+           "author_key": [
+            "OL17804A"
+           ],
+           "subject": [
+            "Swimming"
+           ],
+           "title": "Swimming for the handicapped",
+           "publish_date": [
+            "1955"
+           ],
+           "type": "work",
+           "ebook_count_i": 0,
+           "publish_place": [
+            "Washington"
+           ],
+           "edition_count": 1,
+           "lcc": [
+            "HV-0575.00000000.A3 no. 1092"
+           ],
+           "key": "/works/OL405956W",
+           "language": [
+            "eng"
+           ],
+           "lccn": [
+            "55043654"
+           ],
+           "last_modified_i": 1291608638,
+           "publish_year": [
+            1955
+           ],
+           "first_publish_year": 1955
+          },
+          {
+           "title_suggest": "The ABCs of swimming",
+           "edition_key": [
+            "OL1764590M"
+           ],
+           "isbn": [
+            "0840360703",
+            "9780840360700"
+           ],
+           "has_fulltext": false,
+           "text": [
+            "OL1764590M",
+            "0840360703",
+            "9780840360700",
+            "Michael H. Jones",
+            "23824121",
+            "OL848870A",
+            "Swimming",
+            "The ABCs of swimming",
+            "/works/OL4341195W",
+            "Michael H. Jones.",
+            "Kendall/Hunt",
+            "92113795"
+           ],
+           "author_name": [
+            "Michael H. Jones"
+           ],
+           "seed": [
+            "/books/OL1764590M",
+            "/works/OL4341195W",
+            "/subjects/swimming",
+            "/authors/OL848870A"
+           ],
+           "oclc": [
+            "23824121"
+           ],
+           "author_key": [
+            "OL848870A"
+           ],
+           "subject": [
+            "Swimming"
+           ],
+           "title": "The ABCs of swimming",
+           "ddc": [
+            "797.21"
+           ],
+           "publish_date": [
+            "1990"
+           ],
+           "type": "work",
+           "ebook_count_i": 0,
+           "publish_place": [
+            "Dubuque, Iowa"
+           ],
+           "edition_count": 1,
+           "lcc": [
+            "GV-0837.00000000.J65 1990"
+           ],
+           "key": "/works/OL4341195W",
+           "id_goodreads": [
+            "3315701"
+           ],
+           "publisher": [
+            "Kendall/Hunt"
+           ],
+           "language": [
+            "eng"
+           ],
+           "lccn": [
+            "92113795"
+           ],
+           "last_modified_i": 1307530834,
+           "publish_year": [
+            1990
+           ],
+           "first_publish_year": 1990
+          },
+          {
+           "title_suggest": "The outline of swimming",
+           "publish_place": [
+            "Chicago"
+           ],
+           "has_fulltext": false,
+           "language": [
+            "eng"
+           ],
+           "edition_count": 1,
+           "edition_key": [
+            "OL16939574M"
+           ],
+           "last_modified_i": 1264120234,
+           "publisher": [
+            "Bradwell"
+           ],
+           "title": "The outline of swimming",
+           "subject": [
+            "Swimming"
+           ],
+           "author_name": [
+            "William Bachrach"
+           ],
+           "publish_year": [
+            1924
+           ],
+           "first_publish_year": 1924,
+           "key": "/works/OL11982179W",
+           "text": [
+            "OL16939574M",
+            "William Bachrach",
+            "Bush, Clarence A.",
+            "OL5163014A",
+            "Swimming",
+            "an encyclopedia of the sport",
+            "The outline of swimming",
+            "/works/OL11982179W",
+            "by William Bachrach, in collaboration with Clarence A. Bush.",
+            "Bradwell",
+            "outline of swimming"
+           ],
+           "contributor": [
+            "Bush, Clarence A."
+           ],
+           "publish_date": [
+            "1924"
+           ],
+           "author_key": [
+            "OL5163014A"
+           ],
+           "type": "work",
+           "seed": [
+            "/books/OL16939574M",
+            "/works/OL11982179W",
+            "/subjects/swimming",
+            "/authors/OL5163014A"
+           ],
+           "ebook_count_i": 0
+          },
+          {
+           "title_suggest": "Az \u00dasz\u00e1s oktat\u00e1sa",
+           "edition_key": [
+            "OL4214094M"
+           ],
+           "isbn": [
+            "9789632533186",
+            "9632533186"
+           ],
+           "has_fulltext": false,
+           "text": [
+            "OL4214094M",
+            "9789632533186",
+            "9632533186",
+            "6817167",
+            "Arold, Imre.",
+            "Swimming",
+            "Az \u00dasz\u00e1s oktat\u00e1sa",
+            "/works/OL18987166W",
+            "szerk., Arold Imre ; [\u00edrt\u00e1k, Arold Imre ... et al.].",
+            "Sport",
+            "Az \u00dasz\u00e1s oktat\u00e1sa",
+            "80493599"
+           ],
+           "seed": [
+            "/books/OL4214094M",
+            "/works/OL18987166W",
+            "/subjects/swimming"
+           ],
+           "oclc": [
+            "6817167"
+           ],
+           "contributor": [
+            "Arold, Imre."
+           ],
+           "subject": [
+            "Swimming"
+           ],
+           "title": "Az \u00dasz\u00e1s oktat\u00e1sa",
+           "publish_date": [
+            "1979"
+           ],
+           "type": "work",
+           "ebook_count_i": 0,
+           "publish_place": [
+            "Budapest"
+           ],
+           "edition_count": 1,
+           "lcc": [
+            "GV-0837.00000000.U85"
+           ],
+           "key": "/works/OL18987166W",
+           "publisher": [
+            "Sport"
+           ],
+           "language": [
+            "hun"
+           ],
+           "lccn": [
+            "80493599"
+           ],
+           "last_modified_i": 1550516850,
+           "publish_year": [
+            1979
+           ],
+           "first_publish_year": 1979
+          },
+          {
+           "title_suggest": "La Natation",
+           "edition_key": [
+            "OL4779259M"
+           ],
+           "has_fulltext": false,
+           "text": [
+            "OL4779259M",
+            "Claude Normand",
+            "Andrieu, Gilbert, joint author.",
+            "OL742762A",
+            "Swimming",
+            "essai de synth\u00e8se",
+            "La Natation",
+            "/works/OL4018727W",
+            "par Normand et Andrieu.",
+            "Centre r\u00e9gional de documentation p\u00e9dagogique, 11, rue G\u00e9n\u00e9ral-Champon",
+            "Natation",
+            "75496862"
+           ],
+           "author_name": [
+            "Claude Normand"
+           ],
+           "seed": [
+            "/books/OL4779259M",
+            "/works/OL4018727W",
+            "/subjects/swimming",
+            "/authors/OL742762A"
+           ],
+           "contributor": [
+            "Andrieu, Gilbert, joint author."
+           ],
+           "author_key": [
+            "OL742762A"
+           ],
+           "subject": [
+            "Swimming"
+           ],
+           "title": "La Natation",
+           "publish_date": [
+            "1969"
+           ],
+           "type": "work",
+           "ebook_count_i": 0,
+           "publish_place": [
+            "Grenoble"
+           ],
+           "edition_count": 1,
+           "lcc": [
+            "GV-0837.00000000.N64"
+           ],
+           "key": "/works/OL4018727W",
+           "publisher": [
+            "Centre r\u00e9gional de documentation p\u00e9dagogique, 11, rue G\u00e9n\u00e9ral-Champon"
+           ],
+           "language": [
+            "fre"
+           ],
+           "lccn": [
+            "75496862"
+           ],
+           "last_modified_i": 1291535776,
+           "publish_year": [
+            1969
+           ],
+           "first_publish_year": 1969
+          },
+          {
+           "title_suggest": "Swimming for women",
+           "edition_key": [
+            "OL6625466M"
+           ],
+           "has_fulltext": false,
+           "text": [
+            "OL6625466M",
+            "Loraine L. Cadwell",
+            "33810685",
+            "OL2419203A",
+            "Swimming",
+            "Swimming for women",
+            "/works/OL7752515W",
+            "[by] Loraine L. Cadwell.",
+            "University of California Press",
+            "20009993"
+           ],
+           "author_name": [
+            "Loraine L. Cadwell"
+           ],
+           "seed": [
+            "/books/OL6625466M",
+            "/works/OL7752515W",
+            "/subjects/swimming",
+            "/authors/OL2419203A"
+           ],
+           "oclc": [
+            "33810685"
+           ],
+           "author_key": [
+            "OL2419203A"
+           ],
+           "subject": [
+            "Swimming"
+           ],
+           "title": "Swimming for women",
+           "publish_date": [
+            "1920"
+           ],
+           "type": "work",
+           "ebook_count_i": 0,
+           "publish_place": [
+            "Berkeley"
+           ],
+           "edition_count": 1,
+           "lcc": [
+            "GA-0837.00000000.C2"
+           ],
+           "key": "/works/OL7752515W",
+           "publisher": [
+            "University of California Press"
+           ],
+           "language": [
+            "eng"
+           ],
+           "lccn": [
+            "20009993"
+           ],
+           "last_modified_i": 1291615175,
+           "publish_year": [
+            1920
+           ],
+           "first_publish_year": 1920
+          },
+          {
+           "title_suggest": "ASCA clinic talks (1969-1973)",
+           "publish_place": [
+            "Fort Lauderdale Fla"
+           ],
+           "has_fulltext": false,
+           "language": [
+            "eng"
+           ],
+           "edition_count": 1,
+           "edition_key": [
+            "OL17859747M"
+           ],
+           "last_modified_i": 1586081533,
+           "title": "ASCA clinic talks (1969-1973)",
+           "publisher": [
+            "ASCA"
+           ],
+           "publish_year": [
+            1975
+           ],
+           "first_publish_year": 1975,
+           "key": "/works/OL17859747M",
+           "text": [
+            "OL17859747M",
+            "American Swimming Coaches Association",
+            "Ousley, Robert M",
+            "Swimming",
+            "selected clinic talks from the first five years (1969-1973) of American Swimming Coaches Association World Clinics",
+            "ASCA clinic talks (1969-1973)",
+            "/works/OL17859747M",
+            "edited by Robert M. Ousley",
+            "ASCA"
+           ],
+           "contributor": [
+            "American Swimming Coaches Association",
+            "Ousley, Robert M"
+           ],
+           "publish_date": [
+            "1975"
+           ],
+           "subject": [
+            "Swimming"
+           ],
+           "type": "work",
+           "seed": [
+            "/books/OL17859747M",
+            "/works/OL17859747M",
+            "/subjects/swimming"
+           ],
+           "ebook_count_i": 0
+          },
+          {
+           "title_suggest": "The new science of swimming",
+           "edition_key": [
+            "OL1419250M"
+           ],
+           "cover_i": 85894,
+           "isbn": [
+            "9780130998880",
+            "0130998885"
+           ],
+           "has_fulltext": false,
+           "text": [
+            "OL1419250M",
+            "9780130998880",
+            "0130998885",
+            "James E. Counsilman",
+            "Counsilman, Brian E.",
+            "OL717680A",
+            "Swimming",
+            "The new science of swimming",
+            "/works/OL3938157W",
+            "James E. Counsilman, Brian E. Counsilman ; Gil Evans, illustrator.",
+            "Prentice Hall",
+            "new science of swimming",
+            "93029229"
+           ],
+           "author_name": [
+            "James E. Counsilman"
+           ],
+           "seed": [
+            "/books/OL1419250M",
+            "/works/OL3938157W",
+            "/subjects/swimming",
+            "/authors/OL717680A"
+           ],
+           "contributor": [
+            "Counsilman, Brian E."
+           ],
+           "author_key": [
+            "OL717680A"
+           ],
+           "subject": [
+            "Swimming"
+           ],
+           "title": "The new science of swimming",
+           "ddc": [
+            "797.21"
+           ],
+           "publish_date": [
+            "1994"
+           ],
+           "type": "work",
+           "ebook_count_i": 0,
+           "publish_place": [
+            "Englewood Cliffs, N.J"
+           ],
+           "edition_count": 1,
+           "lcc": [
+            "GV-0837.00000000.C796 1994"
+           ],
+           "key": "/works/OL3938157W",
+           "id_goodreads": [
+            "2302258"
+           ],
+           "publisher": [
+            "Prentice Hall"
+           ],
+           "language": [
+            "eng"
+           ],
+           "lccn": [
+            "93029229"
+           ],
+           "last_modified_i": 1582888512,
+           "id_librarything": [
+            "1278899"
+           ],
+           "cover_edition_key": "OL1419250M",
+           "publish_year": [
+            1994
+           ],
+           "first_publish_year": 1994
+          },
+          {
+           "title_suggest": "Facts about elementary swimming for beginners",
+           "edition_key": [
+            "OL6712178M"
+           ],
+           "has_fulltext": false,
+           "text": [
+            "OL6712178M",
+            "Wilbur E. Bostard",
+            "30348152",
+            "OL2444481A",
+            "Swimming",
+            "by Wilbur E. Bostard ...",
+            "Facts about elementary swimming for beginners",
+            "/works/OL7778409W",
+            "Providence boys' club",
+            "28006182"
+           ],
+           "author_name": [
+            "Wilbur E. Bostard"
+           ],
+           "seed": [
+            "/books/OL6712178M",
+            "/works/OL7778409W",
+            "/subjects/swimming",
+            "/authors/OL2444481A"
+           ],
+           "oclc": [
+            "30348152"
+           ],
+           "author_key": [
+            "OL2444481A"
+           ],
+           "subject": [
+            "Swimming"
+           ],
+           "title": "Facts about elementary swimming for beginners",
+           "publish_date": [
+            "1928"
+           ],
+           "type": "work",
+           "ebook_count_i": 0,
+           "publish_place": [
+            "Providence, R.I"
+           ],
+           "edition_count": 1,
+           "lcc": [
+            "GV-0837.00000000.B55"
+           ],
+           "key": "/works/OL7778409W",
+           "publisher": [
+            "Providence boys' club"
+           ],
+           "language": [
+            "eng"
+           ],
+           "lccn": [
+            "28006182"
+           ],
+           "last_modified_i": 1291616272,
+           "publish_year": [
+            1928
+           ],
+           "first_publish_year": 1928
+          },
+          {
+           "title_suggest": "Swimming the American crawl",
+           "edition_key": [
+            "OL6741453M"
+           ],
+           "has_fulltext": false,
+           "text": [
+            "OL6741453M",
+            "Johnny Weissmuller",
+            "3856251",
+            "Bush, Clarence A.",
+            "OL2452179A",
+            "Swimming",
+            "Swimming the American crawl",
+            "/works/OL7786483W",
+            "by Johnny Weissmuller; in collaboration with Clarence A. Bush.",
+            "Houghton Mifflin company",
+            "The American crawl.",
+            "30010231"
+           ],
+           "author_name": [
+            "Johnny Weissmuller"
+           ],
+           "seed": [
+            "/books/OL6741453M",
+            "/works/OL7786483W",
+            "/subjects/swimming",
+            "/authors/OL2452179A"
+           ],
+           "oclc": [
+            "3856251"
+           ],
+           "contributor": [
+            "Bush, Clarence A."
+           ],
+           "author_key": [
+            "OL2452179A"
+           ],
+           "subject": [
+            "Swimming"
+           ],
+           "title": "Swimming the American crawl",
+           "publish_date": [
+            "1930"
+           ],
+           "type": "work",
+           "ebook_count_i": 0,
+           "publish_place": [
+            "Boston",
+            "New York"
+           ],
+           "edition_count": 1,
+           "lcc": [
+            "GV-0837.00000000.W4"
+           ],
+           "key": "/works/OL7786483W",
+           "publisher": [
+            "Houghton Mifflin company"
+           ],
+           "language": [
+            "eng"
+           ],
+           "lccn": [
+            "30010231"
+           ],
+           "last_modified_i": 1291616542,
+           "publish_year": [
+            1930
+           ],
+           "first_publish_year": 1930
+          },
+          {
+           "title_suggest": "The art of wave riding",
+           "edition_key": [
+            "OL6768416M"
+           ],
+           "has_fulltext": false,
+           "text": [
+            "OL6768416M",
+            "Ronald Blake Drummond",
+            "30118696",
+            "OL2459068A",
+            "Swimming",
+            "The art of wave riding",
+            "/works/OL7793539W",
+            "by Ron Drummond.",
+            "The Cloister Press",
+            "art of wave riding",
+            "Wave riding, The art of.",
+            "32000116"
+           ],
+           "author_name": [
+            "Ronald Blake Drummond"
+           ],
+           "seed": [
+            "/books/OL6768416M",
+            "/works/OL7793539W",
+            "/subjects/swimming",
+            "/authors/OL2459068A"
+           ],
+           "oclc": [
+            "30118696"
+           ],
+           "author_key": [
+            "OL2459068A"
+           ],
+           "subject": [
+            "Swimming"
+           ],
+           "title": "The art of wave riding",
+           "ddc": [
+            "797.21"
+           ],
+           "publish_date": [
+            "1931"
+           ],
+           "type": "work",
+           "ebook_count_i": 0,
+           "publish_place": [
+            "[Hollywood, Calif"
+           ],
+           "edition_count": 1,
+           "lcc": [
+            "GV-0837.00000000.D85"
+           ],
+           "key": "/works/OL7793539W",
+           "publisher": [
+            "The Cloister Press"
+           ],
+           "language": [
+            "eng"
+           ],
+           "lccn": [
+            "32000116"
+           ],
+           "last_modified_i": 1291616976,
+           "publish_year": [
+            1931
+           ],
+           "first_publish_year": 1931
+          },
+          {
+           "title_suggest": "Swimming",
+           "edition_key": [
+            "OL1009833M"
+           ],
+           "cover_i": 3861097,
+           "isbn": [
+            "0811728358",
+            "9780811728355"
+           ],
+           "has_fulltext": false,
+           "text": [
+            "OL1009833M",
+            "0811728358",
+            "9780811728355",
+            "Amateur Swimming Association.",
+            "Swimming",
+            "Swimming",
+            "/works/OL18942060W",
+            "Stackpole Books",
+            "Swimming.",
+            "96049884"
+           ],
+           "seed": [
+            "/books/OL1009833M",
+            "/works/OL18942060W",
+            "/subjects/swimming"
+           ],
+           "contributor": [
+            "Amateur Swimming Association."
+           ],
+           "subject": [
+            "Swimming"
+           ],
+           "title": "Swimming",
+           "ddc": [
+            "797.21"
+           ],
+           "publish_date": [
+            "1997"
+           ],
+           "type": "work",
+           "ebook_count_i": 0,
+           "publish_place": [
+            "Mechanicsburg, PA"
+           ],
+           "edition_count": 1,
+           "lcc": [
+            "GV-0837.00000000.S93 1997"
+           ],
+           "key": "/works/OL18942060W",
+           "id_goodreads": [
+            "4857669"
+           ],
+           "publisher": [
+            "Stackpole Books"
+           ],
+           "language": [
+            "eng"
+           ],
+           "lccn": [
+            "96049884"
+           ],
+           "last_modified_i": 1550474133,
+           "id_librarything": [
+            "4690935"
+           ],
+           "cover_edition_key": "OL1009833M",
+           "publish_year": [
+            1997
+           ],
+           "first_publish_year": 1997
+          },
+          {
+           "title_suggest": "Fit for swimming",
+           "edition_key": [
+            "OL17422374M"
+           ],
+           "isbn": [
+            "9781851452583",
+            "1851452583"
+           ],
+           "has_fulltext": false,
+           "text": [
+            "OL17422374M",
+            "9781851452583",
+            "1851452583",
+            "Kelvin Juba",
+            "16923627",
+            "Sports Council.",
+            "OL2077852A",
+            "Swimming.",
+            "Fit for swimming",
+            "/works/OL17422374M",
+            "Kelvin Juba ; foreword by Adrian Moorhouse.",
+            "Pavilion in association with the Sports Council"
+           ],
+           "author_name": [
+            "Kelvin Juba"
+           ],
+           "seed": [
+            "/books/OL17422374M",
+            "/works/OL17422374M",
+            "/subjects/swimming.",
+            "/authors/OL2077852A"
+           ],
+           "oclc": [
+            "16923627"
+           ],
+           "contributor": [
+            "Sports Council."
+           ],
+           "author_key": [
+            "OL2077852A"
+           ],
+           "subject": [
+            "Swimming."
+           ],
+           "title": "Fit for swimming",
+           "ddc": [
+            "797.21"
+           ],
+           "publish_date": [
+            "1988"
+           ],
+           "type": "work",
+           "ebook_count_i": 0,
+           "publish_place": [
+            "London"
+           ],
+           "edition_count": 1,
+           "lcc": [
+            "GV-0837.00000000"
+           ],
+           "key": "/works/OL17422374M",
+           "publisher": [
+            "Pavilion in association with the Sports Council"
+           ],
+           "language": [
+            "eng"
+           ],
+           "last_modified_i": 1586081162,
+           "publish_year": [
+            1988
+           ],
+           "first_publish_year": 1988
+          },
+          {
+           "title_suggest": "Essais sur les techniques des nages sportives",
+           "edition_key": [
+            "OL6518131M"
+           ],
+           "has_fulltext": false,
+           "text": [
+            "OL6518131M",
+            "J. P. Maurice Boyrie",
+            "23393340",
+            "OL2381627A",
+            "Swimming",
+            "Essais sur les techniques des nages sportives",
+            "/works/OL7701367W",
+            "P. Dupont",
+            "47020605"
+           ],
+           "author_name": [
+            "J. P. Maurice Boyrie"
+           ],
+           "seed": [
+            "/books/OL6518131M",
+            "/works/OL7701367W",
+            "/subjects/swimming",
+            "/authors/OL2381627A"
+           ],
+           "oclc": [
+            "23393340"
+           ],
+           "author_key": [
+            "OL2381627A"
+           ],
+           "subject": [
+            "Swimming"
+           ],
+           "title": "Essais sur les techniques des nages sportives",
+           "publish_date": [
+            "1946"
+           ],
+           "type": "work",
+           "ebook_count_i": 0,
+           "publish_place": [
+            "Paris"
+           ],
+           "edition_count": 1,
+           "lcc": [
+            "GV-0837.00000000.B585"
+           ],
+           "key": "/works/OL7701367W",
+           "publisher": [
+            "P. Dupont"
+           ],
+           "language": [
+            "fre"
+           ],
+           "lccn": [
+            "47020605"
+           ],
+           "last_modified_i": 1291613987,
+           "publish_year": [
+            1946
+           ],
+           "first_publish_year": 1946
+          },
+          {
+           "title_suggest": "Teaching Johnny to swim",
+           "edition_key": [
+            "OL5903807M"
+           ],
+           "has_fulltext": false,
+           "text": [
+            "OL5903807M",
+            "American National Red Cross.",
+            "5803360",
+            "OL17804A",
+            "Swimming",
+            "a manual for parents.",
+            "Teaching Johnny to swim",
+            "/works/OL405958W",
+            "64001430"
+           ],
+           "author_name": [
+            "American National Red Cross."
+           ],
+           "seed": [
+            "/books/OL5903807M",
+            "/works/OL405958W",
+            "/subjects/swimming",
+            "/authors/OL17804A"
+           ],
+           "oclc": [
+            "5803360"
+           ],
+           "author_key": [
+            "OL17804A"
+           ],
+           "subject": [
+            "Swimming"
+           ],
+           "title": "Teaching Johnny to swim",
+           "publish_date": [
+            "1963"
+           ],
+           "type": "work",
+           "ebook_count_i": 0,
+           "publish_place": [
+            "[Washington"
+           ],
+           "edition_count": 1,
+           "lcc": [
+            "HV-0575.00000000.A3 no. 1096 rev. 1963"
+           ],
+           "key": "/works/OL405958W",
+           "language": [
+            "eng"
+           ],
+           "lccn": [
+            "64001430"
+           ],
+           "last_modified_i": 1291584614,
+           "publish_year": [
+            1963
+           ],
+           "first_publish_year": 1963
+          },
+          {
+           "title_suggest": "Routledge's handbook of swimming.",
+           "publish_place": [
+            "London"
+           ],
+           "has_fulltext": false,
+           "language": [
+            "eng"
+           ],
+           "edition_count": 1,
+           "edition_key": [
+            "OL19875291M"
+           ],
+           "last_modified_i": 1586084716,
+           "title": "Routledge's handbook of swimming.",
+           "publisher": [
+            "G. Routledge"
+           ],
+           "publish_year": [
+            1872
+           ],
+           "first_publish_year": 1872,
+           "key": "/works/OL19875291M",
+           "text": [
+            "OL19875291M",
+            "Swimming",
+            "Routledge's handbook of swimming.",
+            "/works/OL19875291M",
+            "G. Routledge",
+            "Handbook of swimming"
+           ],
+           "publish_date": [
+            "1872"
+           ],
+           "subject": [
+            "Swimming"
+           ],
+           "type": "work",
+           "seed": [
+            "/books/OL19875291M",
+            "/works/OL19875291M",
+            "/subjects/swimming"
+           ],
+           "ebook_count_i": 0
+          },
+          {
+           "title_suggest": "Aquafun",
+           "edition_key": [
+            "OL14159194M"
+           ],
+           "subtitle": "water games, water carnival.",
+           "has_fulltext": false,
+           "text": [
+            "OL14159194M",
+            "water games, water carnival.",
+            "National Recreation Association.",
+            "1353216",
+            "OL121502A",
+            "Swimming",
+            "Aquafun",
+            "/works/OL1203345W",
+            "National Recreation Association"
+           ],
+           "author_name": [
+            "National Recreation Association."
+           ],
+           "seed": [
+            "/books/OL14159194M",
+            "/works/OL1203345W",
+            "/subjects/swimming",
+            "/authors/OL121502A"
+           ],
+           "oclc": [
+            "1353216"
+           ],
+           "author_key": [
+            "OL121502A"
+           ],
+           "subject": [
+            "Swimming"
+           ],
+           "title": "Aquafun",
+           "publish_date": [
+            "1953"
+           ],
+           "type": "work",
+           "ebook_count_i": 0,
+           "publish_place": [
+            "N.Y"
+           ],
+           "edition_count": 1,
+           "key": "/works/OL1203345W",
+           "language": [
+            "eng"
+           ],
+           "last_modified_i": 1320960977,
+           "author_alternative_name": [
+            "National Recreation Association"
+           ],
+           "publish_year": [
+            1953
+           ],
+           "first_publish_year": 1953
+          },
+          {
+           "title_suggest": "Swimming.",
+           "edition_key": [
+            "OL5874253M"
+           ],
+           "has_fulltext": false,
+           "text": [
+            "OL5874253M",
+            "James Gordon Garstang",
+            "3292241",
+            "OL2099561A",
+            "Swimming.",
+            "Swimming.",
+            "/works/OL5874253M",
+            "Museum Press",
+            "63002494"
+           ],
+           "author_name": [
+            "James Gordon Garstang"
+           ],
+           "seed": [
+            "/books/OL5874253M",
+            "/works/OL5874253M",
+            "/subjects/swimming.",
+            "/authors/OL2099561A"
+           ],
+           "oclc": [
+            "3292241"
+           ],
+           "author_key": [
+            "OL2099561A"
+           ],
+           "subject": [
+            "Swimming."
+           ],
+           "title": "Swimming.",
+           "ddc": [
+            "797.2"
+           ],
+           "publish_date": [
+            "1962"
+           ],
+           "type": "work",
+           "ebook_count_i": 0,
+           "publish_place": [
+            "London"
+           ],
+           "edition_count": 1,
+           "lcc": [
+            "GV-0837.00000000.G33"
+           ],
+           "key": "/works/OL5874253M",
+           "publisher": [
+            "Museum Press"
+           ],
+           "language": [
+            "eng"
+           ],
+           "lccn": [
+            "63002494"
+           ],
+           "last_modified_i": 1586087776,
+           "publish_year": [
+            1962
+           ],
+           "first_publish_year": 1962
+          },
+          {
+           "title_suggest": "Mastering swimming",
+           "edition_key": [
+            "OL17074651M"
+           ],
+           "isbn": [
+            "9780736074537",
+            "0736074538"
+           ],
+           "has_fulltext": false,
+           "text": [
+            "OL17074651M",
+            "9780736074537",
+            "0736074538",
+            "James P. Montgomery",
+            "Chambers, Mo 1958-",
+            "OL5200336A",
+            "Swimming",
+            "Mastering swimming",
+            "/works/OL12037582W",
+            "James P. Montgomery, Mo Chambers.",
+            "Human Kinetics",
+            "2008035439"
+           ],
+           "author_name": [
+            "James P. Montgomery"
+           ],
+           "seed": [
+            "/books/OL17074651M",
+            "/works/OL12037582W",
+            "/subjects/swimming",
+            "/authors/OL5200336A"
+           ],
+           "contributor": [
+            "Chambers, Mo 1958-"
+           ],
+           "author_key": [
+            "OL5200336A"
+           ],
+           "subject": [
+            "Swimming"
+           ],
+           "title": "Mastering swimming",
+           "ddc": [
+            "797.21"
+           ],
+           "publish_date": [
+            "2009"
+           ],
+           "type": "work",
+           "ebook_count_i": 0,
+           "publish_place": [
+            "Champaign, IL"
+           ],
+           "edition_count": 1,
+           "lcc": [
+            "GV-0837.00000000.M63 2009"
+           ],
+           "key": "/works/OL12037582W",
+           "id_goodreads": [
+            "5860184"
+           ],
+           "publisher": [
+            "Human Kinetics"
+           ],
+           "language": [
+            "eng"
+           ],
+           "lccn": [
+            "2008035439"
+           ],
+           "last_modified_i": 1582875772,
+           "id_librarything": [
+            "6859700"
+           ],
+           "publish_year": [
+            2009
+           ],
+           "first_publish_year": 2009
+          },
+          {
+           "title_suggest": "Swimming",
+           "edition_key": [
+            "OL735503M"
+           ],
+           "isbn": [
+            "0897876164",
+            "9780897876162"
+           ],
+           "has_fulltext": false,
+           "text": [
+            "OL735503M",
+            "0897876164",
+            "9780897876162",
+            "Cryer, Walter.",
+            "24253049",
+            "OL420656A",
+            "Swimming",
+            "Swimming",
+            "/works/OL2821173W",
+            "Walter Cryer.",
+            "Gorsuch Scarisbrick",
+            "97126065"
+           ],
+           "author_name": [
+            "Cryer, Walter."
+           ],
+           "seed": [
+            "/books/OL735503M",
+            "/works/OL2821173W",
+            "/subjects/swimming",
+            "/authors/OL420656A"
+           ],
+           "oclc": [
+            "24253049"
+           ],
+           "author_key": [
+            "OL420656A"
+           ],
+           "subject": [
+            "Swimming"
+           ],
+           "title": "Swimming",
+           "ddc": [
+            "797.21"
+           ],
+           "publish_date": [
+            "1991"
+           ],
+           "type": "work",
+           "ebook_count_i": 0,
+           "publish_place": [
+            "Scottsdale, Ariz"
+           ],
+           "edition_count": 1,
+           "lcc": [
+            "GV-0837.00000000.C879 1991"
+           ],
+           "key": "/works/OL2821173W",
+           "id_goodreads": [
+            "4835128"
+           ],
+           "publisher": [
+            "Gorsuch Scarisbrick"
+           ],
+           "language": [
+            "eng"
+           ],
+           "lccn": [
+            "97126065"
+           ],
+           "last_modified_i": 1271126812,
+           "publish_year": [
+            1991
+           ],
+           "first_publish_year": 1991
+          },
+          {
+           "title_suggest": "Aprender Natacion En Un Fin De Semana",
+           "edition_key": [
+            "OL13234016M",
+            "OL22946158M"
+           ],
+           "isbn": [
+            "8432048267",
+            "9788432048265"
+           ],
+           "has_fulltext": false,
+           "text": [
+            "OL13234016M",
+            "OL22946158M",
+            "8432048267",
+            "9788432048265",
+            "Davies",
+            "Sharron Davies",
+            "28754460",
+            "Harrison, James.",
+            "OL2657364A",
+            "OL775386A",
+            "Swimming.",
+            "Swimming",
+            "Aprender Natacion En Un Fin De Semana",
+            "/works/OL7970793W",
+            "Sharron Davies y James Harrison ; fotograf\u00edas de Chris Stevens ; [traducci\u00f3n, David Bargall\u00f3].",
+            "Planeta",
+            "Planeta Pub Corp",
+            "Learn swimming in a weekend.",
+            "Aprender nataci\u00f3n en un fin de semana"
+           ],
+           "author_name": [
+            "Davies",
+            "Sharron Davies"
+           ],
+           "seed": [
+            "/books/OL13234016M",
+            "/books/OL22946158M",
+            "/works/OL7970793W",
+            "/subjects/swimming",
+            "/subjects/swimming.",
+            "/authors/OL2657364A",
+            "/authors/OL775386A"
+           ],
+           "oclc": [
+            "28754460"
+           ],
+           "contributor": [
+            "Harrison, James."
+           ],
+           "author_key": [
+            "OL2657364A",
+            "OL775386A"
+           ],
+           "subject": [
+            "Swimming.",
+            "Swimming"
+           ],
+           "title": "Aprender Natacion En Un Fin De Semana",
+           "ddc": [
+            "797.21"
+           ],
+           "publish_date": [
+            "1992"
+           ],
+           "type": "work",
+           "ebook_count_i": 0,
+           "publish_place": [
+            "Barcelona"
+           ],
+           "edition_count": 2,
+           "lcc": [
+            "GV-0837.00000000.D2718 1992"
+           ],
+           "key": "/works/OL7970793W",
+           "publisher": [
+            "Planeta",
+            "Planeta Pub Corp"
+           ],
+           "language": [
+            "spa"
+           ],
+           "last_modified_i": 1564552126,
+           "publish_year": [
+            1992
+           ],
+           "first_publish_year": 1992
+          },
+          {
+           "title_suggest": "Synchronized swimming",
+           "edition_key": [
+            "OL17869842M",
+            "OL22325698M",
+            "OL4616163M",
+            "OL7855624M"
+           ],
+           "isbn": [
+            "0571087361",
+            "9780571087365"
+           ],
+           "has_fulltext": false,
+           "text": [
+            "OL17869842M",
+            "OL22325698M",
+            "OL4616163M",
+            "OL7855624M",
+            "0571087361",
+            "9780571087365",
+            "George Rackham",
+            "18799",
+            "OL1825711A",
+            "Synchronized swimming",
+            "Swimming",
+            "Synchronized swimming",
+            "/works/OL6737224W",
+            "by George Rackham.",
+            "Faber",
+            "Faber and Faber",
+            "Transatlantic Arts",
+            "Synchronized Swimming",
+            "Synchronized swimming.",
+            "77381907"
+           ],
+           "author_name": [
+            "George Rackham"
+           ],
+           "seed": [
+            "/books/OL17869842M",
+            "/books/OL22325698M",
+            "/books/OL4616163M",
+            "/books/OL7855624M",
+            "/works/OL6737224W",
+            "/subjects/swimming",
+            "/subjects/synchronized_swimming",
+            "/authors/OL1825711A"
+           ],
+           "oclc": [
+            "18799"
+           ],
+           "author_key": [
+            "OL1825711A"
+           ],
+           "subject": [
+            "Synchronized swimming",
+            "Swimming"
+           ],
+           "title": "Synchronized swimming",
+           "ddc": [
+            "797.21"
+           ],
+           "publish_date": [
+            "June 1979",
+            "1968",
+            "1969"
+           ],
+           "type": "work",
+           "ebook_count_i": 0,
+           "publish_place": [
+            "London"
+           ],
+           "edition_count": 4,
+           "lcc": [
+            "GV-0837.00000000.R19"
+           ],
+           "key": "/works/OL6737224W",
+           "id_goodreads": [
+            "4562764"
+           ],
+           "publisher": [
+            "Faber",
+            "Faber and Faber",
+            "Transatlantic Arts"
+           ],
+           "language": [
+            "und",
+            "eng"
+           ],
+           "lccn": [
+            "77381907"
+           ],
+           "last_modified_i": 1304151708,
+           "publish_year": [
+            1968,
+            1969,
+            1979
+           ],
+           "first_publish_year": 1968
+          },
+          {
+           "title_suggest": "Survival swimming",
+           "publish_place": [
+            "London"
+           ],
+           "has_fulltext": false,
+           "language": [
+            "eng"
+           ],
+           "edition_count": 2,
+           "edition_key": [
+            "OL14360910M",
+            "OL17642846M"
+           ],
+           "last_modified_i": 1263856093,
+           "publisher": [
+            "The Amateur Swimming Association, 1966.",
+            "Amateur Swimming Assn."
+           ],
+           "title": "Survival swimming",
+           "subject": [
+            "Survival swimming",
+            "Swimming"
+           ],
+           "author_name": [
+            "J. A. Holmyard"
+           ],
+           "publish_year": [
+            1964,
+            1966
+           ],
+           "first_publish_year": 1964,
+           "key": "/works/OL10996324W",
+           "text": [
+            "OL14360910M",
+            "OL17642846M",
+            "J. A. Holmyard",
+            "Amateur Swimming Association. Education Committee.",
+            "OL4574267A",
+            "Survival swimming",
+            "Swimming",
+            "by J. A. Holmyard in collaboration with the A. S. A. Education Committee.",
+            "Survival swimming",
+            "/works/OL10996324W",
+            "by J.A. Holmyard, in collaboration with the A.S.A. Education Committee.",
+            "The Amateur Swimming Association, 1966.",
+            "Amateur Swimming Assn."
+           ],
+           "contributor": [
+            "Amateur Swimming Association. Education Committee."
+           ],
+           "publish_date": [
+            "1964",
+            "1966"
+           ],
+           "author_key": [
+            "OL4574267A"
+           ],
+           "type": "work",
+           "seed": [
+            "/books/OL14360910M",
+            "/books/OL17642846M",
+            "/works/OL10996324W",
+            "/subjects/swimming",
+            "/subjects/survival_swimming",
+            "/authors/OL4574267A"
+           ],
+           "ebook_count_i": 0
+          },
+          {
+           "title_suggest": "Synchronised swimming",
+           "edition_key": [
+            "OL16249846M",
+            "OL2433634M"
+           ],
+           "isbn": [
+            "9780715387269",
+            "071538726X"
+           ],
+           "has_fulltext": false,
+           "text": [
+            "OL16249846M",
+            "OL2433634M",
+            "9780715387269",
+            "071538726X",
+            "Helen Elkington",
+            "Chamberlain, Jane.",
+            "Chamberlain, Jane",
+            "OL1087609A",
+            "Synchronized swimming",
+            "Swimming",
+            "Synchronised swimming",
+            "/works/OL5011823W",
+            "Helen Elkington and Jane Chamberlain ; foreword by Caroline Holmyard.",
+            "Helen Elkington and Jane Chamberlain / foreword by Caroline Holmyard",
+            "David & Charles",
+            "87123952",
+            "86006959"
+           ],
+           "author_name": [
+            "Helen Elkington"
+           ],
+           "seed": [
+            "/books/OL16249846M",
+            "/books/OL2433634M",
+            "/works/OL5011823W",
+            "/subjects/swimming",
+            "/subjects/synchronized_swimming",
+            "/authors/OL1087609A"
+           ],
+           "contributor": [
+            "Chamberlain, Jane.",
+            "Chamberlain, Jane"
+           ],
+           "author_key": [
+            "OL1087609A"
+           ],
+           "subject": [
+            "Synchronized swimming",
+            "Swimming"
+           ],
+           "title": "Synchronised swimming",
+           "ddc": [
+            "797.21"
+           ],
+           "publish_date": [
+            "1986"
+           ],
+           "type": "work",
+           "ebook_count_i": 0,
+           "publish_place": [
+            "North Pomfret, Vt., USA",
+            "Newton Abbot"
+           ],
+           "edition_count": 2,
+           "lcc": [
+            "GV-0838.53000000.S95 E56 1986"
+           ],
+           "key": "/works/OL5011823W",
+           "id_goodreads": [
+            "1533590"
+           ],
+           "publisher": [
+            "David & Charles"
+           ],
+           "language": [
+            "eng"
+           ],
+           "lccn": [
+            "87123952",
+            "86006959"
+           ],
+           "last_modified_i": 1291489415,
+           "id_librarything": [
+            "1028692"
+           ],
+           "publish_year": [
+            1986
+           ],
+           "first_publish_year": 1986
+          },
+          {
+           "title_suggest": "Swimming",
+           "edition_key": [
+            "OL5990479M",
+            "OL5078194M",
+            "OL5198166M",
+            "OL22827196M",
+            "OL7761513M",
+            "OL22791328M",
+            "OL3193118M",
+            "OL2066990M",
+            "OL7761620M",
+            "OL1754063M"
+           ],
+           "cover_i": 4474598,
+           "isbn": [
+            "0697106993",
+            "9780697072108",
+            "0697070433",
+            "9780697072115",
+            "0697070662",
+            "0697072118",
+            "9780697126641",
+            "9780697072832",
+            "069707210X",
+            "9780697070661",
+            "0697072835",
+            "9780697099778",
+            "0697126641",
+            "9780697070432",
+            "0697099776",
+            "9780697106995"
+           ],
+           "has_fulltext": false,
+           "text": [
+            "OL5990479M",
+            "OL5078194M",
+            "OL5198166M",
+            "OL22827196M",
+            "OL7761513M",
+            "OL22791328M",
+            "OL3193118M",
+            "OL2066990M",
+            "OL7761620M",
+            "OL1754063M",
+            "0697106993",
+            "9780697072108",
+            "0697070433",
+            "9780697072115",
+            "0697070662",
+            "0697072118",
+            "9780697126641",
+            "9780697072832",
+            "069707210X",
+            "9780697070661",
+            "0697072835",
+            "9780697099778",
+            "0697126641",
+            "9780697070432",
+            "0697099776",
+            "9780697106995",
+            "Betty J. Vickers",
+            "Betty J. Wickers",
+            "William J. Vincent",
+            "Betty Vcickers",
+            "1654060",
+            "136944",
+            "29252593",
+            "Vincent, William J., joint author.",
+            "Vincent, William J.",
+            "OL844386A",
+            "OL2770548A",
+            "OL234408A",
+            "OL2770605A",
+            "Swimming & diving",
+            "Sports",
+            "Rome",
+            "Civilization",
+            "Swimming And Diving",
+            "Swimming",
+            "History",
+            "Swimming",
+            "/works/OL4330287W",
+            "[by] Betty J. Vickers [and] William J. Vincent. Illus. by Betty J. Vickers.",
+            "Betty J. Vickers, William J. Vincent ; illustrations by Betty J. Vickers.",
+            "Betty J. Vickers, William J. Vincent ; ill. by Betty J. Vickers.",
+            "Betty J. Vickers, William Vincent.",
+            "Betty J. Vickers, William J. Vincent.",
+            "Brown",
+            "Brown & Benchmark Publishers",
+            "William C Brown Pub",
+            "W.C. Brown Co.",
+            "W. C. Brown Co.",
+            "Wm. C. Brown",
+            "83072183",
+            "88070485",
+            "74136784",
+            "66021286",
+            "92083886",
+            "75020819"
+           ],
+           "author_name": [
+            "Betty J. Vickers",
+            "Betty J. Wickers",
+            "William J. Vincent",
+            "Betty Vcickers"
+           ],
+           "seed": [
+            "/books/OL5990479M",
+            "/books/OL5078194M",
+            "/books/OL5198166M",
+            "/books/OL22827196M",
+            "/books/OL7761513M",
+            "/books/OL22791328M",
+            "/books/OL3193118M",
+            "/books/OL2066990M",
+            "/books/OL7761620M",
+            "/books/OL1754063M",
+            "/works/OL4330287W",
+            "/subjects/swimming",
+            "/subjects/civilization",
+            "/subjects/swimming_and_diving",
+            "/subjects/history",
+            "/subjects/rome",
+            "/subjects/sports",
+            "/subjects/swimming_&_diving",
+            "/authors/OL844386A",
+            "/authors/OL2770548A",
+            "/authors/OL234408A",
+            "/authors/OL2770605A"
+           ],
+           "oclc": [
+            "1654060",
+            "136944",
+            "29252593"
+           ],
+           "contributor": [
+            "Vincent, William J., joint author.",
+            "Vincent, William J."
+           ],
+           "author_key": [
+            "OL844386A",
+            "OL2770548A",
+            "OL234408A",
+            "OL2770605A"
+           ],
+           "subject": [
+            "Swimming & diving",
+            "Sports",
+            "Rome",
+            "Civilization",
+            "Swimming And Diving",
+            "Swimming",
+            "History"
+           ],
+           "title": "Swimming",
+           "ddc": [
+            "797.21"
+           ],
+           "publish_date": [
+            "1984",
+            "1983",
+            "1976",
+            "1966",
+            "1971",
+            "1989",
+            "July 1, 1993",
+            "March 1983",
+            "1994"
+           ],
+           "type": "work",
+           "ebook_count_i": 0,
+           "publish_place": [
+            "Madison, Wis",
+            "Dubuque, Iowa"
+           ],
+           "edition_count": 10,
+           "lcc": [
+            "GV-0837.00000000.V449 1971",
+            "GV-0837.00000000.V449 1976",
+            "GV-0837.00000000.V449 1989",
+            "GV-0837.00000000.V449",
+            "GV-0837.00000000.V449 1984",
+            "GV-0837.00000000.V449 1994"
+           ],
+           "key": "/works/OL4330287W",
+           "id_goodreads": [
+            "4038392",
+            "4164771",
+            "5481589",
+            "4037837",
+            "4556473"
+           ],
+           "publisher": [
+            "Brown",
+            "Brown & Benchmark Publishers",
+            "William C Brown Pub",
+            "W.C. Brown Co.",
+            "W. C. Brown Co.",
+            "Wm. C. Brown"
+           ],
+           "language": [
+            "eng"
+           ],
+           "lccn": [
+            "83072183",
+            "88070485",
+            "74136784",
+            "66021286",
+            "92083886",
+            "75020819"
+           ],
+           "last_modified_i": 1582877065,
+           "id_librarything": [
+            "4802494",
+            "798387",
+            "3115928"
+           ],
+           "cover_edition_key": "OL5078194M",
+           "publish_year": [
+            1984,
+            1983,
+            1976,
+            1966,
+            1993,
+            1971,
+            1989,
+            1994
+           ],
+           "first_publish_year": 1966
+          },
+          {
+           "title_suggest": "Practical swimming officiating",
+           "edition_key": [
+            "OL4581775M",
+            "OL5201076M",
+            "OL22781595M",
+            "OL11625774M"
+           ],
+           "isbn": [
+            "0960298207",
+            "9780960298204"
+           ],
+           "has_fulltext": false,
+           "text": [
+            "OL4581775M",
+            "OL5201076M",
+            "OL22781595M",
+            "OL11625774M",
+            "0960298207",
+            "9780960298204",
+            "Richard W. Close",
+            "6311434",
+            "OL1813618A",
+            "Officiating",
+            "Swimming",
+            "Practical swimming officiating",
+            "/works/OL6704647W",
+            "by Richard W. Close.",
+            "by Richard W. Close",
+            "Dolphin Aquatics",
+            "77154622",
+            "75025194"
+           ],
+           "author_name": [
+            "Richard W. Close"
+           ],
+           "seed": [
+            "/books/OL4581775M",
+            "/books/OL5201076M",
+            "/books/OL22781595M",
+            "/books/OL11625774M",
+            "/works/OL6704647W",
+            "/subjects/officiating",
+            "/subjects/swimming",
+            "/authors/OL1813618A"
+           ],
+           "oclc": [
+            "6311434"
+           ],
+           "author_key": [
+            "OL1813618A"
+           ],
+           "subject": [
+            "Officiating",
+            "Swimming"
+           ],
+           "title": "Practical swimming officiating",
+           "ddc": [
+            "797.21"
+           ],
+           "publish_date": [
+            "1975",
+            "1979",
+            "1971",
+            "1970"
+           ],
+           "type": "work",
+           "ebook_count_i": 0,
+           "publish_place": [
+            "Stamford, Conn"
+           ],
+           "edition_count": 4,
+           "lcc": [
+            "GV-0837.00000000.C66 1971",
+            "GV-0837.00000000.C66"
+           ],
+           "key": "/works/OL6704647W",
+           "publisher": [
+            "Dolphin Aquatics"
+           ],
+           "language": [
+            "eng"
+           ],
+           "lccn": [
+            "77154622",
+            "75025194"
+           ],
+           "last_modified_i": 1303893818,
+           "publish_year": [
+            1975,
+            1971,
+            1979,
+            1970
+           ],
+           "first_publish_year": 1970
+          },
+          {
+           "title_suggest": "A survey of injuries occurring in public outdoor swimming pools",
+           "edition_key": [
+            "OL13596078M"
+           ],
+           "has_fulltext": false,
+           "language": [
+            "eng"
+           ],
+           "edition_count": 1,
+           "last_modified_i": 1344480222,
+           "title": "A survey of injuries occurring in public outdoor swimming pools",
+           "subject": [
+            "Swimming pools",
+            "Accidents",
+            "Swimming"
+           ],
+           "author_name": [
+            "Judith A. Nisewonger"
+           ],
+           "publish_year": [
+            1975
+           ],
+           "first_publish_year": 1975,
+           "oclc": [
+            "6824183"
+           ],
+           "key": "/works/OL10374735W",
+           "text": [
+            "OL13596078M",
+            "Judith A. Nisewonger",
+            "6824183",
+            "OL4297554A",
+            "Swimming pools",
+            "Accidents",
+            "Swimming",
+            "A survey of injuries occurring in public outdoor swimming pools",
+            "/works/OL10374735W",
+            "by Judith A. Nisewonger."
+           ],
+           "publish_date": [
+            "1975"
+           ],
+           "author_key": [
+            "OL4297554A"
+           ],
+           "type": "work",
+           "seed": [
+            "/books/OL13596078M",
+            "/works/OL10374735W",
+            "/subjects/accidents",
+            "/subjects/swimming_pools",
+            "/subjects/swimming",
+            "/authors/OL4297554A"
+           ],
+           "ebook_count_i": 0
+          },
+          {
+           "title_suggest": "Swimming pools for schools",
+           "edition_key": [
+            "OL6157098M"
+           ],
+           "has_fulltext": false,
+           "text": [
+            "OL6157098M",
+            "Donald W. Neilson",
+            "1608525",
+            "Nixon, John E. joint author.",
+            "OL2274761A",
+            "Swimming pools",
+            "Swimming",
+            "Swimming pools for schools",
+            "/works/OL7489534W",
+            "[by] Donald W. Neilson [and] John E. Nixon.",
+            "Stanford University Press",
+            "54011283"
+           ],
+           "author_name": [
+            "Donald W. Neilson"
+           ],
+           "seed": [
+            "/books/OL6157098M",
+            "/works/OL7489534W",
+            "/subjects/swimming",
+            "/subjects/swimming_pools",
+            "/authors/OL2274761A"
+           ],
+           "oclc": [
+            "1608525"
+           ],
+           "contributor": [
+            "Nixon, John E. joint author."
+           ],
+           "author_key": [
+            "OL2274761A"
+           ],
+           "subject": [
+            "Swimming pools",
+            "Swimming"
+           ],
+           "title": "Swimming pools for schools",
+           "ddc": [
+            "371.624"
+           ],
+           "publish_date": [
+            "1954"
+           ],
+           "type": "work",
+           "ebook_count_i": 0,
+           "publish_place": [
+            "Stanford, Calif"
+           ],
+           "edition_count": 1,
+           "lcc": [
+            "TH-4763.00000000.N4 1954"
+           ],
+           "key": "/works/OL7489534W",
+           "publisher": [
+            "Stanford University Press"
+           ],
+           "language": [
+            "eng"
+           ],
+           "lccn": [
+            "54011283"
+           ],
+           "last_modified_i": 1291603348,
+           "publish_year": [
+            1954
+           ],
+           "first_publish_year": 1954
+          },
+          {
+           "title_suggest": "The aquatic art book of figures",
+           "publish_place": [
+            "Cedar Rapids, Iowa"
+           ],
+           "has_fulltext": false,
+           "language": [
+            "eng"
+           ],
+           "edition_count": 1,
+           "edition_key": [
+            "OL14196434M"
+           ],
+           "last_modified_i": 1291622187,
+           "title": "The aquatic art book of figures",
+           "subject": [
+            "Synchronized swimming",
+            "Swimming"
+           ],
+           "author_name": [
+            "Beulah O. Gundling"
+           ],
+           "publish_year": [
+            1963
+           ],
+           "first_publish_year": 1963,
+           "key": "/works/OL4686998W",
+           "text": [
+            "OL14196434M",
+            "Beulah O. Gundling",
+            "OL968003A",
+            "Synchronized swimming",
+            "Swimming",
+            "The aquatic art book of figures",
+            "/works/OL4686998W",
+            "by Beulah Gundling, technique photos. by John W. Barry, underwater photos. by Alfred S. Strobel ; drawings by Beulah Gundling.",
+            "Sine nomine",
+            "aquatic art book of figures"
+           ],
+           "publisher": [
+            "Sine nomine"
+           ],
+           "publish_date": [
+            "1963"
+           ],
+           "author_key": [
+            "OL968003A"
+           ],
+           "type": "work",
+           "seed": [
+            "/books/OL14196434M",
+            "/works/OL4686998W",
+            "/subjects/swimming",
+            "/subjects/synchronized_swimming",
+            "/authors/OL968003A"
+           ],
+           "ebook_count_i": 0
+          },
+          {
+           "title_suggest": "Provision for swimming",
+           "edition_key": [
+            "OL18876476M"
+           ],
+           "isbn": [
+            "9781872158402",
+            "1872158404"
+           ],
+           "has_fulltext": false,
+           "text": [
+            "OL18876476M",
+            "9781872158402",
+            "1872158404",
+            "Kit Campbell",
+            "27107864",
+            "Campbell, Kit.",
+            "Sports Council.",
+            "OL4817470A",
+            "Swimming pools",
+            "Swimming",
+            "Provision for swimming",
+            "/works/OL19534963W",
+            "[researched and written by Kit Campbell].",
+            "Sports Council"
+           ],
+           "author_name": [
+            "Kit Campbell"
+           ],
+           "seed": [
+            "/books/OL18876476M",
+            "/works/OL19534963W",
+            "/subjects/swimming_pools",
+            "/subjects/swimming",
+            "/authors/OL4817470A"
+           ],
+           "oclc": [
+            "27107864"
+           ],
+           "contributor": [
+            "Campbell, Kit.",
+            "Sports Council."
+           ],
+           "author_key": [
+            "OL4817470A"
+           ],
+           "subject": [
+            "Swimming pools",
+            "Swimming"
+           ],
+           "title": "Provision for swimming",
+           "ddc": [
+            "797.21"
+           ],
+           "publish_date": [
+            "1992"
+           ],
+           "type": "work",
+           "ebook_count_i": 0,
+           "publish_place": [
+            "[London]"
+           ],
+           "edition_count": 1,
+           "key": "/works/OL19534963W",
+           "publisher": [
+            "Sports Council"
+           ],
+           "language": [
+            "eng"
+           ],
+           "last_modified_i": 1554343800,
+           "publish_year": [
+            1992
+           ],
+           "first_publish_year": 1992
+          }
+         ]
+        }
+  recorded_at: Tue, 04 Aug 2020 20:49:47 GMT
+recorded_with: VCR 6.0.0
