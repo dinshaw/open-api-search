@@ -44,10 +44,13 @@ RSpec.describe Search do
     let(:search) { searches(:beer) }
 
     it 'returns the complete url for the search' do
-      expect(search.url).to eq [
-        Rails.application.config.open_library_uri,
+      expect(search.send(:url)).to eq [
+        [
+          Rails.application.config.open_library_uri,
+          Rails.application.config.api_version
+        ].join('/'),
         '/books?',
-        { subject: search.subject, author: search.author }.to_query
+        { subject: search.subject, author: search.author, sort_order: search.sort_order }.to_query
       ].join
     end
   end

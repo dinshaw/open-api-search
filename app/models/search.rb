@@ -3,14 +3,6 @@ class Search < ApplicationRecord
 
   validates :subject, presence: true, uniqueness: { scope: [:author, :sort_order] }
 
-  def url
-    [
-      Rails.application.config.open_library_uri,
-      '/books?',
-      search_params.to_query
-    ].join
-  end
-
   def as_json(_ops = {})
     {
       author: author,
@@ -26,6 +18,22 @@ class Search < ApplicationRecord
   def search_params
     params = { subject: subject }
     params[:author] = author if author
+    params[:sort_order] = sort_order if sort_order
     params
+  end
+
+  def url
+    [
+      base_domain_with_version,
+      '/books?',
+      search_params.to_query
+    ].join
+  end
+
+  def base_domain_with_version
+    [
+      Rails.application.config.open_library_uri,
+      Rails.application.config.api_version
+    ].join('/')
   end
 end
