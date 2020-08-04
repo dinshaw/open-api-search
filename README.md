@@ -2,6 +2,9 @@
 
 API client exposing the [Open Library Search API](https://openlibrary.org/dev/docs/api/search) to search for books by subject and filter them by author.
 
+The application is available at:
+https://open-library-api.herokuapp.com
+
 ## Usage
 
 #### Authenticating
