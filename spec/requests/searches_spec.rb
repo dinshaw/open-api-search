@@ -98,6 +98,11 @@ RSpec.describe 'Searches' do
       expect(json['search']['id']).to eq search_1.id
     end
 
+    it 'includes the search url in the JSON' do
+      get search_path search_2
+      expect(json['search']['url']).not_to be_nil
+    end
+
     it 'returns a status of :not_found' do
       get search_path id: :foo
       expect(response).to have_http_status :not_found

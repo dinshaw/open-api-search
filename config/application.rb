@@ -19,6 +19,7 @@ Bundler.require(*Rails.groups)
 
 module OpenApiSearch
   class Application < Rails::Application
+    config.open_library_uri = 'http://openlibrary.org'
     config.load_defaults 6.0
     config.api_only = true
     config.generators do |g|
