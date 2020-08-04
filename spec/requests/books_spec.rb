@@ -2,7 +2,7 @@ RSpec.describe 'Books' do
   describe 'GET /books' do
     it 'returns 200', :vcr do
       get books_path subject: 'swimming'
-      expect(response).to have_http_status(200)
+      expect(response).to have_http_status 200
     end
 
     it 'returns 100 books at a time', :vcr do
