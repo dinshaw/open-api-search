@@ -1,0 +1,7 @@
+search_1:
+  subject: Swimming
+
+search_2:
+  subject: Music
+  author: Keith Richards
+  sort_order: desc
