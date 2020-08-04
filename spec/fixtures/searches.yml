@@ -1,7 +1,13 @@
-search_1:
-  subject: Swimming
+doughnuts:
+  subject: Doughnuts
+  user: homer
 
-search_2:
-  subject: Music
-  author: Keith Richards
+beer:
+  subject: Beer
+  author: Duffman
   sort_order: desc
+  user: homer
+
+skateboards:
+  subject: Skateboard
+  user: bart

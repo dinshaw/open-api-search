@@ -7,8 +7,9 @@ RSpec.describe 'Searches' do
       'Authorization' => token
     }
   end
-  let(:search_1) { searches(:search_1) }
-  let(:search_2) { searches(:search_2) }
+  let(:search_1) { searches(:doughnuts) }
+  let(:search_2) { searches(:beer) }
+  let(:search_3) { searches(:skateboards) }
   let(:json) { JSON.parse(response.body) }
 
   describe 'POST /searches' do
@@ -96,7 +97,7 @@ RSpec.describe 'Searches' do
       json['searches'].map { |search| search['id'] }
     end
 
-    it 'returns JSON for all Searches' do
+    it 'returns JSON for all Searches belonging to the current user' do
       get v1_searches_path, headers: headers
       expect(parsed_ids).to eq [search_1.id, search_2.id]
     end
@@ -117,6 +118,11 @@ RSpec.describe 'Searches' do
       get v1_search_path(id: :foo), headers: headers
       expect(response).to have_http_status :not_found
     end
+
+    it 'scopes the searches to the user' do
+      get v1_search_path(search_3), headers: headers
+      expect(response).to have_http_status :not_found
+    end
   end
 
   describe 'DELET /searches/:id' do
@@ -129,6 +135,11 @@ RSpec.describe 'Searches' do
     it 'destroys the requested Search' do
       delete v1_search_path(search_1), headers: headers
       expect(Search.find_by(id: search_1.id)).to be_nil
+    end
+
+    it 'scopes the searches to the user' do
+      delete v1_search_path(search_3), headers: headers
+      expect(response).to have_http_status :not_found
     end
 
     context 'with a non-existent #id' do

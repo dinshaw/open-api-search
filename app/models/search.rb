@@ -1,4 +1,6 @@
 class Search < ApplicationRecord
+  belongs_to :user
+
   validates :subject, presence: true, uniqueness: { scope: [:author, :sort_order] }
 
   def url

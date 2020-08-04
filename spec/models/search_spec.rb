@@ -1,4 +1,5 @@
 RSpec.describe Search do
+  let(:user) { users(:homer) }
   let(:search) { described_class.new(params) }
   let(:subject_txt) { Faker::Lorem.word }
   let(:author) { Faker::Book.author }
@@ -7,11 +8,13 @@ RSpec.describe Search do
     {
       subject: subject_txt,
       author: author,
-      sort_order: sort_order
+      sort_order: sort_order,
+      user: user
     }
   end
 
   it { is_expected.to validate_presence_of :subject }
+  it { is_expected.to belong_to :user }
 
   context 'with a non-unique set of params' do
     let(:params) { valid_params }
@@ -38,7 +41,7 @@ RSpec.describe Search do
   end
 
   describe '#url' do
-    let(:search) { searches(:search_2) }
+    let(:search) { searches(:beer) }
 
     it 'returns the complete url for the search' do
       expect(search.url).to eq [

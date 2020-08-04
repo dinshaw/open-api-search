@@ -1,3 +1,7 @@
 homer:
   email: homer@thesimpsons.com
   password_digest: <%= BCrypt::Password.create('password') %>
+
+bart:
+  email: bart@thesimpsons.com
+  password_digest: <%= BCrypt::Password.create('password') %>

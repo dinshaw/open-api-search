@@ -1,24 +1,24 @@
 module V1
   class SearchesController < ApplicationController
     def create
-      search = Search.new search_params
+      search = @current_user.searches.new search_params
       search.save!
       render json: { search: search }, status: :created
     end
 
     def destroy
-      search = Search.find params[:id]
+      search = @current_user.searches.find params[:id]
       search.destroy
       render json: { message: 'Record destroyed.' }, status: :ok
     end
 
     def index
-      searches = Search.all
+      searches = @current_user.searches
       render json: { searches: searches }, status: :ok
     end
 
     def show
-      search = Search.find params[:id]
+      search = @current_user.searches.find params[:id]
       render json: { search: search }, status: :ok
     end
 
