@@ -3,7 +3,7 @@ RSpec.describe 'Authorization' do
 
   describe 'POST /auth/login' do
     it 'returns a token' do
-      post login_path email: user.email, password: 'password'
+      post v1_login_path email: user.email, password: 'password'
       expect(JSON.parse(response.body)['token']).not_to be_nil
     end
   end
