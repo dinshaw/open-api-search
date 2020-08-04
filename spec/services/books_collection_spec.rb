@@ -9,29 +9,28 @@ RSpec.describe BooksCollection do
   let(:response_double) do
     instance_double HTTParty::Response, code: expected_status, parsed_response: expected_body
   end
+  let(:expected_status) { 200 }
+  let(:expected_body) do
+    {
+      'docs' => [
+        { 'title' => title_1 },
+        { 'title' => title_2 }
+      ]
+    }
+  end
 
   describe '#call' do
+    before do
+      allow(books_collection).to receive(:response) { response_double }
+    end
+
     context 'with a successful request' do
-      let(:expected_status) { 200 }
-      let(:expected_body) do
-        {
-        'docs' => [
-          { 'title' => title_1 },
-          { 'title' => title_2 }
-        ]
-      }
-      end
-
-      before do
-        allow(books_collection).to receive(:response) { response_double }
-      end
-
       it 'returns #status of 200' do
         expect(response.status).to eq 200
       end
 
       it 'returns #body as an Array of book titles' do
-        expect(response.body).to match_array [title_1, title_2]
+        expect(response.body[:books]).to match_array [title_1, title_2]
       end
 
       context 'with [sort_order]=desc' do
@@ -40,7 +39,7 @@ RSpec.describe BooksCollection do
         end
 
         it 'returns #body as an Array of book titles sorted in reverse order'  do
-          expect(response.body).to eq [title_1, title_2].sort.reverse
+          expect(response.body[:books]).to eq [title_1, title_2].sort.reverse
         end
       end
 
@@ -50,7 +49,7 @@ RSpec.describe BooksCollection do
         end
 
         it 'returns #body as an Array of book titles sorted in reverse order'  do
-          expect(response.body).to eq [title_1, title_2].sort
+          expect(response.body[:books]).to eq [title_1, title_2].sort
         end
       end
 
@@ -63,6 +62,16 @@ RSpec.describe BooksCollection do
         it 'adds :author to the @options hash' do
           expect(books_collection.send(:options)[:query][:author]).to eq author
         end
+      end
+    end
+
+    context 'with a unaccessible response' do
+      before do
+        allow(response_double).to receive(:parsed_response).and_raise
+      end
+
+      it 'returns a :service_unavailable' do
+        expect(response.status).to eq 503
       end
     end
   end
