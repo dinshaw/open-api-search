@@ -7,13 +7,15 @@ RSpec.describe BooksCollection do
   end
   let(:title_1) { Faker::Book.title }
   let(:title_2) { Faker::Book.title }
+  let(:author_1) { Faker::Book.author }
+  let(:author_2) { Faker::Book.author }
   let(:expected_status) { 200 }
   let(:expected_response) do
     {
       'code' => expected_status,
       'docs' => [
-        { 'title' => title_1 },
-        { 'title' => title_2 }
+        { 'title' => title_1, 'author_name' => author_1 },
+        { 'title' => title_2, 'author_name' => author_2 }
       ]
     }
   end
@@ -24,12 +26,18 @@ RSpec.describe BooksCollection do
     end
 
     context 'with a successful request' do
+      let(:expected_books) do
+        [
+          { title: title_1, author: author_1 },
+          { title: title_2, author: author_2 },
+        ]
+      end
       it 'returns #status of 200' do
         expect(response.status).to eq 200
       end
 
-      it 'returns #body as an Array of book titles' do
-        expect(response.body[:books]).to match_array [title_1, title_2]
+      it 'returns #body as an Array of books' do
+        expect(response.body[:books]).to match_array expected_books
       end
 
       context 'with [sort_order]=desc' do
@@ -37,18 +45,20 @@ RSpec.describe BooksCollection do
           { subject: :swimming, sort_order: 'desc', page: page }
         end
 
-        it 'returns #body as an Array of book titles sorted in reverse order'  do
-          expect(response.body[:books]).to eq [title_1, title_2].sort.reverse
+        it 'returns #body as an Array of books sorted by title'  do
+          expect(response.body[:books]).to eq(
+            expected_books.sort_by { |book| book[:title] }
+          )
         end
       end
 
       context 'with [sort_order]=asc' do
         let(:params) do
-          { subject: :swimming, sort_order: :asc, page: page }
+          { subject: :swimming, sort_order: 'asc', page: page }
         end
 
-        it 'returns #body as an Array of book titles sorted in reverse order'  do
-          expect(response.body[:books]).to eq [title_1, title_2].sort
+        it 'returns #body as an Array of books sorted by title in reverse order'  do
+          expect(response.body[:books]).to eq expected_books.sort_by { |book| book[:title] }.reverse
         end
       end
 
