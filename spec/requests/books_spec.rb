@@ -1,6 +1,10 @@
 RSpec.describe 'Books' do
   let(:json) { JSON.parse(response.body) }
 
+  before do
+    Rails.cache.clear
+  end
+
   describe 'GET /books' do
     it 'returns 200', :vcr do
       get books_path subject: 'swimming'

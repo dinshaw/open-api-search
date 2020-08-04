@@ -6,12 +6,10 @@ RSpec.describe BooksCollection do
   end
   let(:title_1) { Faker::Book.title }
   let(:title_2) { Faker::Book.title }
-  let(:response_double) do
-    instance_double HTTParty::Response, code: expected_status, parsed_response: expected_body
-  end
   let(:expected_status) { 200 }
-  let(:expected_body) do
+  let(:expected_response) do
     {
+      'code' => expected_status,
       'docs' => [
         { 'title' => title_1 },
         { 'title' => title_2 }
@@ -21,7 +19,7 @@ RSpec.describe BooksCollection do
 
   describe '#call' do
     before do
-      allow(books_collection).to receive(:response) { response_double }
+      allow(books_collection).to receive(:response) { expected_response }
     end
 
     context 'with a successful request' do
@@ -67,7 +65,7 @@ RSpec.describe BooksCollection do
 
     context 'with a unaccessible response' do
       before do
-        allow(response_double).to receive(:parsed_response).and_raise
+        allow(books_collection).to receive(:response).and_raise
       end
 
       it 'returns a :service_unavailable' do

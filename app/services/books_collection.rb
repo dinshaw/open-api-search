@@ -37,15 +37,17 @@ class BooksCollection
   end
 
   def books
-    @books ||= response.parsed_response['docs'].map{ |book| book['title'] }
+    @books ||= response['docs'].map{ |book| book['title'] }
   end
 
   def response
-    @response ||= self.class.get('/search.json', options)
+    Rails.cache.fetch(options.to_query, expires_in: 1.minute) do
+      self.class.get('/search.json', options).to_h
+    end
   end
 
   def status
-    valid? ? response.code : :unprocessable_entity
+    valid? ? response['code'] : :unprocessable_entity
   end
 
   def valid?
