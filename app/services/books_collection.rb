@@ -14,10 +14,10 @@ class BooksCollection
       status: status,
       body: body
     })
-  rescue
+  rescue => e
     OpenStruct.new({
       status: 503,
-      body: { error: 'The request could not be processed.'}
+      body: { error: e.message }
     })
   end
 
@@ -33,11 +33,15 @@ class BooksCollection
   end
 
   def sorted_books
-    { books: sort_order == 'desc' ? books.sort.reverse : books.sort }
+    books.sort_by! { |book| book[:title] }
+    books.reverse! if sort_order == 'asc'
+    { books: books }
   end
 
   def books
-    @books ||= response['docs'].map{ |book| book['title'] }
+    @books ||= response['docs'].map do |book|
+      { title: book['title'], author: book['author_name'] }
+    end
   end
 
   def response
