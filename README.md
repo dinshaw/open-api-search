@@ -2,6 +2,9 @@
 
 API client exposing the [Open Library Search API](https://openlibrary.org/dev/docs/api/search) to search for books by subject and filter them by author.
 
+The application is available at:
+https://open-library-api.herokuapp.com
+
 ## Usage
 
 #### Authenticating
@@ -9,7 +12,7 @@ API client exposing the [Open Library Search API](https://openlibrary.org/dev/do
 Authenticate with an existing User `homer@thesimpsons.com:password`:
 
 ```
-curl -s -X POST -H 'Accept: application/json' -H 'Content-Type: application/json' --data '{"email":"homer@thesimpsons.com","password":"password"}' https://open-library-api.herokuapp.com/v1/auth/login
+curl -s -X POST -H 'Accept: application/json' -H 'Content-Type: application/json' --data '{"email":"homer@thesimpsons.com","password":"password"}' "https://open-library-api.herokuapp.com/v1/auth/login"
 ```
 
 Use the returned token in all requests headers as:
@@ -26,7 +29,7 @@ Search Books by subject:
 
 ```
 
-curl -H 'Accept: application/json' -H "Authorization: Bearer <TOKEN>" https://open-library-api.herokuapp.com/v1/books?subject=swimming
+curl -H 'Accept: application/json' -H "Authorization: Bearer <TOKEN>" "https://open-library-api.herokuapp.com/v1/books?subject=swimming"
 
 ```
 
@@ -34,7 +37,7 @@ Filter by author:
 
 ```
 
-curl -H 'Accept: application/json' -H "Authorization: Bearer <TOKEN>" https://open-library-api.herokuapp.com/v1/books?subject=swimming&author=Amateur+Swimming+Association
+curl -H 'Accept: application/json' -H "Authorization: Bearer <TOKEN>" "https://open-library-api.herokuapp.com/v1/books?subject=swimming&author=Amateur+Swimming+Association"
 
 ```
 
@@ -60,7 +63,7 @@ curl -H 'Accept: application/json' -H "Authorization: Bearer <TOKEN>" -d 'search
 
 #### GET '/searches'
 
-Get a list of all saved searches:
+Get a list of all the current user's saved searches:
 
 ```
 
@@ -70,7 +73,7 @@ curl -H 'Accept: application/json' -H "Authorization: Bearer <TOKEN>" "https://o
 
 #### GET '/searches/:id'
 
-Get one saved search by id:
+Get one saved search by id (scoped to user):
 
 ```
 
@@ -80,7 +83,7 @@ curl -H 'Accept: application/json' -H "Authorization: Bearer <TOKEN>" "https://o
 
 #### DELET '/searches/:id'
 
-Destroy a saved search:
+Destroy a saved search (scoped to user):
 
 ```
 
