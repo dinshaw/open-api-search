@@ -111,7 +111,7 @@ RSpec.describe 'Searches' do
 
     it 'includes the search url in the JSON' do
       get v1_search_path(search_2), headers: headers
-      expect(json['search']['url']).not_to be_nil
+      expect(json['search']['url']).to match Rails.application.config.base_domain
     end
 
     it 'returns a status of :not_found' do

@@ -45,12 +45,8 @@ RSpec.describe Search do
 
     it 'returns the complete url for the search' do
       expect(search.send(:url)).to eq [
-        [
-          Rails.application.config.open_library_uri,
-          Rails.application.config.api_version
-        ].join('/'),
-        '/books?',
-        { subject: search.subject, author: search.author, sort_order: search.sort_order }.to_query
+        "#{Rails.application.config.base_domain}/#{Rails.application.config.api_version}",
+        "/books?author=#{search.author}&sort_order=#{search.sort_order}&subject=#{search.subject}"
       ].join
     end
   end
