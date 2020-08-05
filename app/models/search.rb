@@ -32,7 +32,7 @@ class Search < ApplicationRecord
 
   def base_domain_with_version
     [
-      Rails.application.config.open_library_uri,
+      Rails.application.config.base_domain,
       Rails.application.config.api_version
     ].join('/')
   end

@@ -20,6 +20,7 @@ Bundler.require(*Rails.groups)
 module OpenApiSearch
   class Application < Rails::Application
     config.open_library_uri = 'http://openlibrary.org'
+    config.base_domain = 'https://open-library-api.herokuapp.com'
     config.api_version = 'v1'
     config.load_defaults 6.0
     config.api_only = true
